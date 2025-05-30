@@ -1,101 +1,101 @@
-merged_index,row_index,left,right,study_question,choice,place_name_left,place_name_right
-0,0,513e5dc3fdc9f0358700aeab,5140d960fdc9f04926003bb4,livelier,right,Paris,Dublin
-1,1,513d699ffdc9f035870047c4,50f448abfdc9f065f0004161,safer,right,Boston,Sydney
-2,2,5185d4edfdc9f03fd5001448,50f42c43fdc9f065f000198c,safer,left,Montreal,Warsaw
-3,3,50f5e56cfdc9f065f00068d7,513d5c71fdc9f03587003704,safer,left,Sao Paulo,Barcelona
-4,4,51422ad6fdc9f049260089a5,513e5d95fdc9f0358700ae31,more depressing,right,Philadelphia,Paris
-5,5,51409ce6fdc9f04926001250,514139f7fdc9f049260055be,wealthier,left,Rome,Johannesburg
-6,6,51414cbbfdc9f049260073e1,513f2d0cfdc9f0358700d985,safer,right,Milan,Berlin
-7,7,513e6f56fdc9f0358700c565,513cc2aafdc9f035870015bf,livelier,left,Tokyo,Houston
-8,8,513e6087fdc9f0358700b3e9,513e2197fdc9f0358700a46a,more depressing,right,Paris,Moscow
-9,9,513f2e7dfdc9f0358700dc0a,51422896fdc9f0492600878f,safer,left,Berlin,Philadelphia
-10,10,513f1205fdc9f0358700c8f5,50f5e8aafdc9f065f000748e,livelier,right,Tokyo,San Francisco
-11,11,5185d3ddfdc9f03fd5001341,513d9c2efdc9f03587007c5a,safer,right,Montreal,Atlanta
-12,12,513d51c4fdc9f03587002ed6,5141353efdc9f04926004941,more depressing,right,Barcelona,Glasgow
-13,13,513d6a3ffdc9f035870049e5,513d5d5dfdc9f035870038a1,more depressing,left,Denver,Belo Horizonte
-14,14,513d37b2fdc9f03587002c11,513e657ffdc9f0358700b991,safer,left,Chicago,Kyoto
-15,15,5140c825fdc9f04926002149,50f46485fdc9f065f00046be,more depressing,left,Bratislava,Sydney
-16,16,513cc0e8fdc9f03587001411,51414e2dfdc9f0492600779a,safer,left,Houston,Mexico City
-17,17,5185d41afdc9f03fd500137c,513d7888fdc9f035870061cb,more depressing,right,Montreal,Santiago
-18,18,50f43aadfdc9f065f0002ef0,50f42b4ffdc9f065f00012b6,safer,right,Tel Aviv,Warsaw
-19,19,513d69c5fdc9f03587004849,513e1d68fdc9f035870099c2,more beautiful,right,Boston,Moscow
-20,20,513e212dfdc9f0358700a3e1,513d3230fdc9f03587002883,safer,left,London,Chicago
-21,21,51421ad0fdc9f049260083ae,51409944fdc9f04926000dc5,safer,left,Munich,Rome
-22,22,513d7e48fdc9f0358700738f,513d592cfdc9f0358700336d,safer,right,Santiago,Barcelona
-23,23,50f433c6fdc9f065f000268a,5185cffffdc9f03fd5000fb1,livelier,left,Toronto,Montreal
-24,24,51408bedfdc9f0358700ea17,513e1ca9fdc9f035870097cc,more depressing,left,Madrid,Moscow
-25,25,50f42c55fdc9f065f0001b66,513e5beefdc9f0358700a9a6,more boring,left,Warsaw,Kiev
-26,26,50f43537fdc9f065f0002d02,51422955fdc9f0492600883f,more beautiful,right,Toronto,Philadelphia
-27,27,50f43527fdc9f065f0002bcb,513e20b9fdc9f0358700a29a,livelier,right,Toronto,London
-28,28,513e6d72fdc9f0358700c2c8,51409049fdc9f04926000276,livelier,left,Tokyo,Lisbon
-29,29,51413591fdc9f04926004a5d,51414593fdc9f04926006617,more beautiful,right,Glasgow,Melbourne
-30,30,513f3232fdc9f0358700e050,51421a65fdc9f04926008335,safer,right,Berlin,Munich
-31,31,50f43aa6fdc9f065f0002e73,50f61679beb2fed9100008e9,livelier,left,Tel Aviv,Philadelphia
-32,32,50f43532fdc9f065f0002ca6,513d9b96fdc9f03587007a6a,safer,right,Toronto,Atlanta
-33,33,513e20fafdc9f0358700a34a,513d7ba5fdc9f03587006c27,more beautiful,right,London,New York
-34,34,5141480efdc9f04926006bd2,5140953cfdc9f0492600095a,safer,left,Melbourne,Madrid
-35,35,50f55e52fdc9f065f0004bcb,50f44807fdc9f065f0003ca9,livelier,right,Stockholm,Sydney
-36,36,50f5ee94fdc9f065f0008eb3,513f2c49fdc9f0358700d843,safer,right,Prague,Berlin
-37,37,50f42eb3fdc9f065f00023c7,513d6b8efdc9f03587004d50,safer,right,Toronto,Denver
-38,38,513d7d5efdc9f035870071a6,513d59a9fdc9f035870033a8,more depressing,left,New York,Barcelona
-39,39,50f433d9fdc9f065f00027b8,51415199fdc9f04926007fc4,safer,left,Toronto,Mexico City
-40,40,513e1c4cfdc9f035870096d6,50f5e8a5fdc9f065f000742d,wealthier,right,Moscow,San Francisco
-41,41,513cca02fdc9f03587001ca9,514135fdfdc9f04926004bb5,safer,right,Cape Town,Helsinki
-42,42,5140cb89fdc9f04926002baf,513cda9efdc9f0358700201c,livelier,left,Bratislava,Cape Town
-43,43,51413c72fdc9f04926005b26,513e22e5fdc9f0358700a5f2,more boring,right,Johannesburg,Moscow
-44,44,513d7f4afdc9f035870075a6,5185ce50fdc9f03fd5000e08,safer,right,Santiago,Montreal
-45,45,513d9fa9fdc9f035870087ba,513cc1befdc9f035870014dc,safer,right,Atlanta,Houston
-46,46,50f6166fbeb2fed91000084e,513d7f35fdc9f03587007583,safer,left,Philadelphia,Santiago
-47,47,513cd58cfdc9f03587001f0e,51414c79fdc9f04926007340,more beautiful,left,Cape Town,Mexico City
-48,48,50f5ed68fdc9f065f0008d1b,50f43494fdc9f065f00029d6,wealthier,left,Prague,Toronto
-49,49,5140d80cfdc9f0492600392e,513e1aeafdc9f03587009322,more depressing,right,Dublin,Moscow
-50,50,513e6facfdc9f0358700c5e0,50f42b82fdc9f065f0001468,safer,right,Tokyo,Warsaw
-51,51,513d57e4fdc9f03587003240,50f439fbfdc9f065f0002e52,wealthier,right,Amsterdam,Tel Aviv
-52,52,513f2c54fdc9f0358700d85a,513e5d1dfdc9f0358700ace0,safer,right,Berlin,Kiev
-53,53,5140cc11fdc9f04926002cec,513d9c9cfdc9f03587007dd0,safer,right,Bangkok,New York
-54,54,50f5eaf0fdc9f065f0007e74,514098ebfdc9f04926000d45,more boring,right,Rio De Janeiro,Rome
-55,55,51408ffafdc9f049260001d5,513d6c1bfdc9f03587004eaf,safer,left,Lisbon,Denver
-56,56,513d9ae9fdc9f03587007847,51413a8afdc9f0492600572d,livelier,left,Atlanta,Johannesburg
-57,57,51414de0fdc9f049260076e1,513e1f3cfdc9f03587009e91,livelier,right,Milan,Moscow
-58,58,50f5ec9cfdc9f065f0008a7d,5185cbc1fdc9f03fd5000b83,wealthier,left,Prague,Montreal
-59,59,5141369efdc9f04926004c9a,513e5e55fdc9f0358700b035,safer,right,Guadalajara,Paris
-60,60,50e5faefd7c3df413b000787,513d31f8fdc9f03587002855,wealthier,right,Kyoto,Houston
-61,61,513d5b22fdc9f035870034ac,51409a17fdc9f04926000ed2,safer,left,Barcelona,Rome
-62,62,513cb9f8fdc9f03587000d77,513e6fddfdc9f0358700c61e,safer,left,Houston,Tokyo
-63,63,50f56198fdc9f065f000559d,50f561c4fdc9f065f00056bd,more depressing,left,Singapore,Singapore
-64,64,50f43490fdc9f065f0002999,50f46497fdc9f065f00047ef,safer,right,Toronto,Sydney
-65,65,5140c889fdc9f0492600227a,513cc348fdc9f03587001659,more beautiful,left,Bratislava,Houston
-66,66,50f447cffdc9f065f0003a39,513d5795fdc9f035870031b0,livelier,right,Sydney,Amsterdam
-67,67,513d5c0dfdc9f03587003652,513e2155fdc9f0358700a41e,wealthier,left,Barcelona,Moscow
-68,68,513e2298fdc9f0358700a58d,513cbd5afdc9f03587001095,livelier,left,Moscow,Chicago
-69,69,514146dffdc9f04926006902,50f3981ffdc9f065f0000dfa,safer,left,Minneapolis,Tel Aviv
-70,70,513d3442fdc9f03587002a00,513d317cfdc9f035870027f6,safer,right,Chicago,Houston
-71,71,513d7beffdc9f03587006d1b,5140ccbffdc9f04926002e88,safer,left,Atlanta,Bangkok
-72,72,513d5eb2fdc9f03587003ad0,513f28ebfdc9f0358700d294,safer,right,Belo Horizonte,Berlin
-73,73,5185cf8afdc9f03fd5000f44,50f44567fdc9f065f00034df,wealthier,left,Montreal,Taipei
-74,74,513f2b5afdc9f0358700d6b1,50f5eb44fdc9f065f0008157,safer,left,Berlin,Rio De Janeiro
-75,75,513cc07efdc9f035870013a4,50f5eaecfdc9f065f0007e2c,safer,left,Cape Town,Rio De Janeiro
-76,76,513f123efdc9f0358700c93f,513e1bcbfdc9f03587009579,more beautiful,left,Tokyo,Moscow
-77,77,513d9fadfdc9f035870087c3,513e6b8ffdc9f0358700c04c,more boring,right,Atlanta,Tokyo
-78,78,513d2caefdc9f03587002450,50f5eb70fdc9f065f0008353,more depressing,right,Houston,Rio De Janeiro
-79,79,5140cfa7fdc9f0492600316e,51413b3afdc9f049260058e8,more boring,left,Bucharest,Los Angeles
-80,80,5140ce16fdc9f04926002ff9,513da078fdc9f0358700899f,livelier,right,Bucharest,Atlanta
-81,81,5185d409fdc9f03fd5001369,50f563b6fdc9f065f0005df8,more boring,right,Montreal,Seattle
-82,82,51408f51fdc9f04926000088,50f42c7efdc9f065f0001d60,more beautiful,right,Madrid,Warsaw
-83,83,51413aeefdc9f04926005829,5140d00bfdc9f049260031d5,more boring,left,Los Angeles,Bucharest
-84,84,51409d64fdc9f049260012e8,51413678fdc9f04926004c61,livelier,right,Rome,Guadalajara
-85,85,51409850fdc9f04926000c7b,513d5337fdc9f03587002f01,more boring,left,Rome,Barcelona
-86,86,51414893fdc9f04926006d05,51422a17fdc9f049260088e0,safer,left,Melbourne,Philadelphia
-87,87,513cee1dfdc9f035870023ec,513d9e41fdc9f03587008359,safer,left,Cape Town,Santiago
-88,88,513e1d58fdc9f03587009995,513d6a82fdc9f03587004aa8,more beautiful,right,London,Denver
-89,89,513cbe26fdc9f03587001156,5140da01fdc9f04926003d14,wealthier,left,Chicago,Dublin
-90,90,50f46442fdc9f065f000446b,513ce751fdc9f0358700229d,safer,left,Sydney,Cape Town
-91,91,513cdfa1fdc9f03587002133,50f5ec9bfdc9f065f0008a64,livelier,left,Cape Town,Prague
-92,92,50f55eaefdc9f065f0004de4,50f55e56fdc9f065f0004c19,safer,left,Stockholm,Stockholm
-93,93,513da0a7fdc9f035870089fd,50f6167abeb2fed910000905,safer,left,Santiago,Philadelphia
-94,94,5140cca7fdc9f04926002e5a,513e6bfdfdc9f0358700c0d8,safer,right,Bangkok,Tokyo
-95,95,50f42c4cfdc9f065f0001a65,513cca18fdc9f03587001cb8,safer,left,Warsaw,Cape Town
-96,96,50f5ecf1fdc9f065f0008b44,50f5eab0fdc9f065f0007c43,wealthier,left,Prague,Rio De Janeiro
-97,97,513e1a7efdc9f03587009212,513e5fbbfdc9f0358700b2af,more depressing,right,London,Paris
-98,98,51422ccbfdc9f04926008b81,50f607dcbeb2fed6f800033d,safer,right,Philadelphia,Portland
-99,99,50f448b5fdc9f065f0004234,5140cbbcfdc9f04926002c37,livelier,right,Sydney,Bangkok
+merged_index,row_index,left,right,study_question,choice,place_name_left,place_name_right,left_vote,right_vote
+0,323307,513e5dc3fdc9f0358700aeab,5140d960fdc9f04926003bb4,livelier,right,Paris,Dublin,7,9
+1,57439,513d699ffdc9f035870047c4,50f448abfdc9f065f0004161,safer,right,Boston,Sydney,0,69
+2,1060542,5185d4edfdc9f03fd5001448,50f42c43fdc9f065f000198c,safer,left,Montreal,Warsaw,41,24
+3,1285003,50f5e56cfdc9f065f00068d7,513d5c71fdc9f03587003704,safer,left,Sao Paulo,Barcelona,43,3
+4,1125701,51422ad6fdc9f049260089a5,513e5d95fdc9f0358700ae31,more depressing,right,Philadelphia,Paris,0,45
+5,358434,51409ce6fdc9f04926001250,514139f7fdc9f049260055be,wealthier,left,Rome,Johannesburg,29,16
+6,1021724,51414cbbfdc9f049260073e1,513f2d0cfdc9f0358700d985,safer,right,Milan,Berlin,0,42
+7,520361,513e6f56fdc9f0358700c565,513cc2aafdc9f035870015bf,livelier,left,Tokyo,Houston,39,0
+8,323969,513e6087fdc9f0358700b3e9,513e2197fdc9f0358700a46a,more depressing,right,Paris,Moscow,0,39
+9,654724,513f2e7dfdc9f0358700dc0a,51422896fdc9f0492600878f,safer,left,Berlin,Philadelphia,34,4
+10,520380,513f1205fdc9f0358700c8f5,50f5e8aafdc9f065f000748e,livelier,right,Tokyo,San Francisco,8,29
+11,1059442,5185d3ddfdc9f03fd5001341,513d9c2efdc9f03587007c5a,safer,right,Montreal,Atlanta,0,37
+12,9231,513d51c4fdc9f03587002ed6,5141353efdc9f04926004941,more depressing,right,Barcelona,Glasgow,1,33
+13,122042,513d6a3ffdc9f035870049e5,513d5d5dfdc9f035870038a1,more depressing,left,Denver,Belo Horizonte,34,0
+14,77340,513d37b2fdc9f03587002c11,513e657ffdc9f0358700b991,safer,left,Chicago,Kyoto,32,0
+15,709411,5140c825fdc9f04926002149,50f46485fdc9f065f00046be,more depressing,left,Bratislava,Sydney,29,3
+16,869545,513cc0e8fdc9f03587001411,51414e2dfdc9f0492600779a,safer,left,Houston,Mexico City,30,1
+17,1060318,5185d41afdc9f03fd500137c,513d7888fdc9f035870061cb,more depressing,right,Montreal,Santiago,8,22
+18,1467570,50f43aadfdc9f065f0002ef0,50f42b4ffdc9f065f00012b6,safer,right,Tel Aviv,Warsaw,0,28
+19,56944,513d69c5fdc9f03587004849,513e1d68fdc9f035870099c2,more beautiful,right,Boston,Moscow,0,27
+20,215104,513e212dfdc9f0358700a3e1,513d3230fdc9f03587002883,safer,left,London,Chicago,27,0
+21,1096145,51421ad0fdc9f049260083ae,51409944fdc9f04926000dc5,safer,left,Munich,Rome,26,1
+22,467566,513d7e48fdc9f0358700738f,513d592cfdc9f0358700336d,safer,right,Santiago,Barcelona,2,25
+23,1478389,50f433c6fdc9f065f000268a,5185cffffdc9f03fd5000fb1,livelier,left,Toronto,Montreal,26,0
+24,252627,51408bedfdc9f0358700ea17,513e1ca9fdc9f035870097cc,more depressing,left,Madrid,Moscow,19,7
+25,1525915,50f42c55fdc9f065f0001b66,513e5beefdc9f0358700a9a6,more boring,left,Warsaw,Kiev,23,2
+26,1477283,50f43537fdc9f065f0002d02,51422955fdc9f0492600883f,more beautiful,right,Toronto,Philadelphia,0,24
+27,1477718,50f43527fdc9f065f0002bcb,513e20b9fdc9f0358700a29a,livelier,right,Toronto,London,3,21
+28,529934,513e6d72fdc9f0358700c2c8,51409049fdc9f04926000276,livelier,left,Tokyo,Lisbon,24,0
+29,822575,51413591fdc9f04926004a5d,51414593fdc9f04926006617,more beautiful,right,Glasgow,Melbourne,0,23
+30,654357,513f3232fdc9f0358700e050,51421a65fdc9f04926008335,safer,right,Berlin,Munich,2,21
+31,1468057,50f43aa6fdc9f065f0002e73,50f61679beb2fed9100008e9,livelier,left,Tel Aviv,Philadelphia,23,0
+32,1476347,50f43532fdc9f065f0002ca6,513d9b96fdc9f03587007a6a,safer,right,Toronto,Atlanta,2,21
+33,213937,513e20fafdc9f0358700a34a,513d7ba5fdc9f03587006c27,more beautiful,right,London,New York,1,21
+34,956052,5141480efdc9f04926006bd2,5140953cfdc9f0492600095a,safer,left,Melbourne,Madrid,18,4
+35,1384844,50f55e52fdc9f065f0004bcb,50f44807fdc9f065f0003ca9,livelier,right,Stockholm,Sydney,0,22
+36,1199837,50f5ee94fdc9f065f0008eb3,513f2c49fdc9f0358700d843,safer,right,Prague,Berlin,0,22
+37,1478927,50f42eb3fdc9f065f00023c7,513d6b8efdc9f03587004d50,safer,right,Toronto,Denver,0,22
+38,418419,513d7d5efdc9f035870071a6,513d59a9fdc9f035870033a8,more depressing,left,New York,Barcelona,19,2
+39,1478864,50f433d9fdc9f065f00027b8,51415199fdc9f04926007fc4,safer,left,Toronto,Mexico City,21,0
+40,282320,513e1c4cfdc9f035870096d6,50f5e8a5fdc9f065f000742d,wealthier,right,Moscow,San Francisco,3,18
+41,750061,513cca02fdc9f03587001ca9,514135fdfdc9f04926004bb5,safer,right,Cape Town,Helsinki,2,19
+42,709652,5140cb89fdc9f04926002baf,513cda9efdc9f0358700201c,livelier,left,Bratislava,Cape Town,16,5
+43,914756,51413c72fdc9f04926005b26,513e22e5fdc9f0358700a5f2,more boring,right,Johannesburg,Moscow,0,21
+44,467034,513d7f4afdc9f035870075a6,5185ce50fdc9f03fd5000e08,safer,right,Santiago,Montreal,1,20
+45,586381,513d9fa9fdc9f035870087ba,513cc1befdc9f035870014dc,safer,right,Atlanta,Houston,1,19
+46,1126625,50f6166fbeb2fed91000084e,513d7f35fdc9f03587007583,safer,left,Philadelphia,Santiago,20,0
+47,748311,513cd58cfdc9f03587001f0e,51414c79fdc9f04926007340,more beautiful,left,Cape Town,Mexico City,20,0
+48,1197643,50f5ed68fdc9f065f0008d1b,50f43494fdc9f065f00029d6,wealthier,left,Prague,Toronto,20,0
+49,791444,5140d80cfdc9f0492600392e,513e1aeafdc9f03587009322,more depressing,right,Dublin,Moscow,2,18
+50,527288,513e6facfdc9f0358700c5e0,50f42b82fdc9f065f0001468,safer,right,Tokyo,Warsaw,0,20
+51,153,513d57e4fdc9f03587003240,50f439fbfdc9f065f0002e52,wealthier,right,Amsterdam,Tel Aviv,0,19
+52,656008,513f2c54fdc9f0358700d85a,513e5d1dfdc9f0358700ace0,safer,right,Berlin,Kiev,0,19
+53,632815,5140cc11fdc9f04926002cec,513d9c9cfdc9f03587007dd0,safer,right,Bangkok,New York,0,19
+54,1216286,50f5eaf0fdc9f065f0007e74,514098ebfdc9f04926000d45,more boring,right,Rio De Janeiro,Rome,0,19
+55,189083,51408ffafdc9f049260001d5,513d6c1bfdc9f03587004eaf,safer,left,Lisbon,Denver,19,0
+56,574138,513d9ae9fdc9f03587007847,51413a8afdc9f0492600572d,livelier,left,Atlanta,Johannesburg,18,0
+57,1021388,51414de0fdc9f049260076e1,513e1f3cfdc9f03587009e91,livelier,right,Milan,Moscow,0,18
+58,1192821,50f5ec9cfdc9f065f0008a7d,5185cbc1fdc9f03fd5000b83,wealthier,left,Prague,Montreal,18,0
+59,837529,5141369efdc9f04926004c9a,513e5e55fdc9f0358700b035,safer,right,Guadalajara,Paris,0,18
+60,177661,50e5faefd7c3df413b000787,513d31f8fdc9f03587002855,wealthier,right,Kyoto,Houston,0,18
+61,11146,513d5b22fdc9f035870034ac,51409a17fdc9f04926000ed2,safer,left,Barcelona,Rome,11,7
+62,867655,513cb9f8fdc9f03587000d77,513e6fddfdc9f0358700c61e,safer,left,Houston,Tokyo,11,7
+63,1349323,50f56198fdc9f065f000559d,50f561c4fdc9f065f00056bd,more depressing,left,Singapore,Singapore,17,1
+64,1476706,50f43490fdc9f065f0002999,50f46497fdc9f065f00047ef,safer,right,Toronto,Sydney,1,17
+65,710377,5140c889fdc9f0492600227a,513cc348fdc9f03587001659,more beautiful,left,Bratislava,Houston,17,0
+66,1403629,50f447cffdc9f065f0003a39,513d5795fdc9f035870031b0,livelier,right,Sydney,Amsterdam,3,14
+67,10242,513d5c0dfdc9f03587003652,513e2155fdc9f0358700a41e,wealthier,left,Barcelona,Moscow,10,7
+68,282627,513e2298fdc9f0358700a58d,513cbd5afdc9f03587001095,livelier,left,Moscow,Chicago,16,1
+69,1046910,514146dffdc9f04926006902,50f3981ffdc9f065f0000dfa,safer,left,Minneapolis,Tel Aviv,15,2
+70,76619,513d3442fdc9f03587002a00,513d317cfdc9f035870027f6,safer,right,Chicago,Houston,0,17
+71,575679,513d7beffdc9f03587006d1b,5140ccbffdc9f04926002e88,safer,left,Atlanta,Bangkok,16,1
+72,31539,513d5eb2fdc9f03587003ad0,513f28ebfdc9f0358700d294,safer,right,Belo Horizonte,Berlin,0,17
+73,1059091,5185cf8afdc9f03fd5000f44,50f44567fdc9f065f00034df,wealthier,left,Montreal,Taipei,17,0
+74,655293,513f2b5afdc9f0358700d6b1,50f5eb44fdc9f065f0008157,safer,left,Berlin,Rio De Janeiro,17,0
+75,750976,513cc07efdc9f035870013a4,50f5eaecfdc9f065f0007e2c,safer,left,Cape Town,Rio De Janeiro,16,1
+76,523953,513f123efdc9f0358700c93f,513e1bcbfdc9f03587009579,more beautiful,left,Tokyo,Moscow,17,0
+77,574592,513d9fadfdc9f035870087c3,513e6b8ffdc9f0358700c04c,more boring,right,Atlanta,Tokyo,1,15
+78,867721,513d2caefdc9f03587002450,50f5eb70fdc9f065f0008353,more depressing,right,Houston,Rio De Janeiro,0,16
+79,718041,5140cfa7fdc9f0492600316e,51413b3afdc9f049260058e8,more boring,left,Bucharest,Los Angeles,16,0
+80,722664,5140ce16fdc9f04926002ff9,513da078fdc9f0358700899f,livelier,right,Bucharest,Atlanta,0,16
+81,1058542,5185d409fdc9f03fd5001369,50f563b6fdc9f065f0005df8,more boring,right,Montreal,Seattle,0,16
+82,255342,51408f51fdc9f04926000088,50f42c7efdc9f065f0001d60,more beautiful,right,Madrid,Warsaw,3,13
+83,938208,51413aeefdc9f04926005829,5140d00bfdc9f049260031d5,more boring,left,Los Angeles,Bucharest,15,1
+84,359821,51409d64fdc9f049260012e8,51413678fdc9f04926004c61,livelier,right,Rome,Guadalajara,1,15
+85,361659,51409850fdc9f04926000c7b,513d5337fdc9f03587002f01,more boring,left,Rome,Barcelona,16,0
+86,956145,51414893fdc9f04926006d05,51422a17fdc9f049260088e0,safer,left,Melbourne,Philadelphia,9,7
+87,748720,513cee1dfdc9f035870023ec,513d9e41fdc9f03587008359,safer,left,Cape Town,Santiago,14,2
+88,216039,513e1d58fdc9f03587009995,513d6a82fdc9f03587004aa8,more beautiful,right,London,Denver,0,16
+89,82124,513cbe26fdc9f03587001156,5140da01fdc9f04926003d14,wealthier,left,Chicago,Dublin,10,6
+90,1406850,50f46442fdc9f065f000446b,513ce751fdc9f0358700229d,safer,left,Sydney,Cape Town,16,0
+91,748016,513cdfa1fdc9f03587002133,50f5ec9bfdc9f065f0008a64,livelier,left,Cape Town,Prague,16,0
+92,1384067,50f55eaefdc9f065f0004de4,50f55e56fdc9f065f0004c19,safer,left,Stockholm,Stockholm,15,1
+93,470497,513da0a7fdc9f035870089fd,50f6167abeb2fed910000905,safer,left,Santiago,Philadelphia,13,3
+94,631793,5140cca7fdc9f04926002e5a,513e6bfdfdc9f0358700c0d8,safer,right,Bangkok,Tokyo,1,15
+95,1531786,50f42c4cfdc9f065f0001a65,513cca18fdc9f03587001cb8,safer,left,Warsaw,Cape Town,15,1
+96,1192884,50f5ecf1fdc9f065f0008b44,50f5eab0fdc9f065f0007c43,wealthier,left,Prague,Rio De Janeiro,15,1
+97,215132,513e1a7efdc9f03587009212,513e5fbbfdc9f0358700b2af,more depressing,right,London,Paris,3,13
+98,1126760,51422ccbfdc9f04926008b81,50f607dcbeb2fed6f800033d,safer,right,Philadelphia,Portland,5,11
+99,1400707,50f448b5fdc9f065f0004234,5140cbbcfdc9f04926002c37,livelier,right,Sydney,Bangkok,0,16
