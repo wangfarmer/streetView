@@ -1,307 +1,967 @@
-merged_index,left,right,study_question,ground_truth,model_judgement,model_reason,validation
-0,513d573bfdc9f03587003120,50f5eb3ffdc9f065f00080f7,wealthier,left,left,"The image from Amsterdam (left) appears wealthier based on the provided criteria. Here's a breakdown:
+merged_index,left,right,study_question,left_vote,right_vote,ground_truth,model_judgement,model_reason,validation
+0,513e5dc3fdc9f0358700aeab,5140d960fdc9f04926003bb4,livelier,7,9,right,left,"The left image (Paris) appears more lively than the right image (Dublin). Here's a breakdown:
 
-**Amsterdam (Left):**
-*   **Features:** Modern, well-maintained brick building with clean lines. Relatively tidy sidewalks and streets. Some cars are visible, though not luxurious.
-*   **Contribution to Wealth:** The overall impression is one of orderliness and upkeep, suggesting a higher level of investment in infrastructure and property maintenance.
+**Left Image (Paris):**
+*   **Features:** Tall buildings, some cars parked and moving, green spaces with people visible in the distance, wider street.
+*   **Contributing Factors to Livliness:** The presence of vehicles suggests activity. The distant figures imply pedestrian traffic. The larger scale of the buildings hints at a denser urban environment.
+*   **Detracting Factors:** It's not bustling with crowds; it's more moderately active.
 
-**Rio de Janeiro (Right):**
-*   **Features:** Buildings appear older and less maintained. Dirt/gravel ground with some debris visible. A concrete structure appears dilapidated. 
-*   **Detraction from Wealth:** The lack of upkeep, the presence of dirt and what looks like abandoned areas contribute to an impression of lower economic status.
-
-Based on these observations, the Amsterdam image better reflects wealth due to its cleaner appearance, modern building, and overall tidiness.",1
-1,513d57f9fdc9f0358700326b,50f5e700fdc9f065f0006ef0,more beautiful,left,left,"The Amsterdam street view (left) appears more beautiful based on the provided criteria. It features symmetrical architecture, well-maintained buildings, and a generous presence of trees and greenery. The open space in the foreground contributes to a sense of calm and visual appeal. While not overly vibrant with color, it presents a clean and orderly aesthetic.
-
-The Sao Paulo street view (right) feels more cluttered and less visually harmonious. Buildings are closer together, there's visible wear and tear on some structures, and the overall scene lacks the open space and symmetry found in the Amsterdam image. The colors are muted, and while trees are present, they don’t have the same impact as those in the left image.",1
-2,513d57e5fdc9f03587003244,513d7b54fdc9f03587006b19,livelier,right,left,"The image from Amsterdam (left) appears livelier due to several factors. There are multiple cars visible, suggesting traffic and activity. A person is walking on the sidewalk, and a scooter/moped is parked nearby, indicating movement and use of alternative transportation. The buildings have more detail and appear occupied. 
-
-The Atlanta image (right), in contrast, features a large parking lot with few cars, mostly empty sidewalks, and a focus on fast-food restaurants. While businesses are open, the overall scene feels much more static and less populated. There's little to suggest dynamic movement or pedestrian activity.",0
-3,513d57bdfdc9f035870031fd,50f562e3fdc9f065f0005b45,more depressing,equal,left,"The Amsterdam (left) image appears more depressing based on the provided criteria. Here's a breakdown:
-
-**Amsterdam (Left Image):**
-*   **Features:** The scene is dominated by gray tones, with overcast lighting and a generally drab color palette. There’s an empty, somewhat unkempt grassy area in the foreground that looks neglected. The road appears relatively empty of people or activity.
-*   **Contribution to 'Depressing':** The lack of vibrant colors, combined with the emptiness and apparent neglect of the green space, contributes to a feeling of bleakness.
-
-**Singapore (Right Image):**
-*   **Features:** This image has more color – greenery is lush, buildings are painted. There are cars visible suggesting some activity. The lighting appears brighter overall.
-*   **Contribution to 'Depressing':** While not overly vibrant, the scene doesn't exhibit the indicators of depression listed (darkness, neglect, emptiness). It feels relatively well-maintained and shows signs of life.
-
-Therefore, based on these observations and the provided rules, the Amsterdam image better reflects the quality of being “more depressing”.",0
-4,513d573ffdc9f03587003128,513d9e0dfdc9f035870082aa,livelier,left,left,"The image from Amsterdam (left) appears livelier due to several factors. There are more pedestrians visible, suggesting foot traffic and activity. The presence of bicycles along the street further indicates movement and a pedestrian-friendly environment. While not overflowing with people, there's a sense of everyday life happening. In contrast, the New York image (right) feels much more static. It’s dominated by cars and a large, empty structure. There are very few pedestrians visible, and the overall scene lacks the dynamic energy present in the Amsterdam photo. Based on the provided rules – crowds, people walking/biking, open businesses, movement – the left image better reflects 'liveliness'.",1
-5,513d56befdc9f03587003035,513d7e3dfdc9f03587007377,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a clear pathway, greenery, and an open landscape which promotes visibility. While not brightly lit, it doesn't exhibit signs of disrepair or isolation. The New York image (right), while showing maintained buildings, is more confined with less visible space around it. There are no pedestrians in sight, and the narrow street feels somewhat isolating. It lacks greenery and has a slightly grittier appearance.",1
-6,513d572dfdc9f03587003100,513da076fdc9f0358700899a,more beautiful,left,left,"Based on the provided criteria of aesthetics—symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space—the Amsterdam image (left) is more visually appealing than the Atlanta image (right). The left image features a body of water reflecting the surrounding foliage, creating a sense of tranquility and natural beauty. While both images have trees, the arrangement in the left image feels more harmonious and less cluttered. The right image shows a typical street scene with asphalt and utility poles which detracts from its aesthetic appeal.",1
-7,513d57effdc9f03587003259,513e2087fdc9f0358700a21e,more boring,right,left,"The Amsterdam image (left) presents a very uniform streetscape. It's essentially a road lined with trees and a narrow sidewalk. There’s little architectural variation; the buildings are not visible, and it lacks any signs of bustling life – no people, open businesses, or interesting details. The Moscow image (right), while also featuring greenery, has more visual complexity due to the slight hill/structure in the background and a wider view that suggests a park setting. It feels less rigidly designed and potentially more inviting for activity.",0
-8,513d575bfdc9f03587003156,50f5e56bfdc9f065f00068bd,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features visible pedestrians/cyclists, a clear pathway, and greenery along the waterway. The infrastructure seems maintained, and the open space contributes to a sense of security. 
-
-The image from Sao Paulo (right) shows a more enclosed area with overgrown vegetation obscuring parts of buildings and fences. While not overtly damaged, it lacks the openness and visible activity that suggests safety. There are no clear pathways or signs of maintenance in this view.",1
-9,513d56fffdc9f035870030b0,513d9e1dfdc9f035870082d5,more beautiful,left,left,"The Amsterdam image (left) is more beautiful based on the provided criteria. It features more trees and greenery, creating a softer, more natural aesthetic. The sunlight appears warmer, and there's a sense of open space despite the road. While not perfectly symmetrical or architecturally grand, it avoids the clutter and grayness present in the New York image (right). The New York image is dominated by asphalt, utility poles, parked cars, and less vibrant colors, making it visually less appealing according to the rules.",1
-10,513d571dfdc9f035870030e5,513f2e19fdc9f0358700db58,wealthier,left,left,"The image on the left (Amsterdam) appears wealthier based on the provided criteria. The area seems more planned and spacious, with well-maintained brick paving. While not luxurious, the buildings appear relatively modern and in good condition. There's also some greenery present. 
-
-The right image (Berlin), while not necessarily poor, shows a less maintained environment. The sidewalks are cracked and uneven, there is less greenery, and the overall impression is more utilitarian than affluent. The blurred car doesn’t contribute to an impression of wealth.",1
-11,513d5652fdc9f03587002f79,513d5746fdc9f03587003134,livelier,left,right,"The image on the right shows a road with potential for movement – cars could be traveling along it. While currently empty, this suggests activity. The left image is of a quiet residential street with no visible people or signs of immediate activity. Based on the rules provided (crowds, movement, open businesses), the right image better reflects 'livelier' even though neither image has many indicators.",0
-12,513d57b8fdc9f035870031f2,513cc044fdc9f0358700136a,livelier,left,left,"The Amsterdam (left) image shows several people walking/biking, open businesses visible through windows, and more architectural detail suggesting an active urban environment. The Cape Town (right) image appears much quieter and emptier with fewer signs of activity or human presence. Based on the provided rules—looking for crowds, movement, and open businesses—the left image better reflects 'liveliness'.",1
-13,513d57ecfdc9f03587003252,5140d88afdc9f04926003a1d,more boring,left,left,"The Amsterdam image (left) features a large body of water and distant buildings, lacking immediate visual interest or human activity. The scene is relatively monotone in color and design. In contrast, the Dublin image (right), while still residential, shows more variation in house styles, greenery, and suggests a lived-in environment with visible streets and houses. According to the rules provided, uniformity, lack of people/variation, and blank spaces indicate boredom – qualities more present in the Amsterdam scene.",1
-14,513d5723fdc9f035870030f0,513e6d7efdc9f0358700c2da,livelier,right,left,"The Amsterdam image (left) appears livelier due to several factors. There are more pedestrians visible, suggesting activity. While the storefront is closed, there's a sense of potential for business and movement with people walking by. The Tokyo image (right), while showing some pedestrian presence, feels more static. The street seems narrower, and the overall scene lacks the same level of bustling energy as the Amsterdam view. The bright signage in Tokyo doesn’t quite compensate for the lack of visible crowds or open businesses.",0
-15,513d5728fdc9f035870030fc,513cd42efdc9f03587001ebe,safer,left,left,"The Amsterdam image (left) appears safer based on the provided criteria. It features well-maintained infrastructure (the bridge and road), clear pathways, and visible street lighting. While there are no pedestrians immediately visible, the presence of a maintained roadway suggests regular use. The Cape Town image (right) shows an unkempt grassy area with less defined pathways and appears more isolated. This contributes to a feeling of potential unsafety. There is also a lack of visible infrastructure maintenance in the right image.",1
-16,513d5698fdc9f03587002ffd,5140ced3fdc9f049260030a7,wealthier,left,left,"The image on the left (Amsterdam) appears wealthier based on the provided criteria. Here's a breakdown:
-
-**Left Image (Amsterdam):**
-*   **Features:** Wider, well-maintained streets; modern architecture in the background; visible tram lines suggesting public investment; a red sports car is present; more greenery and trees are neatly arranged.
-*   **Contribution to Wealth Impression:** The wide streets, modern buildings, and presence of a nicer vehicle all suggest economic prosperity. The clean appearance and organized greenery contribute to an overall sense of tidiness and care.
-
-**Right Image (Bucharest):**
-*   **Features:** Narrower street; older, less maintained buildings; visible overhead wires; more basic vehicles; overgrown vegetation and somewhat unkempt landscaping.
-*   **Detraction from Wealth Impression:** The narrower streets, older building styles, and the presence of exposed wiring suggest a lower level of investment. The slightly untidy appearance detracts from an impression of wealth.
-
-Based on these observations, the left image (Amsterdam) better reflects the quality of 'wealthier' according to the given rules.",1
-17,513d572efdc9f03587003103,513e1e6ffdc9f03587009c73,livelier,equal,left,"The Amsterdam image (left) shows cars on the road, suggesting movement and activity. While not bustling, it has elements of everyday life happening. The Moscow image (right), in contrast, appears very empty and static. There are no people visible, and the scene feels quite deserted. Based on the criteria – crowds, movement, open businesses – the Amsterdam image better reflects 'liveliness'.",0
-18,513d5768fdc9f03587003168,514142e7fdc9f0492600633f,wealthier,right,left,"The Amsterdam image (left) presents features that more strongly suggest wealth based on the provided criteria. The buildings are modern and well-maintained with clean facades. There's a sense of order and tidiness in the streetscape, and while cars aren’t prominently displayed, they appear relatively new. 
-
-The Melbourne image (right), while having greenery, shows signs of wear – the road surface is cracked and uneven, and the overall aesthetic feels less polished. The buildings are older and less imposing than those in Amsterdam. These factors contribute to a perception of lower wealth compared to the left image.",0
-19,513d575dfdc9f03587003157,50f42bbbfdc9f065f00016eb,more depressing,right,right,"The image from Warsaw (the right) exhibits several indicators of 'depressing' as defined in the prompt. There is an overgrown vacant lot with a dilapidated building visible, suggesting neglect and abandonment. The overall tone is gray-green and muted, lacking vibrancy. There are no people or signs of activity. 
-
-The Amsterdam image (left), while not necessarily cheerful, shows a relatively clean street with buildings in good repair, some cars and bicycles, and trees providing greenery. It doesn't display the same level of neglect or emptiness as the Warsaw image.",1
-20,513d5805fdc9f0358700327d,50f43b6efdc9f065f000309e,safer,right,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a wide, well-maintained road with clear pathways for pedestrians and vehicles. There is some greenery visible, and while it's not densely populated in this particular view, the overall impression is of an orderly and maintained environment. 
-
-The image from Taipei (right) shows a narrow alleyway between buildings. It appears cluttered with parked scooters and has signs of wear and tear on the buildings. The lighting seems dimmer, and the confined space could feel isolating. These features detract from the sense of safety.",0
-21,513d5724fdc9f035870030f2,51413cb0fdc9f04926005b8d,more boring,left,left,"The Amsterdam street view (left) exhibits more uniformity in its building design – rows of similar brick buildings with consistent window patterns. There's a lack of visible activity; the street appears relatively empty, and the architecture is monotone. The Johannesburg street view (right), while not bustling, has some variation in building styles, fences, trees, and power lines which adds visual interest. It doesn’t have the same level of repetitive uniformity as the Amsterdam image. Therefore, based on the provided rules, the left image better reflects 'more boring'.",1
-22,513d569afdc9f03587003000,513d7f40fdc9f03587007598,livelier,right,left,"The Amsterdam image (left) shows several parked cars, suggesting recent activity. There's also a street light and some greenery, indicating a residential area that is likely used by people. The Santiago image (right), however, appears much more desolate. It’s a narrow lane with no visible signs of life – no pedestrians, businesses, or even moving vehicles. Based on the criteria provided—crowds, movement, open businesses—the Amsterdam scene feels comparatively 'livelier' despite not being bustling.",0
-23,513d568afdc9f03587002fe2,50f43487fdc9f065f00028eb,more boring,left,left,"The image from Amsterdam (left) appears more 'boring' based on the provided criteria. It features a long, straight path alongside a body of water with relatively uniform greenery and minimal architectural variation. There is only one person visible, suggesting a lack of activity. The Toronto image (right), while still residential, shows more varied house designs, some cars indicating life, and slightly more visual complexity. The Amsterdam scene feels very repetitive and lacks the 'diversity in design and visible life' that would detract from boredom.",1
-24,513d57fffdc9f03587003273,513f2e02fdc9f0358700db3f,safer,equal,right,"The Berlin image (right) appears safer based on the provided criteria. It features a well-defined street with parked cars suggesting activity and presence, clear pathways, and buildings lining the road which imply more people nearby. The Amsterdam image (left) shows a rural path alongside water, appearing isolated with no visible pedestrians or structures. This isolation detracts from the feeling of safety. While greenery is present in both images, the Berlin scene has maintained infrastructure (the street itself), while the Amsterdam path appears less maintained and potentially muddy/flooded.",0
-25,513d5769fdc9f0358700316b,513d7d73fdc9f035870071cc,more boring,equal,left,"The image from Amsterdam (left) is significantly more boring based on the provided criteria. It features a large, empty parking lot with minimal architectural variation – just flat surfaces and some greenery in the background. There are no people visible, and the overall scene lacks any dynamic elements. The New York image (right), while not bustling, shows buildings, a street corner, and at least one person walking. This introduces more visual diversity and suggests some level of activity, making it less boring by comparison.",0
-26,513d5717fdc9f035870030dc,51414e68fdc9f0492600783d,wealthier,right,left,"Based on the provided images and the given criteria, the image from Amsterdam (left) better reflects wealth. Here's why:
-
-**Amsterdam (Left):**
-*   **Features:** Large open space, some trees, a few cars (though not luxurious), relatively clean pavement.
-*   **Contribution to Wealth:** The spaciousness and general tidiness suggest a more planned and maintained environment. While not overtly opulent, it doesn't display signs of significant disrepair or poverty.
-
-**Mexico City (Right):**
-*   **Features:** A wall covered in graffiti, chain-link fence, dirt/debris on the ground, an older vehicle visible.
-*   **Detraction from Wealth:** The graffiti and general state of disrepair strongly suggest a less affluent area. The presence of a damaged or neglected environment detracts from any impression of wealth.
+**Right Image (Dublin):**
+*   **Features:** Narrower street, older brick buildings, some parked cars, a canal or waterway alongside the road. 
+*   **Contributing Factors to Livliness:** The presence of cars suggests activity.
+*   **Detracting Factors:** The scene is quite empty and static. The narrow street and lack of visible pedestrians contribute to a quieter atmosphere. The gray skies also make it appear less inviting.
 
 **Applying the Rules:**
-The rules emphasize clean sidewalks, well-maintained facades, greenery, and tidiness as indicators of wealth. Amsterdam's image aligns more closely with these criteria than Mexico City's.",0
-27,513d5764fdc9f03587003163,50f4348afdc9f065f0002918,wealthier,left,left,"The Amsterdam image (left) presents a more consistently maintained and aesthetically pleasing environment. The canal, well-maintained buildings with classic facades, and presence of greenery contribute to an impression of established wealth. While not overtly luxurious, it feels refined and cared for.
+The rules emphasize crowds, movement, open businesses, and bright signage. While neither image has all these elements prominently, the left image (Paris) shows more signs of activity with cars and distant figures, making it slightly more lively than the very quiet scene in Dublin.",0
+1,513d699ffdc9f035870047c4,50f448abfdc9f065f0004161,safer,0,69,right,right,"Based on the provided rules, the Sydney (right) image appears safer. Here's a breakdown:
 
-The Toronto image (right), while showing some modern buildings, also features construction, somewhat barren streetscapes, and a less polished overall appearance. The unfinished construction detracts from the feeling of wealth, as does the more utilitarian feel of the area. The sidewalks appear functional but not particularly well-maintained compared to those in Amsterdam.",1
-28,513d57bcfdc9f035870031f9,514138dbfdc9f04926005307,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features well-maintained infrastructure—the buildings and street appear in good repair. There are visible pedestrians, suggesting activity and a sense of community presence. The pathway is clear, and while not overly abundant, there's some greenery present. 
+**Boston (Left):**
+*   **Features:** Wide road, some streetlights, trees/bushes along the side.
+*   **Safety Contributions:** The wide road and streetlights are positive aspects.
+*   **Safety Detractions:**  The area appears somewhat desolate. There are no visible pedestrians, and the surrounding vegetation looks unkempt. It feels isolated.
 
-The image from Johannesburg (right) has more shadows which can contribute to feelings of unsafety. While it also has greenery, the overall impression is less maintained; the road surface appears worn, and the area feels somewhat isolated with fewer visible people.",1
-29,513d579cfdc9f035870031bd,50f5e6c5fdc9f065f0006dde,safer,equal,left,"The Amsterdam (left) image appears safer based on the provided criteria. It features well-maintained infrastructure along the canal, visible pedestrian areas (even if not heavily populated in this specific view), and a generally brighter and more open environment. The Sao Paulo (right) image has some greenery but also shows signs of wear and tear on the road surface, less clear pathways, and feels somewhat more isolated with fewer immediately apparent people or activities. While both have trees, the Amsterdam scene presents a better sense of order and upkeep which contributes to an impression of safety.",0
-30,513d56e5fdc9f03587003078,514145befdc9f04926006658,livelier,left,left,"The Amsterdam image (left) shows an urban residential area with more visible signs of life – a car parked in front of the building and some greenery suggesting a lived-in space. The Melbourne image (right), while showing a street, appears much more sparse and lacks any immediate indicators of activity or people. Based on the criteria provided—crowds, movement, open businesses—the Amsterdam scene is slightly 'livelier' due to its suggestion of recent use.",1
-31,513d567bfdc9f03587002fc8,514150d7fdc9f04926007e4a,safer,right,left,"The image from Amsterdam (left) appears safer due to several factors. It features a well-maintained pathway alongside greenery and water, suggesting a more cared-for environment. While there are no visible pedestrians in the immediate view, the open space and clear path promote visibility. The Milan image (right), while also having maintained infrastructure, feels more enclosed by buildings and lacks the natural elements that contribute to a sense of safety. It appears less inviting for pedestrian traffic and has a slightly more industrial feel.",0
-32,513d56b1fdc9f03587003020,50f5e51afdc9f065f0006628,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features well-lit streets, visible pedestrians and cyclists, clear pathways with bike lanes, abundant greenery in the form of trees lining the street, and generally maintained infrastructure. The buildings appear to be in good condition. 
+**Sydney (Right):**
+*   **Features:** Cars parked along the side, trees providing shade, buildings in the background, visible vehicles and potentially pedestrians.
+*   **Safety Contributions:** The presence of cars suggests activity. Trees provide a natural feel. Buildings indicate nearby residences or businesses. There is more visual 'life' to the scene.
+*   **Safety Detractions:** None immediately apparent.
 
-The image from Sao Paulo (right), while having some lighting, shows signs of disrepair – a building appears unfinished or abandoned, there's graffiti on walls, and the overall environment feels less maintained. There are fewer visible pedestrians, and the pathways don’t seem as clearly defined or inviting.",1
-33,513d5712fdc9f035870030d1,50f60866beb2fed6f80003e9,more depressing,right,right,"The Portland image (right) exhibits more features aligning with the 'depressing' indicators. The gray tones are more pronounced due to overcast skies, and the street appears emptier and less maintained than the Amsterdam scene. While not overtly dilapidated, the residential area in Portland feels somewhat neglected. In contrast, the Amsterdam image (left), while not vibrant, has a cleaner appearance, some greenery, and a larger building suggesting activity even if unseen. The lighting is also brighter.",1
-34,513d57ecfdc9f03587003251,51413bbefdc9f04926005a2b,wealthier,left,left,"The Amsterdam image (left) presents a more consistently maintained and modern appearance than the Los Angeles image (right). The buildings in Amsterdam appear newer and better cared for with clean facades. While there are many bicycles, they don't detract from the overall impression of orderliness. In contrast, the Los Angeles image shows signs of wear – cracked sidewalks, older building styles, and a less tidy appearance. Although there are cars present, their presence doesn’t necessarily indicate wealth in this context, especially given the surrounding environment. The greenery is similar in both images but the Amsterdam scene feels more deliberately landscaped.",1
-35,513d56fffdc9f035870030af,5140c88dfdc9f04926002286,livelier,right,right,"The image from Bangkok (right) appears much livelier than the Amsterdam scene (left). The Bangkok image shows more cars and buildings suggesting a busier street with potential for open businesses. There are also signs visible, indicating commercial activity. In contrast, the Amsterdam image is dominated by greenery and water; it's a quiet residential or park-like area with very little sign of immediate human activity. Based on the provided rules—crowds, movement, vendors, bright signage, open businesses—the Bangkok scene better reflects 'liveliness'.",1
-36,513d5728fdc9f035870030fc,513e1eaffdc9f03587009d1c,safer,right,left,"The Amsterdam image (left) appears safer based on the provided criteria. It's well-lit, has a clear pathway for pedestrians and cyclists, and while under a bridge, it doesn’t feel isolated. The London image (right), while also lit, feels more confined between buildings and lacks visible pedestrian activity. The narrow street and rows of garages create a slightly more enclosed and potentially less safe feeling. There's no obvious damage or graffiti in either image, but the Amsterdam scene presents a more open and inviting environment.",0
-37,513d580efdc9f0358700328f,51408b27fdc9f0358700e88f,more beautiful,left,left,"The Amsterdam image (left) is more visually appealing based on the provided criteria. It features a calm waterway lined with trees and greenery, creating a sense of tranquility and natural beauty. The path alongside the water offers open space. While not symmetrical in design, the composition feels balanced. 
+The Sydney image has more features that suggest an active, populated area – which aligns with the safety indicators (visible pedestrians, maintained infrastructure) in the provided rules. The Boston side feels too empty and lacks those positive cues.",1
+2,5185d4edfdc9f03fd5001448,50f42c43fdc9f065f000198c,safer,41,24,left,left,"Based on the provided rules, the left image (Montreal) appears safer. Here's a breakdown:
 
-The Madrid image (right), while having some trees, primarily showcases a road surface and less appealing infrastructure. The overall tone is grayer and more utilitarian, lacking the vibrancy and peacefulness of the Amsterdam scene. It appears somewhat cluttered with street markings and lacks the aesthetic qualities emphasized in the rules.",1
-38,513d5728fdc9f035870030fc,513d7e5afdc9f035870073b4,more boring,left,left,"The image from Amsterdam (left) appears more boring based on the provided criteria. It features a large, utilitarian bridge structure dominating the scene with minimal surrounding detail. The architecture is monotone and functional rather than aesthetically diverse. There's a lack of people or visible life, and the overall impression is one of emptiness and uniformity. 
+**Left Image (Montreal):**
+*   **Features:** Residential street with houses and trees. The road surface has some wear but is generally intact. There are sidewalks.
+*   **Safety Contributors:** Greenery (trees), residential setting, clear pathways (sidewalks).
+*   **Safety Detractors:** Some potholes in the road, a lack of visible pedestrians.
 
-The New York image (right), while not bustling, shows more variation in building styles, some signs of businesses, and cars on the road indicating activity. This diversity and presence of life detract from the qualities that signal boredom.",1
-39,513d56ecfdc9f03587003085,5140b74bfdc9f04926001976,more boring,right,left,"The Amsterdam street view (left) exhibits more features that align with 'boring' according to the provided rules. The architecture is highly uniform and repetitive – rows of similar brick buildings with consistent window patterns. There’s a lack of visible life; few people are present, and while there are cars, it doesn't convey much activity. The color palette is relatively monotone (brick red/brown). 
+**Right Image (Warsaw):**
+*   **Features:** A street with taller buildings and parked cars. The road appears narrower.
+*   **Safety Contributors:** Visible cars suggest some activity.
+*   **Safety Detractors:** Taller buildings can create shadows, potentially leading to isolated areas. The overall appearance is less maintained than the left image. There are no visible sidewalks.
 
-The Washington DC street view (right) has more variation in its environment – trees, different building styles hinted at further down the road, and a wider open space. While not bustling with people, it feels less sterile than the Amsterdam scene. It doesn't have the same level of uniform design or blankness.",0
-40,513d5724fdc9f035870030f2,50f60c4fbeb2fed9100002ab,wealthier,right,left,"The Amsterdam street view (left) appears wealthier based on the provided criteria. The buildings are more modern and well-maintained, with consistent facades. There's a sense of tidiness in the street presentation. While not visible in this specific frame, there is evidence of newer cars parked along the street. 
+The left image has more features that align with safety indicators (greenery, residential setting) and fewer detracting factors compared to the right image.",1
+3,50f5e56cfdc9f065f00068d7,513d5c71fdc9f03587003704,safer,43,3,left,right,"The image on the right (Barcelona) appears safer based on the provided criteria. It has a clear pathway, some greenery along the road, and while not bustling with pedestrians, it doesn't appear isolated. The left image (Sao Paulo) shows signs of disrepair – visible damage to structures, potentially broken infrastructure (the metal gate), and an overall less maintained appearance. This contributes to a perception of unsafety. While both images are well-lit, the Barcelona scene feels more open and accessible.",0
+4,51422ad6fdc9f049260089a5,513e5d95fdc9f0358700ae31,more depressing,0,45,right,left,"The Philadelphia side (left) appears more depressing based on the provided criteria. Here's a breakdown:
 
-The Portland street view (right), while appearing pleasant, shows older homes with varying degrees of maintenance. The overall impression is less polished and more residential/suburban than the Amsterdam scene. There's also a slightly cluttered feel due to visible trash bins.",0
-41,513d57b6fdc9f035870031ec,514148affdc9f04926006d1d,more beautiful,left,right,"Applying the given rules—aesthetics mattering (symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space) while avoiding clutter, grayness, damage, or visual unappealing features—the Melbourne image (right) is more beautiful. 
+**Philadelphia (Left):**
+*   **Features:** Wide, empty street; somewhat faded colors and gray tones in the buildings and pavement; sparse trees with some dead foliage; general lack of visible activity.
+*   **Contributing Factors to Depressing Quality:** The emptiness of the street is a key factor. The muted color palette adds to a sense of drabness. While not overtly dilapidated, there's a feeling of neglect due to the lack of vibrancy.
 
-The Amsterdam image (left) presents a somewhat drab, symmetrical but plain brick building. The courtyard area appears worn and cluttered with a bicycle and van. There's limited greenery and the overall color palette is muted.
+**Paris (Right):**
+*   **Features:** Taller buildings; more visible activity with parked motorcycles and a bus stop with a poster; brighter lighting; cleaner sidewalks; some greenery.
+*   **Factors Detracting from Depressing Quality:** The presence of people/vehicles, the relatively clean appearance, and the slightly brighter tones all contribute to a less depressing atmosphere. 
 
-The Melbourne image (right), while featuring a parking lot, has significantly more visual appeal. It includes trees providing green foliage, sunlight creating brighter tones, and a sense of open space. The architectural design in the background adds some interest. While not perfect, it avoids the grayness and clutter present in the Amsterdam scene.",0
-42,513d571ffdc9f035870030e9,513d6872fdc9f0358700438e,wealthier,left,left,"The image on the left (Amsterdam) presents a cleaner, more maintained environment. The sidewalk is in good condition, there's greenery present, and the overall scene feels tidier. While it’s not a bustling city center view, the infrastructure appears well-kept. 
+The rules specifically mention dark lighting, gray tones, emptiness, and neglect as indicators of depression. The Philadelphia image exhibits these qualities more strongly than the Paris image.",0
+5,51409ce6fdc9f04926001250,514139f7fdc9f049260055be,wealthier,29,16,left,left,"Based on the provided criteria, the left image (Rome) appears wealthier. Here's a breakdown:
 
-The image on the right (Boston) shows signs of disrepair – broken sidewalks, overgrown weeds, older/industrial buildings, and generally less tidy surroundings. These features detract from an impression of wealth. The presence of utility poles and simpler building facades also contribute to this feeling.",1
-43,513d57eafdc9f0358700324f,5140cb67fdc9f04926002b4c,more beautiful,equal,left,"The Amsterdam image (left) is more visually appealing based on the provided criteria. It features mature trees providing greenery, well-maintained buildings and cars, and a sense of open space. The Bucharest image (right), in contrast, shows an unkempt vacant lot with overgrown vegetation, a dilapidated building, and a generally gray and cluttered appearance. While both images have sunlight, the Amsterdam scene utilizes it to highlight more aesthetically pleasing elements.",0
-44,513d5652fdc9f03587002f79,513e1c1efdc9f0358700965c,livelier,left,left,"The Amsterdam image (left) shows a residential street with more visible details suggesting life – houses close together, well-maintained gardens, and the suggestion of people living within them. While there are no people *in* the image at this moment, the setting implies activity. The Moscow image (right) is largely an open space with parked cars and a grassy area. It feels much more static and empty. Based on the criteria provided – crowds, movement, open businesses – the Amsterdam scene has features that better reflect 'liveliness' even if it’s just implied.",1
-45,513d5688fdc9f03587002fdd,513cb642fdc9f03587000a11,more beautiful,left,left,"The image from Amsterdam (left) is more visually appealing based on the provided criteria. It features a clean, symmetrical composition with a waterway and bridge as focal points. The greenery is well-maintained, and the overall scene feels open and inviting. While not bursting with vibrant colors, it avoids the grayness and clutter present in the Houston image. 
+**Left Image (Rome):**
+*   **Features:** Modern apartment buildings with well-maintained facades, relatively clean sidewalks, and newer cars are visible.
+*   **Contributing Factors:** The architecture suggests more recent construction and upkeep. Cars appear to be in good condition.
+*   **Detracting Factors:** Some areas look a bit worn but not significantly dilapidated.
 
-The Houston image (right) appears more rundown with visible wear on buildings, utility poles dominating the view, and a generally less maintained appearance. The road is cracked, and the overall scene lacks aesthetic appeal. It doesn't exhibit symmetry or strong architectural design.",1
-46,513d57b6fdc9f035870031ec,513d9c6cfdc9f03587007d2d,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features visible pedestrians, clear pathways, maintained infrastructure (the building looks well-kept), and adequate lighting. The Santiago image (right) feels more isolated with a large road and less pedestrian activity. While not necessarily unsafe, it lacks the positive safety indicators present in the Amsterdam scene. There is also minimal greenery or signs of active community life.",1
-47,513d56b3fdc9f03587003021,513e5f3dfdc9f0358700b1ed,livelier,right,right,"The image from Paris (right) appears livelier based on the provided criteria. It features a street with cars, buildings suggesting businesses and residences, and a bus stop implying public transportation and people waiting. These elements indicate activity and potential movement. The Amsterdam image (left), in contrast, shows an empty grassy field with trees; it lacks any signs of human presence or dynamic activity, making it appear static and quiet.",1
-48,513d57c4fdc9f0358700320b,513d5c6dfdc9f035870036fb,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a well-lit, wide road with visible traffic, suggesting activity and maintenance. The infrastructure seems maintained, and there's some greenery along the roadside. In contrast, the Belo Horizonte image (right) shows overgrown vegetation, an unkempt roadside, and a generally more isolated and less maintained environment. This contributes to a feeling of potential unsafety. While both images lack visible pedestrians or surveillance signs, the overall impression from Amsterdam is one of order and upkeep, while Belo Horizonte feels neglected.",1
-49,513d5798fdc9f035870031b6,5140da36fdc9f04926003d85,safer,left,left,"The Amsterdam image (left) appears safer due to several factors. There are visible boats with people on them, suggesting pedestrian activity and presence. The buildings appear well-maintained, and the area is generally well-lit despite it being a canal side. 
+**Right Image (Johannesburg):**
+*   **Features:** Older buildings, roads with visible wear and tear, less greenery, and an overall sense of being less maintained. 
+*   **Contributing Factors:** The road surface is cracked and uneven. Buildings appear older and potentially in need of repair.
+*   **Detracting Factors:** Lack of modern architecture or signs of recent investment.
 
-The Dublin image (right) depicts a cemetery which, while not inherently unsafe, feels isolated and less populated. It lacks the vibrancy of the Amsterdam scene. There are no visible pedestrians or signs of active life. The overall impression is one of solitude rather than safety.",1
-50,513d56d2fdc9f03587003058,513e1ffbfdc9f0358700a0a6,safer,left,left,"The Amsterdam image (left) appears safer due to several factors. It features a clear, well-maintained pathway alongside a canal, with visible greenery and open space. While there are no pedestrians immediately visible, the area feels more exposed and less confined than the London street. The London image (right) shows a narrower street lined with buildings and parked vehicles, creating a sense of enclosure. There's also a work van partially blocking the view, potentially obstructing visibility. Based on the provided rules, the open space, clear pathway, and maintained infrastructure in the Amsterdam image contribute to a feeling of safety, while the London image’s confined space and obstructed views detract from it.",1
-51,513d56b8fdc9f0358700302a,50f433c3fdc9f065f000263f,more beautiful,left,left,"Based on the provided criteria (aesthetics like symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space, while avoiding clutter, grayness, damage, or visual unappealing features), the Amsterdam image (left) is more beautiful. Here's a breakdown:
+Applying the rules – the left image has more features indicative of wealth (modern buildings, clean sidewalks, well-maintained facades) compared to the right image.",1
+6,51414cbbfdc9f049260073e1,513f2d0cfdc9f0358700d985,safer,0,42,right,right,"Based on the provided rules, the right image (Berlin) appears safer. Here's a breakdown:
 
-**Amsterdam (Left):**
-*   **Features:** A wide canal with lush green grass on either side, trees lining the waterway, and a clear sky.
-*   **Contributing Factors:** The greenery, open space of the canal, and natural light create a serene and visually appealing scene. The symmetry of the grassy banks adds to its aesthetic quality.
-*   **Detracting Factors:** The road itself is somewhat plain, but it doesn't significantly detract from the overall beauty.
+**Left Image (Milan):**
+*   **Features:** Wide road, some buildings in the background, minimal pedestrian activity.
+*   **Safety Contributions:** The wide road could allow for better visibility.
+*   **Safety Detractions:** Appears somewhat desolate with very few people. Buildings look industrial and lack vibrancy. There is a sense of isolation.
 
-**Toronto (Right):**
-*   **Features:** Brick buildings, a narrow street with parked cars, and some trees. 
-*   **Contributing Factors:** The brick architecture has some character. 
-*   **Detracting Factors:** The scene feels cluttered due to the parked cars and narrower space. The color palette is more muted (grayer) compared to the vibrant greens in Amsterdam. It lacks the open, calming feel of the Amsterdam image.
+**Right Image (Berlin):**
+*   **Features:** Road lined with trees/greenery, some buildings visible, appears to be a residential area.
+*   **Safety Contributions:** The presence of greenery suggests a more cared-for environment. Trees and potential residences imply pedestrian activity. It feels less isolated than the left image.
+*   **Safety Detractions:** None immediately apparent.
 
-The Amsterdam image better embodies the aesthetic qualities outlined in the rules – it's more open, greener, and has a natural symmetry that makes it visually more pleasing.",1
-52,513d564ffdc9f03587002f74,513d60d5fdc9f03587003d87,wealthier,left,left,"The image on the left (Amsterdam) appears wealthier based on the provided criteria. Here's a breakdown:
+Applying the rules:
 
-**Left Image (Amsterdam):**
-*   **Features:** Well-maintained row houses, clean streets and sidewalks, trees/greenery, newer cars.
-*   **Contribution to Wealth:** The overall tidiness, well-kept buildings, and presence of greenery suggest a higher standard of living. Cars appear relatively new and modern.
+*   **Well-lit areas:** Both appear adequately lit, but it's hard to tell definitively from the images.
+*   **Visible pedestrians:** The right image *implies* more pedestrian activity due to its residential nature. 
+*   **Clear pathways:** Both have clear roads.
+*   **Greenery:** The right image has significant greenery, a positive safety indicator.
+*   **Maintained infrastructure:** Both appear maintained, but the greenery on the right suggests better upkeep.
+*   **Surveillance signs:** Neither image shows surveillance signs. 
+
+The Berlin side (right) exhibits more features that align with a sense of safety – particularly the presence of greenery and an implied residential environment.",1
+7,513e6f56fdc9f0358700c565,513cc2aafdc9f035870015bf,livelier,39,0,left,left,"The left image (Tokyo) appears more lively than the right image (Houston). Here's a breakdown:
+
+**Left Image (Tokyo):**
+*   **Features:** Narrow streets, multiple buildings close together, some signage (though not overly bright), and what appear to be residential or small business structures.
+*   **Contribution to liveliness:** The density of the buildings suggests higher population concentration. While there aren't visible people in this specific snapshot, the setup implies a more active neighborhood with potential for pedestrian traffic.
+
+**Right Image (Houston):**
+*   **Features:** Wide streets, large parking lots, a few businesses (a gas station and what looks like a fast-food restaurant), and generally more open space. 
+*   **Contribution to liveliness:** The wide roads and parking lots suggest car dependency. There is very little pedestrian activity implied by the scene. It feels more suburban/car-centric and less focused on street life.
+
+**Applying the Rules:**
+The rules emphasize crowds, people, vendors, bright signs, open businesses, and movement. While neither image *explicitly* shows all of these, the Tokyo side *implies* a higher potential for them due to its density and urban structure. The Houston side feels quieter and more static.",1
+8,513e6087fdc9f0358700b3e9,513e2197fdc9f0358700a46a,more depressing,0,39,right,right,"Based on the provided criteria, the Moscow side (right) appears more depressing. Here's a breakdown:
+
+**Paris (Left):**
+*   **Features:** A relatively clean road, green trees and foliage, a signpost, bright lighting.
+*   **Contributing/Detracting Factors:** The greenery and brightness detract from any sense of depression. It feels somewhat rural but not neglected.
+
+**Moscow (Right):**
+*   **Features:** Gray tones dominate the scene with large industrial buildings, a concrete wall, an overpass, and minimal vegetation. There's a person walking in the distance, but it emphasizes the emptiness.
+*   **Contributing/Detracting Factors:** The grayness, industrial setting, lack of vibrant life (trees, flowers), and empty street all contribute to a feeling of neglect and depression.
+
+**Applying the Rules:**
+The Moscow side exhibits several indicators of depression: gray tones, an uninviting industrial landscape, and a general sense of emptiness. While not overtly dilapidated, it lacks the vibrancy and positive elements present in the Paris scene.",1
+9,513f2e7dfdc9f0358700dc0a,51422896fdc9f0492600878f,safer,34,4,left,left,"Based on the provided rules, the Berlin side (left) appears safer. Here's a breakdown:
+
+**Berlin (Left):**
+*   **Features:** Wide road, visible cars, some greenery (trees), modern buildings.
+*   **Safety Contributions:** The wide road and presence of vehicles suggest activity and visibility. Greenery adds to a more welcoming environment. Modern buildings imply maintenance.
+*   **Safety Detractions:** It's daytime in the image so it is hard to assess lighting. There are not many pedestrians visible, which could be seen as isolating.
+
+**Philadelphia (Right):**
+*   **Features:** Road with tram lines, older brick buildings, some greenery, crosswalks.
+*   **Safety Contributions:** Crosswalks indicate pedestrian consideration. Some greenery is present.
+*   **Safety Detractions:** The buildings appear somewhat aged and less maintained compared to those in Berlin. There are more visible utility poles/wires which can create a cluttered feel. 
+
+Considering the rules, the left image (Berlin) demonstrates better-maintained infrastructure and a generally cleaner appearance, suggesting a higher level of safety.",1
+10,513f1205fdc9f0358700c8f5,50f5e8aafdc9f065f000748e,livelier,8,29,right,left,"The image on the left (Tokyo) appears more lively due to several factors. There are visible people walking, suggesting activity and pedestrian traffic. The presence of buildings close together and a narrow street creates a sense of density and urban energy. While not brightly colored, there's signage and architectural detail that adds visual interest. 
+
+The image on the right (San Francisco) feels much quieter and more static. It's a wider road with fewer people visible. The scene is dominated by trees and asphalt, lacking the immediate human activity seen in the Tokyo image. There are no open businesses or street vendors apparent.",0
+11,5185d3ddfdc9f03fd5001341,513d9c2efdc9f03587007c5a,safer,0,37,right,left,"The image on the left (Montreal) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Montreal):**
+*   **Features:** A curved road with trees lining it, some visible houses in the background, and well-maintained pavement.
+*   **Safety Contributions:** The presence of trees adds greenery, which is generally associated with safer neighborhoods. The maintained infrastructure suggests a cared-for environment. While there are no pedestrians immediately visible, the residential setting implies potential foot traffic.
+*   **Safety Detractions:** It's not brightly lit, and there aren't any obvious surveillance signs.
+
+**Right Image (Atlanta):**
+*   **Features:** A large parking lot with a few trees, some businesses in the background, and visible light poles.
+*   **Safety Contributions:** The presence of light poles suggests potential for well-lit areas. 
+*   **Safety Detractions:** The vastness of the parking lot feels isolating. There are no pedestrians or signs of activity, which can contribute to a sense of unsafety. It appears more desolate and less maintained than the Montreal street.
+
+**Applying the Rules:**
+The left image better reflects safety due to its greenery, residential setting implying potential pedestrian presence, and overall appearance of maintenance. The right image lacks these qualities and feels more isolated.",0
+12,513d51c4fdc9f03587002ed6,5141353efdc9f04926004941,more depressing,1,33,right,right,"Based on the provided criteria, the Glasgow (right) side appears more depressing. Here's a breakdown:
+
+**Barcelona (Left):**
+*   **Features:** Wide road with multiple lanes, some traffic, greenery in the median and along the sides, relatively modern buildings, bright lighting.
+*   **Contributing/Detracting Factors:** The wide road suggests activity, while the presence of greenery adds a positive element. The overall impression is functional but not particularly inviting or depressing.
+
+**Glasgow (Right):**
+*   **Features:** Narrower street, older and more worn buildings, a bus in the foreground, some pedestrian activity, but generally gray tones and less vibrant colors.
+*   **Contributing/Detracting Factors:** The older buildings appear somewhat neglected. While there is activity with the bus and pedestrians, the overall color palette is drab and lacks vibrancy. This contributes to a feeling of urban decay or neglect.
+
+**Applying the Rules:**
+The Glasgow side exhibits more features aligning with the 'depressing' indicators: gray tones, older/worn buildings, and a general lack of visual appeal compared to Barcelona's brighter and more modern appearance.",1
+13,513d6a3ffdc9f035870049e5,513d5d5dfdc9f035870038a1,more depressing,34,0,left,right,"The image on the right (Belo Horizonte) appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image (Denver):**
+*   **Features:** Large, industrial-looking buildings with garage doors, a pickup truck, an empty street, and relatively neutral coloring.
+*   **Contributing/Detracting Factors:** The emptiness of the street contributes to a slightly desolate feeling. However, the buildings appear functional and well-maintained, suggesting they are in use. The lighting is bright, and there's no visible trash or decay.
 
 **Right Image (Belo Horizonte):**
-*   **Features:** Older, less maintained buildings, narrow streets, visible wear and tear on structures, exposed wiring, some debris/litter.
-*   **Detraction from Wealth:** The dilapidated state of the buildings, unkempt surroundings, and general lack of maintenance suggest a lower socioeconomic status. 
-
-The left image aligns more closely with indicators of wealth (cleanliness, modern infrastructure, well-maintained properties) than the right image.",1
-53,513d56b0fdc9f0358700301e,5141404afdc9f04926006099,safer,left,left,"Based on the provided criteria, the Amsterdam image (left) appears safer. It features well-lit areas, visible pedestrians and cyclists, clear pathways, and greenery. The infrastructure seems maintained. While not abundant, there's a sense of activity suggesting a safe environment.
-
-The Melbourne image (right), while also having some pedestrian presence, shows cracked pavement, potentially isolated areas under the building structure, and appears less well-lit overall. These features detract from the feeling of safety.",1
-54,513d5781fdc9f03587003195,513d6bacfdc9f03587004d9c,more beautiful,left,left,"Based on the provided criteria (symmetry, architectural design, vibrant colors, trees, flowers, sunlight, open space, and avoidance of clutter/grayness/damage), the Amsterdam image is more aesthetically pleasing. It features a wider, open green space with some distant buildings that aren't particularly striking but don’t detract from the overall view. The Boston image, while showing street life, has cluttered parking, older building facades, and lacks vibrant colors or natural elements like trees/flowers. The gray tones and somewhat cramped feel of the Boston scene make it less 'beautiful' according to the given rules.",1
-55,513d5827fdc9f035870032be,513d9f6ffdc9f0358700873c,safer,right,right,"Based on the provided rules, the Atlanta image (right) appears safer. Here's why:
-
-**Amsterdam (Left):**
-*   Features: A long, straight path flanked by dense greenery. It looks like a park or canal-side pathway.
-*   Safety Contributions: Greenery can be positive for safety.
-*   Safety Detractions: The path is isolated with no visible pedestrians and feels somewhat enclosed by the high hedges. This lack of activity could contribute to feelings of unsafety. There's also limited lighting apparent in the image.
-
-**Atlanta (Right):**
-*   Features: A residential street with houses visible, a clear pathway, and some trees.
-*   Safety Contributions: The presence of houses suggests more potential for 'natural surveillance'. It appears to be a well-maintained neighborhood. There is also more light in the image.
-*   Safety Detractions: None immediately apparent.
+*   **Features:** A high concrete wall, overgrown vegetation, some debris/trash on the ground, a narrow street, and generally gray tones.
+*   **Contributing/Detracting Factors:** The high wall creates a sense of confinement. Overgrown vegetation suggests neglect. The presence of trash and the overall gray color scheme contribute to a more depressing atmosphere. There is very little activity visible.
 
 **Applying the Rules:**
-The Atlanta image has visible structures (houses), suggesting activity and potentially increased safety through natural surveillance. The Amsterdam image, while having greenery, lacks these elements and feels more isolated.",1
-56,513d5671fdc9f03587002fb3,50f5ea5efdc9f065f0007ae3,wealthier,right,left,"The image from Amsterdam (left) appears wealthier based on the provided criteria. Here's a breakdown:
+The right image exhibits several indicators of depression as defined in the rules: gray tones, signs of neglect (overgrowth/debris), and an empty street. The left image lacks these strong indicators.",0
+14,513d37b2fdc9f03587002c11,513e657ffdc9f0358700b991,safer,32,0,left,right,"Based on the provided rules, the Kyoto (right) image appears safer. Here's a breakdown:
 
-**Amsterdam (Left):**
-*   **Features:** Modern cars, well-maintained brick buildings with clean facades, relatively tidy sidewalks, street signs and infrastructure suggesting organization.
-*   **Contribution to Wealth:** These features indicate investment in infrastructure and upkeep, which are often associated with wealthier areas. The presence of newer vehicles also suggests a higher economic status among residents.
+**Chicago (Left):**
+*   **Features:** Brick buildings, cars parked along the street, some trees, and grass.
+*   **Safety Contributions:** The presence of cars suggests activity. Trees add greenery.
+*   **Safety Detractions:** The road surface appears uneven or damaged in places. There are fewer visible pedestrians. The lighting seems less bright overall.
 
-**Rio de Janeiro (Right):**
-*   **Features:** A basketball court or similar recreational area that appears somewhat worn. The surrounding walls are plain and utilitarian. There is no visible evidence of wealth in this particular street view.
-*   **Detraction from Wealth:** While not necessarily indicative of poverty, the lack of modern infrastructure, well-maintained buildings, or signs of affluence detracts from a feeling of wealth.",0
-57,513d56b4fdc9f03587003022,51408ba8fdc9f0358700e991,livelier,right,left,"The image from Amsterdam (left) shows people walking/biking along the path under trees, suggesting activity and use of the space. While not crowded, there's evidence of life. The Madrid image (right), in contrast, is dominated by a wide road with minimal pedestrian presence. It appears more focused on vehicular traffic than human activity. Based on the criteria – crowds, people walking/biking, dynamic movement – the Amsterdam scene better reflects 'liveliness'.",0
-58,513d56dbfdc9f03587003065,51409a94fdc9f04926000f74,livelier,right,left,"The image from Amsterdam (left) shows a wider pedestrian walkway with some visible people in the distance, suggesting potential activity. There's also signage and what appears to be an open business (Bodycote). The Rome image (right) is dominated by trees and a guardrail along a road; it lacks any immediate signs of pedestrians, businesses, or dynamic elements. Based on the provided rules—crowds, people walking/biking, vendors, bright signage, open businesses, movement—the Amsterdam scene better reflects 'liveliness' despite not being bustling.",0
-59,513d56bbfdc9f03587003031,5140d2f5fdc9f04926003357,more depressing,equal,right,"The Bucharest image (right) appears more depressing based on the provided criteria. It features overcast skies creating gray tones, and an overall sense of emptiness with a wide, mostly empty street. The buildings in the background appear somewhat dilapidated or utilitarian. In contrast, the Amsterdam image (left), while also featuring a large road, has brighter lighting, some greenery, and a single person walking which suggests *some* activity. While not vibrant, it doesn't evoke the same sense of neglect as the Bucharest scene.",0
-60,513d5728fdc9f035870030fc,50e5faead7c3df413b00073f,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a well-lit road under a bridge, clear pathways, and some greenery along the sides. The infrastructure seems maintained. While there are no visible pedestrians in this particular shot, the openness of the space suggests potential for pedestrian traffic. 
+**Kyoto (Right):**
+*   **Features:** Well-maintained road, streetlights, trees lining the street, and a clear pathway for pedestrians.
+*   **Safety Contributions:** Streetlights provide good illumination. A smooth road surface indicates maintained infrastructure. The presence of trees adds greenery. There is a visible pedestrian.
+*   **Safety Detractions:** None immediately apparent.
 
-The image from Kyoto (right) feels more confined due to the high walls on either side. It appears somewhat isolated with overhead power lines creating a cluttered visual environment. There's less evidence of maintained infrastructure and it lacks greenery. The narrowness of the pathway could be perceived as less safe, especially if someone were walking alone.",1
-61,513d570efdc9f035870030cd,513cc4a4fdc9f035870017aa,livelier,left,left,"The Amsterdam image (left) appears livelier due to several factors. There are multiple people visible – walking, standing, and on bicycles. The presence of open businesses with outdoor seating suggests activity. While not bustling, there's a sense of everyday life happening. 
+The Kyoto image demonstrates more features that align with the safety indicators (well-lit, clear pathways, maintained infrastructure) compared to the Chicago image.",0
+15,5140c825fdc9f04926002149,50f46485fdc9f065f00046be,more depressing,29,3,left,left,"The Bratislava (left) side appears more depressing based on the provided criteria. Here's a breakdown:
 
-The Chicago image (right), in contrast, is dominated by the street and cars. It feels more like a thoroughfare than a place where people are actively engaging. There are no pedestrians visible, and the scene appears relatively static. Based on the provided rules emphasizing crowds, movement, and open businesses, the Amsterdam image better reflects 'liveliness'.",1
-62,513d56effdc9f0358700308c,513f28d8fdc9f0358700d272,wealthier,left,left,"The Amsterdam (left) image presents features that more strongly suggest wealth based on the provided criteria. The buildings are well-maintained with ornate facades and appear newer/more renovated than those in Berlin. There's a greater sense of tidiness, with clean sidewalks and fewer visible signs of disrepair. While both images have greenery, the Amsterdam scene feels more curated and upscale. The cars present in Amsterdam also seem to be newer models. In contrast, the Berlin image shows older buildings, a darker and less maintained street surface, and an overall slightly more worn appearance.",1
-63,513d56eefdc9f0358700308a,5141475bfdc9f04926006a2e,safer,right,left,"Based on the provided criteria, the Amsterdam image (left) appears safer. Here's a breakdown:
+**Left Image (Bratislava):**
+*   **Features:** A somewhat dilapidated pink building, a concrete wall/fence running along the street, and an overall gray/muted color palette.
+*   **Contributing Factors to Depressing Quality:** The concrete wall feels isolating. The muted colors contribute to a sense of drabness. The street appears empty, with no visible people or activity.
+*   **Detracting Factors:** There's some greenery (trees), which offers a slight positive element.
 
-**Amsterdam (Left Image):**
-*   **Features:** Wide road, well-spaced streetlights, visible pedestrian/bike path separated from traffic, some greenery, and generally maintained infrastructure.
-*   **Safety Contributions:** The wide open space, good lighting, and dedicated pathways promote visibility and reduce the potential for surprise encounters. The presence of a separate bike path suggests an emphasis on pedestrian/cyclist safety.
-
-**Minneapolis (Right Image):**
-*   **Features:** Narrower street, buildings close to the road, some shadows, parking lot visible with few cars, less greenery.
-*   **Safety Detractions:** The narrowness of the street and proximity of buildings could create a sense of confinement. Shadows reduce visibility. The empty parking lot might suggest lower activity levels.
+**Right Image (Sydney):**
+*   **Features:** More vibrant colors, trees, and what looks like a car parked on the street. The buildings appear better maintained.
+*   **Contributing Factors to Depressing Quality:** None particularly stand out; it's a fairly standard residential street.
+*   **Detracting Factors:** The presence of a vehicle suggests some activity. The greenery is more lush, and the colors are brighter.
 
 **Applying the Rules:**
-*   The Amsterdam image has better lighting (more evenly distributed), clear pathways, and some greenery – all positive safety indicators.
-*   The Minneapolis image lacks these features to the same degree and appears more confined.",0
-64,513d57eafdc9f0358700324f,51414faafdc9f04926007b51,livelier,right,left,"The image from Amsterdam (left) appears livelier due to several factors. There are cars present suggesting activity, and the open green space implies a more public and potentially used area. While not bustling with people in this particular snapshot, the overall scene feels more inviting and suggests potential for movement. 
+The left image aligns with several indicators of depression: gray tones, empty streets, and lack of visible activity. The right image lacks these qualities; it appears relatively well-maintained and has hints of life (the car). Therefore, based on the provided rules, the left image better reflects a depressing quality.",1
+16,513cc0e8fdc9f03587001411,51414e2dfdc9f0492600779a,safer,30,1,left,left,"Based on the provided rules, the Houston (left) image appears safer. Here's a breakdown:
 
-The Mexico City image (right), while showing a street, is narrow, has graffiti on walls, and appears more confined and less visually stimulating. The lack of visible activity or open space contributes to a quieter, less lively impression.",0
-65,513d5774fdc9f0358700317d,5185ccaafdc9f03fd5000c62,safer,right,left,"The Amsterdam image (left) appears safer based on the provided criteria. It features visible pedestrians, well-maintained buildings, and clear pathways. The presence of people suggests activity and a sense of community safety. While not overly bright, the lighting seems adequate. 
+**Houston (Left):**
+*   **Features:** Well-maintained houses and lawns, visible trees/greenery, clear pathways, relatively clean streets.
+*   **Safety Contributions:** These features suggest a cared-for neighborhood, which often correlates with lower crime rates. The presence of greenery adds to a more welcoming atmosphere.
+*   **Potential Detractions:** The street appears somewhat empty of pedestrians, but this isn't necessarily indicative of unsafety.
 
-The Montreal image (right), while appearing residential, feels more isolated. There are fewer visible pedestrians, and the street is wider, potentially encouraging faster traffic. The overall impression is less active and therefore less safe based on the given rules.",0
-66,513d569cfdc9f03587003006,5185ce9efdc9f03fd5000e52,safer,left,left,"The Amsterdam image (left) appears safer based on the provided criteria. It exhibits several positive features: well-lit conditions due to daylight, visible pedestrians suggesting activity and presence, clear brick pathways for walking, some greenery with trees, and generally maintained infrastructure. The Montreal image (right), while also having daylight and some greenery, presents a less inviting scene. The road appears wider and more car-centric, potentially encouraging faster traffic. There's less pedestrian activity visible, and the overall atmosphere feels slightly more isolated. While not overtly unsafe, it lacks the positive indicators of safety present in the Amsterdam image.",1
-67,513d5702fdc9f035870030b6,514139cefdc9f0492600555c,more beautiful,left,left,"The Amsterdam street view (left) appears more beautiful based on the provided criteria. It features symmetrical building design, vibrant colors in the architecture and some greenery, and a generally cleaner appearance. The Johannesburg street view (right), while having trees, is dominated by gray asphalt, has less architectural detail, and feels somewhat cluttered with utility poles. The Amsterdam image aligns better with aesthetics emphasizing symmetry, color, and open space, avoiding the 'cluttered' or 'gray' qualities mentioned in the rules.",1
-68,513d57f6fdc9f03587003261,50f5e8c9fdc9f065f00074b0,wealthier,right,right,"The image on the right (San Francisco) depicts residential housing with well-maintained facades and newer vehicles parked in front. This suggests a higher level of affluence. The left image (Amsterdam) shows a highway, which doesn't inherently convey wealth; it’s simply infrastructure. While the road is clean, highways are not typically associated with displays of wealth as defined by the provided rules (expensive cars, modern buildings, etc.).",1
-69,513d57bafdc9f035870031f8,513f2d9dfdc9f0358700da83,livelier,right,left,"The Amsterdam image (left) appears livelier due to several factors. There's a prominent yellow structure covered in posters—suggesting activity and information sharing. While there aren’t many people *in* the frame, the presence of this poster-covered structure implies a location where people gather or pass through frequently. The Berlin image (right), while showing a residential street, is comparatively empty and static. There are only a few cars visible, and the overall scene lacks the visual cues that suggest dynamic activity.",0
-70,513d576efdc9f03587003171,50f56203fdc9f065f0005898,safer,right,left,"Based on the provided criteria, the Amsterdam image (left) appears safer. Here's why:
+**Mexico City (Right):**
+*   **Features:** More densely packed buildings, some visible graffiti on walls, cars parked closely together, and a generally more cluttered appearance. 
+*   **Safety Contributions:** The presence of people suggests activity.
+*   **Potential Detractions:** Graffiti and the density/clutter can suggest less maintenance or potential for hidden areas, contributing to a feeling of unsafety. The lighting appears dimmer than in the Houston image.
 
-**Amsterdam (Left):**
-*   **Well-lit:** The area is brightly lit with streetlights.
-*   **Visible pedestrians:** There are several people walking and biking, indicating activity and presence.
-*   **Clear pathways:** A well-defined crosswalk and road markings are visible.
-*   **Maintained infrastructure:** Buildings appear in good condition. 
+Considering these points, the left (Houston) image better reflects features associated with safety according to the given rules.",1
+17,5185d41afdc9f03fd500137c,513d7888fdc9f035870061cb,more depressing,8,22,right,left,"The image on the left (Montreal) appears more depressing based on the provided criteria. Here's a breakdown:
 
-**Singapore (Right):**
-*   The area feels more isolated with fewer pedestrians.
-*   While there is greenery, the overall scene appears less active and potentially more secluded.
-*   The elevated highway structure creates a sense of enclosure that could be perceived as less safe.",0
-71,513d56e8fdc9f0358700307e,51408c43fdc9f0358700eac1,more beautiful,left,left,"The Amsterdam image (left) is more beautiful based on the provided criteria. It features a serene canal with lush greenery, trees in bloom, and open space. The sunlight creates a pleasant atmosphere. While not perfectly symmetrical, the composition feels balanced and visually appealing.
+**Left Image (Montreal):**
+*   **Features:** Empty road, sparse trees, overcast sky, limited visible structures.
+*   **Contributing Factors to Depressing Quality:** The emptiness of the road and lack of activity create a sense of isolation. The gray tones from the overcast sky contribute to a somber mood. There's a general feeling of neglect due to the absence of people or signs of life.
 
-The Madrid image (right), while functional, lacks these aesthetic qualities. It's dominated by a road with parked cars, a steep grassy hill that appears somewhat unkempt, and less vibrant colors. There’s more visual clutter from the vehicles and road markings. The overall impression is less inviting and aesthetically pleasing compared to the Amsterdam scene.",1
-72,513d57fcfdc9f0358700326e,51408bb4fdc9f0358700e9a9,more beautiful,left,left,"Applying the provided aesthetic rules, the Amsterdam image (left) is more visually appealing. It features some trees offering greenery and a slightly more organized architectural design with buildings that have some visual interest. While not perfect, it avoids the starkness and somewhat barren look of the Lisbon image (right). The Lisbon image has a lot of empty space/weeds and lacks vibrant colors or particularly interesting architecture. The gray road and cloudy sky further detract from its aesthetic appeal.",1
-73,513d573dfdc9f03587003125,5140916cfdc9f049260004e3,safer,right,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features well-maintained infrastructure, clear pathways, and some greenery. While there are no visible pedestrians in this particular shot, the area seems open and not isolated. The Lisbon image (right), while having greenery, shows more signs of potential disrepair with trash bins present and a generally less maintained appearance. The lighting also appears dimmer than in the Amsterdam photo.",0
-74,513d57d0fdc9f0358700321e,50f5eaf4fdc9f065f0007ed4,more beautiful,left,left,"The Amsterdam image (left) presents a more aesthetically pleasing scene than the Rio de Janeiro image (right). The left image features trees with lush greenery and a relatively clean street, contributing to a sense of openness and natural beauty. While not architecturally stunning, it avoids the clutter and somewhat dilapidated appearance of the right image which shows a fenced-off area, utility poles, and less vibrant colors. Based on the provided rules emphasizing symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space while avoiding cluttered or damaged features, the left image aligns more closely with these criteria.",1
-75,513d570dfdc9f035870030ca,51413712fdc9f04926004db6,livelier,left,left,"The image from Amsterdam (left) shows more signs of activity despite being relatively quiet. There are multiple cars parked in front of the building, suggesting recent use and potential business within. The presence of a building with visible storefronts implies open businesses. In contrast, the Guadalajara image (right) appears much more desolate. It's an empty road with minimal features – just a large building in the distance and utility poles. There are no people, cars, or signs of immediate activity. Based on the criteria provided—crowds, movement, open businesses—the Amsterdam scene is comparatively 'livelier'.",1
-76,513d5800fdc9f03587003275,513e1ab5fdc9f035870092a1,safer,left,left,"Based on the provided criteria, the Amsterdam image (left) appears safer. Here's a breakdown:
+**Right Image (Santiago):**
+*   **Features:** Buildings, trees, a bus, power lines, and at least one person visible.
+*   **Contributing Factors to Depressing Quality:** While not pristine, there's evidence of activity with the bus and pedestrian. The presence of buildings suggests an inhabited area. It doesn't exhibit as many indicators of depression as the left image.
 
-**Amsterdam (Left):**
-*   **Features:** Wider street, visible pedestrians, relatively well-maintained buildings (though some graffiti is present), and decent lighting.
-*   **Safety Contributions:** The presence of people suggests activity and less isolation. A wider street feels more open and less confined.
-*   **Safety Detractions:** Some graffiti exists, but it's not overwhelming.
+**Applying the Rules:**
+The left image aligns more closely with the 'depressing' indicators: empty streets, lack of activity, and a general sense of neglect. The right image, while not vibrant, shows signs of life and infrastructure that detract from a depressing impression.",0
+18,50f43aadfdc9f065f0002ef0,50f42b4ffdc9f065f00012b6,safer,0,28,right,left,"Based on the provided rules, the left image (Tel Aviv) appears safer. Here's a breakdown:
 
-**London (Right):**
-*   **Features:** Narrow alleyway, significant amount of graffiti, darker lighting, and a more enclosed space.
+**Left Image (Tel Aviv):**
+*   **Features:** A modern building, parked cars, and relatively well-maintained surroundings.
+*   **Safety Contributions:** The presence of cars suggests activity, and the building looks maintained. It is well lit.
+*   **Safety Detractions:** There are no visible pedestrians in this image.
+
+**Right Image (Warsaw):**
+*   **Features:** A wide road with trees lining it, moving vehicles.
+*   **Safety Contributions:** The presence of cars suggests activity. 
+*   **Safety Detractions:** It's a large, open road which can feel isolating. There are no pedestrians visible and the surrounding area appears less developed or maintained compared to the left image.
+
+Considering these factors, the left image aligns more closely with the safety indicators outlined in the rules (well-lit areas, maintained infrastructure) than the right image.",0
+19,513d69c5fdc9f03587004849,513e1d68fdc9f035870099c2,more beautiful,0,27,right,right,"Based on the provided rules (aesthetics like symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space, while avoiding clutter, grayness, damage, or visual unappealing features), the right image (Moscow) appears more beautiful. Here's a breakdown:
+
+**Left Image (Boston):**
+*   **Features:** Houses with varying architectural styles, some trees, overcast sky, asphalt road.
+*   **Contributing Factors:** Some houses have character.
+*   **Detracting Factors:** The overall scene is somewhat gray and lacks vibrant color. The architecture isn't particularly striking or symmetrical. There's a lot of visual clutter from utility poles and the general arrangement of buildings.
+
+**Right Image (Moscow):**
+*   **Features:** Trees with autumn foliage, parked cars, a wider street, more visible greenery.
+*   **Contributing Factors:** The trees provide vibrant color and a sense of life. There's more open space due to the tree-lined sidewalk. The scene feels brighter despite being overcast.
+*   **Detracting Factors:** Parked cars are present but don't overwhelm the view.
+
+The Moscow image better reflects the aesthetic qualities outlined in the rules – it has more vibrant color, a sense of openness with the trees and wider street, and is generally less cluttered than the Boston scene. The autumn foliage adds to its visual appeal.",1
+20,513e212dfdc9f0358700a3e1,513d3230fdc9f03587002883,safer,27,0,left,left,"The London side (left) appears safer due to several factors. There are visible pedestrians, suggesting activity and presence of people. The buildings appear well-maintained, with a generally clean appearance. While not abundant, there is some greenery present. The lighting seems adequate. 
+
+The Chicago side (right), in contrast, feels more desolate. It has fewer pedestrians, the infrastructure appears less maintained (the road surface looks worn and there's an industrial feel), and it lacks significant greenery. The overall impression is one of a less vibrant and potentially less safe environment.",1
+21,51421ad0fdc9f049260083ae,51409944fdc9f04926000dc5,safer,26,1,left,left,"The left image (Munich) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Munich):**
+*   **Features:** Well-maintained road, clear pathways (sidewalk and bike lane), abundant greenery (trees and grass), visible streetlights, and generally clean appearance.
+*   **Safety Contributions:** The maintained infrastructure, greenery, and lighting all contribute to a sense of safety. The presence of a sidewalk/bike lane suggests pedestrian and cyclist consideration.
+
+**Right Image (Rome):**
+*   **Features:** Road appears somewhat worn, less greenery, more barren landscape on the side, fewer visible streetlights, and an overall slightly grimmer appearance.
+*   **Safety Detractions:** The lack of lush greenery and a generally less maintained look detract from a feeling of safety. Fewer lights suggest potentially darker conditions at night.
+
+**Applying the Rules:**
+The left image aligns more closely with the 'safety' indicators: well-lit areas (implied by streetlights), clear pathways, greenery, and maintained infrastructure. The right image lacks some of these features, leaning towards a less safe impression.",1
+22,513d7e48fdc9f0358700738f,513d592cfdc9f0358700336d,safer,2,25,right,right,"The image on the right (Barcelona) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Santiago):**
+*   **Features:** Narrow street, older buildings, visible power lines, some cars parked, limited pedestrian activity.
+*   **Safety Contributions/Detractions:** The narrowness and somewhat rundown appearance detract from safety. Limited pedestrian presence can suggest isolation. Visible utility poles are not necessarily unsafe but contribute to a less maintained aesthetic.
+
+**Right Image (Barcelona):**
+*   **Features:** Wider street, tree-lined avenue, clear pathways for pedestrians and vehicles, well-maintained infrastructure, visible trees/greenery.
+*   **Safety Contributions/Detractions:** The wider street and greenery contribute to a more open and inviting atmosphere. Well-maintained roads and sidewalks suggest care and investment in the area. Trees provide natural surveillance points and improve aesthetics. 
+
+**Applying the Rules:**
+*   The Barcelona image exhibits well-lit areas (implied by daylight), clear pathways, significant greenery, and maintained infrastructure – all positive safety indicators.
+*   The Santiago image lacks these features to the same degree; it appears less maintained and has a more isolated feel.",1
+23,50f433c6fdc9f065f000268a,5185cffffdc9f03fd5000fb1,livelier,26,0,left,left,"The left image (Toronto) appears more lively due to several factors. There are buildings lining the street, suggesting businesses and potential activity. While there aren't people *in* the shot, the presence of storefronts implies a higher likelihood of pedestrian traffic at other times. The right image (Montreal) shows a large parking lot with very few features – mostly empty space and some utility poles. This contributes to a static and less lively impression. Based on the provided rules emphasizing crowds, open businesses, and dynamic movement, the left side better reflects liveliness.",1
+24,51408bedfdc9f0358700ea17,513e1ca9fdc9f035870097cc,more depressing,19,7,left,right,"The image on the right (Moscow) appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image (Madrid):**
+*   Features: Wide highway, relatively clean road surface, some greenery, cars present indicating activity, bright lighting.
+*   Contributing/Detracting Factors: The wide highway suggests functionality and movement. Brightness and the presence of vehicles detract from a depressing feeling.
+
+**Right Image (Moscow):**
+*   Features: Bare trees, gray tones in the buildings and pavement, leaves scattered on the ground suggesting neglect, empty sidewalk with only one person visible, overcast/darker lighting.
+*   Contributing/Detracting Factors: The lack of vibrant color, bareness of the landscape, and emptiness contribute to a sense of desolation. The single pedestrian emphasizes the lack of activity.
+
+**Applying the Rules:**
+The Moscow image aligns more closely with indicators of depression: gray tones, fewer people, and an overall feeling of neglect. While not overtly dilapidated, it lacks the vibrancy and activity present in the Madrid scene.",0
+25,50f42c55fdc9f065f0001b66,513e5beefdc9f0358700a9a6,more boring,23,2,left,left,"The image on the left (Warsaw) appears more boring based on the provided criteria. It features a long, straight path with minimal variation in architecture – mostly low-lying buildings and fences. There's a lack of visible life or activity. The right side (Kiev), while not bustling, has some color from what looks like a sports court/playground, suggesting potential activity and slightly more architectural diversity.",1
+26,50f43537fdc9f065f0002d02,51422955fdc9f0492600883f,more beautiful,0,24,right,right,"Based on the provided criteria (symmetry, architectural design, vibrant colors, trees, flowers, sunlight, open space, avoiding clutter, grayness, damage, and visual unappealing features), the right image (Philadelphia) appears more aesthetically pleasing. Here's a breakdown:
+
+**Left Image (Toronto):**
+*   **Features:** Straight road, some trees along the sides, overcast sky, utility poles.
+*   **Contributing Factors:** The straightness of the road could be seen as symmetrical.
+*   **Detracting Factors:** Overcast/gray sky, lack of vibrant colors, relatively sparse tree coverage, and a generally drab appearance. The road surface appears worn.
+
+**Right Image (Philadelphia):**
+*   **Features:** Road with some curvature, lush trees on both sides, sunlight filtering through the trees, more visible buildings in the background.
+*   **Contributing Factors:** Sunlight creates warmth and vibrancy. Abundant tree coverage adds color and a natural aesthetic. The slight curve of the road is visually interesting.
+*   **Detracting Factors:** Some utility poles are present, but they don't dominate the view as much as in the left image.
+
+The right image demonstrates more features that align with the positive aesthetic qualities outlined in the rules – vibrant colors (greens and hints of fall foliage), sunlight, and a greater sense of natural beauty due to the trees. The left image feels comparatively dull and lacks visual appeal.",1
+27,50f43527fdc9f065f0002bcb,513e20b9fdc9f0358700a29a,livelier,3,21,right,right,"The image on the right (London) appears more lively based on the provided criteria. Here's a breakdown:
+
+**Left Image (Toronto):**
+*   **Features:** Primarily residential houses with lawns and trees, a single car parked in a driveway.
+*   **Contribution/Detraction:** The scene is very quiet and lacks any signs of activity. It's static and doesn't suggest much movement or public life.
+
+**Right Image (London):**
+*   **Features:** A street with multiple cars parked, buildings that appear to be commercial or mixed-use, a wider view suggesting more potential for pedestrian traffic.
+*   **Contribution/Detraction:** While not bustling, the presence of cars and buildings suggests some level of activity. The longer stretch of road implies more potential for people and movement than the residential street on the left.
+
+**Applying the Rules:**
+The rules emphasize crowds, movement, open businesses, etc. The London image shows elements that *could* lead to these things (cars suggest traffic, buildings suggest businesses), while the Toronto image is entirely devoid of such indicators.",1
+28,513e6d72fdc9f0358700c2c8,51409049fdc9f04926000276,livelier,24,0,left,left,"The Tokyo (left) image appears more lively than the Lisbon (right) image. The left image shows more visible signs of life, including a yellow traffic cone suggesting recent activity and a slightly busier streetscape with more varied building structures. While not teeming with people, it feels like a space *within* a city, whereas the right image is a relatively empty residential street that appears quieter and less dynamic. Based on the provided rules—looking for crowds, movement, open businesses, etc.—the left image has slightly more of these qualities than the right.",1
+29,51413591fdc9f04926004a5d,51414593fdc9f04926006617,more beautiful,0,23,right,right,"The image on the right (Melbourne) appears more beautiful based on the provided aesthetic criteria. Here's a breakdown:
+
+**Glasgow (Left Image):**
+*   **Features:** Industrial buildings, asphalt parking area, some trees, overcast sky.
+*   **Contributing Factors:** The presence of trees adds *some* natural element.
+*   **Detracting Factors:** Predominantly gray and red industrial structures. Asphalt dominates the view. Overcast lighting creates a dull atmosphere. It appears somewhat cluttered with parked cars and utilitarian buildings.
+
+**Melbourne (Right Image):**
+*   **Features:** Road, green fields/lawns, trees lining the road, houses in the distance, sunlight.
+*   **Contributing Factors:** The vibrant green of the open space is visually appealing. Sunlight brightens the scene. Trees add natural beauty and symmetry along the road. It feels more open and inviting.
+*   **Detracting Factors:** Power lines are present but don't significantly detract from the overall positive impression.
+
+**Applying the Rules:**
+*   **Symmetry:** The Melbourne image has a degree of symmetry with trees lining both sides of the road.
+*   **Architectural Design:** While not prominent, the houses in the distance suggest more varied architecture than Glasgow's industrial buildings.
+*   **Vibrant Colors:** Green dominates the right image, creating a vibrant and pleasant scene. The left is mostly gray/red.
+*   **Trees & Flowers:** Both have trees, but the Melbourne image integrates them into a larger green space.
+*   **Sunlight:** The right image has clear sunlight, enhancing its appeal.
+*   **Open Space:** The large field in the Melbourne image provides significant open space. Glasgow is dominated by hard surfaces.
+
+The Melbourne image aligns more closely with the positive aesthetic qualities outlined in the rules, while the Glasgow image suffers from grayness, clutter, and a lack of vibrant elements.",1
+30,513f3232fdc9f0358700e050,51421a65fdc9f04926008335,safer,2,21,right,left,"The left image (Berlin) appears safer based on the provided criteria. It is well-lit, has visible cars suggesting activity, and shows a clear pathway with maintained infrastructure. There's also greenery present along the street. The right image (Munich), in contrast, is dimly lit, blurry, and features an isolated alleyway which detracts from safety. The dark environment and lack of visible people contribute to a feeling of unsafety.",0
+31,50f43aa6fdc9f065f0002e73,50f61679beb2fed9100008e9,livelier,23,0,left,left,"The Tel Aviv side (left) appears more lively due to several factors. There's evidence of landscaping, suggesting care and activity in the area. While there aren't people *in* the image, the presence of benches suggests a space intended for gathering. The Philadelphia side (right) is a relatively empty street with parked cars but no visible pedestrians or active businesses. It feels more static and less inviting based on the provided rules.",1
+32,50f43532fdc9f065f0002ca6,513d9b96fdc9f03587007a6a,safer,2,21,right,left,"Based on the provided rules, the left image (Toronto) appears safer. Here's a breakdown:
+
+**Left Image (Toronto):**
+*   **Features:** Wider streets, more businesses visible, clear lane markings, some pedestrian activity (though limited in this snapshot), and generally maintained infrastructure.
+*   **Safety Contributions:** The wider street suggests better traffic flow and visibility. Businesses imply commercial activity and potential for 'eyes on the street'. Maintained roads indicate a level of civic care.
+*   **Safety Detractions:** Limited pedestrians, somewhat overcast lighting.
+
+**Right Image (Atlanta):**
+*   **Features:** Narrower residential street, more trees/greenery, older-looking buildings, less visible activity.
+*   **Safety Contributions:** Greenery can be positive, but in this case it also creates potential hiding spots. 
+*   **Safety Detractions:** The narrow street and dense foliage could contribute to a feeling of isolation. The road surface appears worn/damaged. There's no clear pedestrian infrastructure (sidewalks are present but not well-maintained).
+
+**Applying the Rules:**
+The left image demonstrates more features associated with safety – maintained infrastructure, clearer pathways, and some visible activity. While neither image is perfect, the Toronto street view presents a slightly more positive impression of safety based on these visual cues.",0
+33,513e20fafdc9f0358700a34a,513d7ba5fdc9f03587006c27,more beautiful,1,21,right,left,"The London street view (left) appears more beautiful based on the provided aesthetic criteria. Here's a breakdown:
+
+**Left Image (London):**
+*   **Features:** Rows of terraced houses with consistent architectural style, trees lining the street, visible sunlight, and a sense of open space despite being a residential area.
+*   **Contributing Factors:** The symmetry of the buildings, the greenery from the trees, and the bright daylight all contribute to a more visually appealing scene. The uniformity creates a harmonious look.
+*   **Detracting Factors:** Some areas appear slightly gray or could benefit from more vibrant colors, but overall it's well-maintained.
+
+**Right Image (New York):**
+*   **Features:** Taller buildings with varying architectural styles, parked cars, and less visible greenery. The street appears narrower and more cluttered.
+*   **Contributing Factors:** Some of the building facades have interesting details.
+*   **Detracting Factors:** The mix of building heights and styles feels less cohesive. There's a lack of open space, and the abundance of parked cars contributes to visual clutter. The color palette is also more muted and gray compared to the London view.
+
+**Applying the Rules:**
+The left image (London) better reflects the aesthetic rules: it exhibits symmetry in its architecture, has greenery (trees), benefits from sunlight, and feels less cluttered than the New York street view. While not perfect, it aligns more closely with the desired qualities of vibrancy, order, and visual appeal.",0
+34,5141480efdc9f04926006bd2,5140953cfdc9f0492600095a,safer,18,4,left,left,"The Melbourne (left) image appears safer based on the provided criteria. Here's a breakdown:
+
+**Melbourne (Left):**
+*   **Features:** Well-maintained road, visible houses with gardens, some pedestrians present, clear pathways, and generally well-lit.
+*   **Safety Contributions:** The presence of people suggests activity and therefore potential safety in numbers. Maintained infrastructure indicates a cared-for environment. 
+*   **Safety Detractions:** Overhead wires are slightly untidy but don't significantly detract from safety.
+
+**Madrid (Right):**
+*   **Features:** Narrower street, cobblestone road which may be uneven, fewer visible pedestrians, and a more enclosed feel due to the buildings on either side. The lighting appears less bright.
+*   **Safety Contributions:** Some greenery is present.
+*   **Safety Detractions:** The narrowness of the street and lack of pedestrian activity could contribute to a feeling of isolation. Cobblestone roads can be tripping hazards, and the overall appearance feels slightly more run-down compared to the Melbourne side.",1
+35,50f55e52fdc9f065f0004bcb,50f44807fdc9f065f0003ca9,livelier,0,22,right,left,"The Stockholm (left) image appears more lively than the Sydney (right) image. The left image shows several people walking, suggesting activity and a populated area. There's also signage visible on businesses, indicating open establishments. While not bustling, it has more visual cues of life compared to the right image which is mostly residential with fewer pedestrians or signs of commercial activity. The right side appears quieter and more suburban.",0
+36,50f5ee94fdc9f065f0008eb3,513f2c49fdc9f0358700d843,safer,0,22,right,left,"Based on the provided image and the given safety criteria, the left side (Prague) appears safer than the right side (Berlin). Here's a breakdown:
+
+**Left Image (Prague):**
+*   **Features:** Well-maintained buildings, visible cars suggesting activity, trees providing greenery, clear sidewalks and road markings.
+*   **Safety Contributions:** The overall appearance is clean and orderly. Visible signs of life (cars) suggest the area isn't isolated. Greenery adds a positive aesthetic.
+
+**Right Image (Berlin):**
+*   **Features:** Buildings appear somewhat drab, more limited visibility due to dense foliage, less clear pathways.
+*   **Safety Detractions:** The area feels slightly more secluded and less well-maintained compared to the left side. The lack of visible pedestrians or activity contributes to a potentially less safe feeling.
+
+**Applying the Rules:**
+*   The left image demonstrates better lighting (appears brighter), clearer pathways, and maintained infrastructure. While both have greenery, the Prague side feels more integrated into a well-kept environment. There are no obvious signs of unsafety like broken lights or graffiti in either image, but the overall impression favors the left.",0
+37,50f42eb3fdc9f065f00023c7,513d6b8efdc9f03587004d50,safer,0,22,right,left,"Based on the provided rules, the Toronto (left) image appears safer. Here's why:
+
+**Toronto (Left):**
+*   **Features:** Wider road with clear lane markings, visible trees and greenery along the roadside, well-maintained infrastructure (road surface), presence of streetlights.
+*   **Safety Contributions:** The greenery suggests a more cared-for environment. Streetlights contribute to visibility at night. Clear pathways for pedestrians/cyclists are implied by the sidewalks.
+
+**Denver (Right):**
+*   **Features:** Large, empty parking lot, low-rise buildings with minimal activity visible, less greenery, and an overall sense of emptiness.
+*   **Safety Detractions:** The large, empty space could feel isolating. Lack of pedestrians or clear activity suggests potential for unsafety. The general appearance is more utilitarian and less inviting.
+
+The Toronto image has more features that align with the 'safety' indicators in the rules (well-lit areas implied by streetlights, greenery, maintained infrastructure), while the Denver image lacks these positive attributes.",0
+38,513d7d5efdc9f035870071a6,513d59a9fdc9f035870033a8,more depressing,19,2,left,left,"The New York side (left) appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image (New York):**
+*   **Features:** Brick row houses, some with visible wear and tear, a few cars parked, trees without full foliage, and a generally muted color palette.
+*   **Contributing Factors to Depressing Quality:** The buildings appear older and less maintained. There's a sense of stillness; the street seems relatively empty. The overall tone is somewhat gray and lacks vibrancy.
+
+**Right Image (Barcelona):**
+*   **Features:** Taller apartment buildings, a delivery truck, more cars visible, brighter colors, and some signs of activity.
+*   **Contributing Factors to Less Depressing Quality:** The scene feels more active with the presence of the truck. Buildings appear better maintained and painted in lighter tones. There's a sense of urban life happening.
+
+**Applying the Rules:**
+The New York side exhibits more indicators of depression: muted colors, signs of wear on buildings, and an empty street. The Barcelona side has brighter colors, activity (truck), and appears generally better maintained.",1
+39,50f433d9fdc9f065f00027b8,51415199fdc9f04926007fc4,safer,21,0,left,left,"The image on the left (Toronto) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Toronto):**
+*   **Features:** Well-maintained houses, mature trees and greenery, clear sidewalks, visible residential structures.
+*   **Safety Contributions:** The well-kept appearance suggests a stable and cared-for neighborhood. Greenery adds to a positive environment. Clear pathways indicate accessibility and pedestrian friendliness.
+*   **Detractions:** None immediately apparent.
+
+**Right Image (Mexico City):**
+*   **Features:** Commercial buildings, parked cars, some construction/boarding up of windows, less greenery.
+*   **Safety Contributions:** Presence of businesses suggests activity.
+*   **Detractions:** The boarded-up windows and general lack of maintenance give an impression of neglect or potential disrepair. The area feels more industrial/commercial and less pedestrian-friendly than the left image. There is also a lack of greenery, which can contribute to a less welcoming atmosphere.
+
+**Applying the Rules:**
+The left image aligns better with the safety indicators: well-lit (implied by daylight), clear pathways, greenery, maintained infrastructure. The right image exhibits features that suggest unsafety – damaged/boarded property and a generally less cared-for appearance.",1
+40,513e1c4cfdc9f035870096d6,50f5e8a5fdc9f065f000742d,wealthier,3,18,right,right,"Based on the provided image and the given criteria, the San Francisco side (right) appears wealthier. Here's a breakdown:
+
+**Left (Moscow):**
+*   **Features:** Older buildings visible in the background, overgrown vegetation along the sidewalk, somewhat uneven pavement.
+*   **Contribution/Detraction:** The older architecture and unkempt greenery detract from an impression of wealth. While not necessarily *poor*, it doesn't convey a sense of modern affluence.
+
+**Right (San Francisco):**
+*   **Features:** Wider, well-maintained road; newer looking buildings in the background; cleaner sidewalks; more manicured greenery.
+*   **Contribution/Detraction:** The wider roads and better maintained infrastructure contribute to an impression of wealth. The overall tidiness is also a positive indicator.
+
+Applying the rules:
+
+*   **Modern Buildings:** More visible on the right.
+*   **Well-maintained Facades & Tidiness:** Better demonstrated on the right.
+*   **Greenery:** Both have greenery, but it appears more intentionally maintained on the right.
+*   **Clean Sidewalks:** The San Francisco side has cleaner sidewalks.",1
+41,513cca02fdc9f03587001ca9,514135fdfdc9f04926004bb5,safer,2,19,right,right,"Based on the provided rules, the Helsinki (right) side appears safer. Here's a breakdown:
+
+**Cape Town (Left):**
+*   **Features:** Dirt road, sparse buildings, some debris/rubble visible along the roadside, minimal pedestrian activity.
+*   **Safety Detractors:** The dirt road and rubble suggest potential disrepair or neglect. Lack of pedestrians contributes to a feeling of isolation. 
+
+**Helsinki (Right):**
+*   **Features:** Paved road, well-maintained greenery, clear pathways, some distant structures.
+*   **Safety Contributors:** The paved road and maintained greenery suggest better infrastructure and care. While there are no visible pedestrians in this specific view, the overall impression is of a more orderly and cared-for environment.
+
+The Helsinki side aligns more closely with the 'safety' indicators (maintained infrastructure, clear pathways, greenery) outlined in the rules.",1
+42,5140cb89fdc9f04926002baf,513cda9efdc9f0358700201c,livelier,16,5,left,right,"The image on the right (Cape Town) appears more lively than the image on the left (Bratislava). The Cape Town scene shows a wider road with visible traffic, suggesting movement and activity. There are also buildings in the background that hint at commercial or residential areas. In contrast, the Bratislava side is dominated by greenery and lacks any immediate signs of people, businesses, or dynamic elements. It appears more like a quiet roadside area.",0
+43,51413c72fdc9f04926005b26,513e22e5fdc9f0358700a5f2,more boring,0,21,right,right,"The Johannesburg side (left) has more greenery and varied building styles, even if they are modest. The Moscow side (right) features large, uniform concrete buildings with blank walls and a lack of visible life or variation in design. This aligns with the rules provided – uniformity, lack of people, and monotone architecture all contribute to a sense of boredom.",1
+44,513d7f4afdc9f035870075a6,5185ce50fdc9f03fd5000e08,safer,1,20,right,right,"The image on the right (Montreal) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Santiago):**
+*   **Features:** Low, fenced-off buildings; minimal pedestrian activity; some greenery but also visible trash bin; generally darker and less inviting.
+*   **Safety Detractors:** The fences create a sense of separation and potential isolation. Lack of pedestrians suggests low street life. The overall appearance is somewhat rundown.
+
+**Right Image (Montreal):**
+*   **Features:** Clear, well-defined road with parked cars; visible streetlights; some trees/greenery; more open view; presence of buildings suggesting residential area.
+*   **Safety Contributors:** Streetlights provide illumination. Parked cars and the wider street suggest activity. The general appearance is better maintained.
+
+Based on the rules, the right image has features that align with a safer environment (well-lit areas, visible activity, maintained infrastructure) compared to the left image which exhibits some detracting qualities.",1
+45,513d9fa9fdc9f035870087ba,513cc1befdc9f035870014dc,safer,1,19,right,right,"Based on the provided rules, the Houston side (right) appears safer. Here's a breakdown:
+
+**Atlanta (Left):**
+*   **Features:** Narrow street, older buildings, some overgrown vegetation, visible power lines.
+*   **Safety Contributions/Detractions:** The narrowness and somewhat unkempt appearance detract from safety. While there is greenery, it appears less maintained. Power lines can be a visual distraction and suggest an older infrastructure.
+
+**Houston (Right):**
+*   **Features:** Wider street, more modern-looking houses, well-maintained lawns, visible cars parked along the road.
+*   **Safety Contributions/Detractions:** The wider street provides better visibility. Well-maintained properties suggest a sense of community care and investment in the area. Visible cars indicate activity and presence.
+
+**Applying the Rules:**
+*   Both sides appear to have adequate lighting (it's daytime). 
+*   The Houston side shows more visible signs of pedestrian/vehicle activity, suggesting a safer environment.
+*   Both streets have clear pathways.
+*   Both have greenery, but Houston's is better maintained. 
+*   Houston has visibly maintained infrastructure.
+
+The overall impression from the Houston image is one of greater upkeep and community presence, which aligns with the safety indicators in the provided rules.",1
+46,50f6166fbeb2fed91000084e,513d7f35fdc9f03587007583,safer,20,0,left,left,"The Philadelphia (left) side appears safer based on the provided criteria. Here's a breakdown:
+
+**Philadelphia (Left):**
+*   **Features:** Well-maintained row houses, visible cars suggesting activity, clear sidewalks and pathways, some greenery (trees), and generally well-lit conditions.
+*   **Safety Contributions:** The presence of homes suggests residential oversight. Maintained buildings indicate a level of community care. Visible activity implies people are present.
+
+**Santiago (Right):**
+*   **Features:** Fewer buildings, more open space with some greenery, but also appears somewhat desolate. The road surface looks worn and the overall environment feels less populated.
+*   **Safety Detractions:** Lack of visible pedestrian activity or signs of immediate community presence. The more industrial/open feel can contribute to a sense of isolation.
+
+**Applying the Rules:**
+
+The left image (Philadelphia) better reflects safety indicators like well-maintained infrastructure, visible signs of life, and clear pathways. While both have greenery, the Philadelphia side combines this with features suggesting a more active and cared-for environment.",1
+47,513cd58cfdc9f03587001f0e,51414c79fdc9f04926007340,more beautiful,20,0,left,left,"The Cape Town (left) image appears more beautiful due to several factors aligning with the provided aesthetic rules. It features a wider, cleaner street, well-maintained greenery including trees and lawns, and a generally brighter atmosphere. The architecture is simple but not visually unappealing. 
+
+The Mexico City (right) image feels cluttered. There are cars parked close together, more visible utility lines, and the buildings appear less maintained with some signs of wear. While there's also greenery, it doesn't have the same sense of openness or care as in the left image. The overall impression is a bit grayer and less inviting.",1
+48,50f5ed68fdc9f065f0008d1b,50f43494fdc9f065f00029d6,wealthier,20,0,left,right,"Based on the provided image and the given criteria, the Toronto side (right) appears wealthier. Here's a breakdown:
+
+**Prague (Left):**
+*   **Features:** A long concrete wall with some graffiti or staining, dirt/leaves on the ground, an older-looking building partially visible, and minimal greenery.
+*   **Contribution to Wealth Perception:** The wall is stark and uninviting. The lack of maintenance (dirt, potential damage) detracts from a sense of wealth. The overall impression is somewhat rundown.
+
+**Toronto (Right):**
+*   **Features:** A paved street with visible sidewalks, some greenery (trees), a building in the background that appears more modern or well-maintained, and what looks like a parking area. There are dumpsters present but they don't dominate the scene.
+*   **Contribution to Wealth Perception:** The presence of a clean street and sidewalk suggests better infrastructure and maintenance. While there are dumpsters, the overall tidiness is higher than on the left side. The building in the background hints at more modern development.
+
+**Applying the Rules:**
+*   The right image shows signs of better upkeep (cleaner streets). 
+*   While not explicitly visible, the buildings appear newer or better maintained on the right.
+*   Both sides have greenery but the Toronto side has a cleaner surrounding area. 
+
+Therefore, based on these observations and the provided rules, the right image (Toronto) reflects a higher quality of wealth.",0
+49,5140d80cfdc9f0492600392e,513e1aeafdc9f03587009322,more depressing,2,18,right,left,"The Dublin (left) image appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Dublin (Left):**
+*   **Features:** Predominantly gray tones, rows of similar-looking houses with little variation, an expansive and mostly empty parking lot, overcast sky.
+*   **Contributing Factors to Depressing Quality:** The lack of color, the uniformity of the buildings, the vast emptiness of the space, and the dull weather all contribute to a sense of bleakness. It feels desolate and lacking in life.
+
+**Moscow (Right):**
+*   **Features:** A large apartment building painted in a somewhat bright blue, cars parked along the street, some pedestrians visible, more defined sidewalks and crosswalks.
+*   **Contributing Factors to Depressing Quality:** While not vibrant, it doesn't exhibit as many of the negative indicators. The presence of people and vehicles suggests activity. The building is maintained (painted), even if the color isn't appealing to everyone.
+
+**Applying the Rules:**
+*   The Dublin image has more gray tones and a general sense of neglect due to the empty space and lack of visible upkeep.
+*   The Moscow image, while not perfect, shows signs of life and maintenance. It doesn't have boarded-up buildings or significant trash.",0
+50,513e6facfdc9f0358700c5e0,50f42b82fdc9f065f0001468,safer,0,20,right,left,"The left image (Tokyo) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Tokyo):**
+*   **Features:** Wide, well-maintained road; clear pathways for pedestrians and vehicles; some greenery along the sides; visible buildings suggesting activity.
+*   **Safety Contributions:** The open space, good infrastructure, and potential pedestrian traffic contribute to a sense of safety. It's well-lit (based on daylight) and doesn't show signs of disrepair.
+
+**Right Image (Warsaw):**
+*   **Features:** Residential buildings with fences; limited street visibility; parked car; some greenery, but also appears somewhat enclosed.
+*   **Safety Detractions:** The fenced-in properties create a sense of isolation. While not necessarily unsafe, the lack of visible pedestrian activity and more confined space detract from the feeling of safety compared to the open view in Tokyo.
+
+**Applying the Rules:**
+The left image better reflects qualities suggesting safety: well-lit (daylight), clear pathways, maintained infrastructure, and a sense of openness. The right image doesn't exhibit any obvious signs of unsafety but lacks the positive indicators present in the left image.",0
+51,513d57e4fdc9f03587003240,50f439fbfdc9f065f0002e52,wealthier,0,19,right,left,"Based on the provided criteria, the left image (Amsterdam) appears wealthier. Here's a breakdown:
+
+**Left Image (Amsterdam):**
+*   **Features:** A large paved parking area with brick pavers, a long wall with advertising banners, and some greenery.
+*   **Contributing Factors to Wealth:** The well-maintained paving suggests investment in infrastructure. While the wall is plain, it's structurally sound and clean.
+*   **Detracting Factors:** The wall lacks architectural detail and could be considered bland. However, this doesn't necessarily indicate poverty.
+
+**Right Image (Tel Aviv):**
+*   **Features:** A street lined with trees and older buildings, parked cars, and a sidewalk.
+*   **Contributing Factors to Wealth:** Greenery is present, which adds appeal.
+*   **Detracting Factors:** The buildings appear older and less well-maintained. Sidewalks are not as clean or uniform as the left image. Cars visible don't seem particularly luxurious.
+
+**Applying the Rules:**
+*   The left image has cleaner, more modern infrastructure (paved parking). 
+*   Both images have greenery, but the overall tidiness and maintenance appear better on the left side. The right image shows signs of age in its buildings and sidewalks.",0
+52,513f2c54fdc9f0358700d85a,513e5d1dfdc9f0358700ace0,safer,0,19,right,left,"Based on the provided rules, the left image (Berlin) appears safer. Here's a breakdown:
+
+**Left Image (Berlin):**
+*   **Features:** Well-maintained buildings, trees and greenery, clear pathways (sidewalks), visible cars suggesting activity, well-lit street.
+*   **Safety Contributions:** These features all contribute to a sense of safety. The maintained infrastructure suggests care and investment in the area. Greenery adds to a more pleasant environment. Visible activity implies people are present, which can deter crime.
+
+**Right Image (Kiev):**
+*   **Features:** Narrower street, older buildings with some visible wear, less greenery, potentially isolated areas between buildings, darker shadows.
+*   **Safety Detractions:** The narrower street and older buildings contribute to a feeling of confinement. Less greenery makes the environment feel harsher. Shadows can create hiding spots. 
+
+The left image aligns more closely with the 'safety' indicators (well-lit, maintained infrastructure, greenery) outlined in the rules.",0
+53,5140cc11fdc9f04926002cec,513d9c9cfdc9f03587007dd0,safer,0,19,right,right,"Based on the provided rules, the New York street view (right) appears safer. Here's a breakdown:
+
+**Bangkok (Left):**
+*   **Features:** Narrow pathway, cluttered appearance with visible wires and debris, older buildings, limited greenery.
+*   **Safety Detractors:** The narrow path feels confining, the clutter suggests less maintenance, and the overall aesthetic doesn't inspire a sense of security. There are no visible pedestrians.
+
+**New York (Right):**
+*   **Features:** Wider street with clear pathways, well-maintained buildings, trees/greenery, cars parked along the road suggesting activity.
+*   **Safety Contributors:** The wider street and maintained infrastructure contribute to a feeling of safety. Visible cars suggest pedestrian traffic and general activity. 
+
+The New York image aligns more closely with the 'safety' indicators (well-lit areas - implied by daylight, clear pathways, greenery, maintained infrastructure) than the Bangkok image.",1
+54,50f5eaf0fdc9f065f0007e74,514098ebfdc9f04926000d45,more boring,0,19,right,right,"The image on the right (Rome) appears more boring based on the provided criteria. It features overgrown vegetation, a lack of buildings or human activity, and an overall sense of emptiness. The left image (Rio de Janeiro), while not bustling, shows a building with multiple businesses, cars in the parking lot, and people present, indicating some level of life and diversity. This aligns with the rule that 'diversity in design and visible life make a place less boring.'",1
+55,51408ffafdc9f049260001d5,513d6c1bfdc9f03587004eaf,safer,19,0,left,left,"The Lisbon (left) side appears safer based on the provided criteria. Here's a breakdown:
+
+**Lisbon (Left):**
+*   **Features:** Well-maintained buildings, visible pedestrian, clear pathways, some greenery (trees), and relatively well-lit conditions.
+*   **Safety Contributions:** These features suggest a cared-for environment with normal activity, contributing to a sense of safety.
+*   **Detractions:** None immediately apparent.
+
+**Denver (Right):**
+*   **Features:** Dirt/gravel ground, sparse vegetation, parked vehicles (some appearing older), and an overall less maintained appearance. The area feels more industrial or transitional.
+*   **Safety Contributions:** Minimal.
+*   **Detractions:** The unpaved ground, lack of clear pathways, and general disrepair suggest a potentially unsafe environment.
+
+Applying the rules: Lisbon has more features that indicate safety (well-lit, pedestrian, maintained infrastructure) while Denver exhibits features associated with unsafety (damaged/unmaintained appearance).",1
+56,513d9ae9fdc9f03587007847,51413a8afdc9f0492600572d,livelier,18,0,left,left,"The image on the left (Atlanta) appears more lively due to several factors. While neither scene is bustling, the Atlanta side shows hints of residential activity – houses are visible and there's a suggestion of life within them. The presence of trees and landscaping also adds some visual interest. In contrast, the Johannesburg side feels very empty and static. It's primarily just road and greenery with no clear signs of people or businesses. Based on the provided rules (crowds, movement, open businesses), Atlanta has more features that suggest a degree of liveliness than Johannesburg.",1
+57,51414de0fdc9f049260076e1,513e1f3cfdc9f03587009e91,livelier,0,18,right,left,"The left image (Milan) appears more lively due to several factors. There are cars parked along the street, suggesting activity and use of the space. The presence of a blue car in the foreground implies recent movement. While not bustling with pedestrians, there's a sense of an inhabited area. 
+
+The right image (Moscow), on the other hand, feels much more static and empty. There are no visible people or moving vehicles. The long, blank wall is visually uninteresting and contributes to a feeling of emptiness. Based on the provided rules—looking for crowds, movement, open businesses, etc.—the left image better reflects liveliness.",0
+58,50f5ec9cfdc9f065f0008a7d,5185cbc1fdc9f03fd5000b83,wealthier,18,0,left,right,"Based on the provided criteria, the Montreal (right) side appears wealthier. Here's a breakdown:
+
+**Prague (Left):**
+*   **Features:** Older buildings with visible wear and tear, somewhat narrow streets, older model cars, some patches of uneven pavement.
+*   **Contribution/Detraction:** The aged building facades and less-maintained sidewalks detract from the impression of wealth. While not necessarily poor, it doesn't project a sense of affluence.
+
+**Montreal (Right):**
+*   **Features:** More modern buildings, wider streets, more greenery (trees lining the street), generally cleaner appearance, newer cars.
+*   **Contribution/Detraction:** The presence of trees and well-maintained buildings contribute to a wealthier aesthetic. Newer vehicles also suggest higher economic status in the area.
+
+The Montreal side aligns better with the indicators of wealth outlined in the rules – modern buildings, greenery, tidiness, and overall maintenance.",0
+59,5141369efdc9f04926004c9a,513e5e55fdc9f0358700b035,safer,0,18,right,right,"Based on the provided rules, the Paris (right) side appears safer. Here's a breakdown:
+
+**Guadalajara (Left):**
+*   **Features:** Older buildings with some visible wear and tear, fewer pedestrians, simpler infrastructure.
+*   **Safety Contributions/Detractions:** The slightly worn appearance of buildings and the lack of many people on the street detract from a sense of safety. It doesn't appear overtly unsafe, but lacks positive indicators.
+
+**Paris (Right):**
+*   **Features:** Well-maintained infrastructure, visible crosswalks, some greenery (trees), and what appears to be a park area nearby. There are also people walking in the distance.
+*   **Safety Contributions/Detractions:** The maintained infrastructure, presence of pedestrians, and greenery all contribute positively to a feeling of safety. 
+
+The Paris side aligns more closely with the indicators of safety outlined in the rules (well-lit areas implied by daylight, visible pedestrians, clear pathways, greenery, maintained infrastructure).",1
+60,50e5faefd7c3df413b000787,513d31f8fdc9f03587002855,wealthier,0,18,right,left,"Based on the provided criteria, the Kyoto (left) side appears wealthier. Here's a breakdown:
+
+**Kyoto (Left):**
+*   **Features:** Narrow streets, closely packed buildings, some traditional architecture mixed with more modern structures, visible utility poles and wires.
+*   **Contributing Factors:** The sidewalks appear clean and well-maintained. Buildings seem generally well-kept, even if older. There's a sense of order and tidiness despite the density.
+*   **Detracting Factors:** Utility poles/wires are not typically associated with wealthier areas. Narrow streets can sometimes indicate older urban planning.
+
+**Houston (Right):**
+*   **Features:** Wider streets, more spaced-out buildings, abundant greenery (trees), residential area.
+*   **Contributing Factors:** The trees and greenery create a pleasant aesthetic.
+*   **Detracting Factors:** The road surface is visibly cracked and in need of repair. This detracts significantly from the impression of wealth. While there's greenery, it doesn't compensate for the poor road condition. The buildings are less defined and appear older/less maintained than those on the Kyoto side.
+
+**Applying the Rules:**
+The Kyoto image has cleaner sidewalks, more well-maintained facades (even if traditional), and a greater overall sense of tidiness. While Houston has greenery, the damaged road surface is a significant negative factor according to the provided rules.",0
+61,513d5b22fdc9f035870034ac,51409a17fdc9f04926000ed2,safer,11,7,left,right,"The image on the right (Rome) appears safer based on the provided criteria. It features well-lit streets, visible pedestrians and cars, a clear pathway with sidewalks, greenery in the form of trees and bushes, and maintained infrastructure like paved roads and streetlights. The left image (Barcelona), while having some greenery, shows an isolated road with no visible people or activity, which detracts from safety. It lacks the elements that suggest a populated and well-maintained area.",0
+62,513cb9f8fdc9f03587000d77,513e6fddfdc9f0358700c61e,safer,11,7,left,right,"The image on the right (Tokyo) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Houston):**
+*   **Features:** Wide, tree-lined street; residential area with houses set back from the road; grassy areas.
+*   **Safety Contributions:** Greenery is positive. The wide street could allow for better visibility.
+*   **Safety Detractions:**  The image appears somewhat dimly lit and lacks visible pedestrians. The distance between buildings and the road creates a sense of isolation.
+
+**Right Image (Tokyo):**
+*   **Features:** Commercial area with shops; well-defined sidewalks; visible pedestrians; multiple buildings close to the street; clear pathways.
+*   **Safety Contributions:** Visible pedestrians suggest activity and presence. The proximity of buildings and businesses creates a sense of natural surveillance.  The lighting appears brighter, and infrastructure seems maintained.
+*   **Safety Detractions:** None immediately apparent.
+
+Based on the rules provided – well-lit areas, visible pedestrians, clear pathways, and maintained infrastructure all point to safety – the Tokyo image (right) better reflects these qualities than the Houston image (left).",0
+63,50f56198fdc9f065f000559d,50f561c4fdc9f065f00056bd,more depressing,17,1,left,left,"The left image appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image Features:**
+*   **Color Tone**: The colors are muted and slightly washed out, leaning towards gray tones.
+*   **Lighting**: The lighting is overcast and flat, contributing to a dull atmosphere.
+*   **Neglect/Activity**: There's an empty bench and the overall scene feels less vibrant. While not overtly neglected, it lacks activity or signs of recent use.
+
+**Right Image Features:**
+*   **Color Tone**: The colors are more saturated and brighter.
+*   **Lighting**: The lighting is slightly better, with some highlights on the playground equipment.
+*   **Activity**: A playground is visible, suggesting a space for activity. There's also a house in the background indicating residential presence.
+
+Based on the rules (dark lighting, gray tones, empty streets/lack of activity), the left image aligns more closely with indicators of a depressing environment.",1
+64,50f43490fdc9f065f0002999,50f46497fdc9f065f00047ef,safer,1,17,right,right,"Based on the provided rules, the Sydney (right) image appears safer. Here's a breakdown:
+
+**Toronto (Left):**
+*   **Features:** Relatively empty street, some trees, residential buildings in the background.
+*   **Safety Contributions:** Trees offer some natural surveillance and aesthetic appeal.
+*   **Safety Detractions:** The street is largely deserted. Lack of pedestrians suggests potential isolation. The lighting appears somewhat dim, and there's a general sense of emptiness which can contribute to feeling unsafe.
+
+**Sydney (Right):**
+*   **Features:** Cars parked along the side, trees lining the street, residential buildings, visible pedestrians.
+*   **Safety Contributions:** Visible pedestrians indicate activity and potential for 'natural surveillance'. The presence of cars suggests a lived-in area. Trees provide greenery and shade. Lighting appears adequate.
+*   **Safety Detractions:** None immediately apparent.
+
+The Sydney image has more features that align with the safety indicators (pedestrians, activity) while the Toronto image lacks these elements.",1
+65,5140c889fdc9f0492600227a,513cc348fdc9f03587001659,more beautiful,17,0,left,left,"Based on the provided aesthetic criteria, the Bratislava (left) image is more appealing. While both scenes are somewhat plain, the Bratislava side has a slightly cleaner look with more consistent greenery along the roadside. The Houston (right) side appears cluttered with parked cars and has less vibrant vegetation. The sky in the right image is nice but doesn't compensate for the overall lack of aesthetic appeal compared to the left.",1
+66,50f447cffdc9f065f0003a39,513d5795fdc9f035870031b0,livelier,3,14,right,right,"The image on the right (Amsterdam) appears more lively based on the provided criteria. While neither scene is bustling, the Amsterdam street shows a few pedestrians and cyclists, suggesting some activity. The Sydney street looks comparatively empty with fewer visible people or signs of immediate activity. The presence of trees and greenery in Amsterdam also adds to a sense of an inviting environment.",1
+67,513d5c0dfdc9f03587003652,513e2155fdc9f0358700a41e,wealthier,10,7,left,left,"Based on the provided criteria, the Barcelona (left) side appears wealthier. Here's a breakdown:
+
+**Barcelona (Left):**
+*   **Features:** Well-maintained building facades, clean sidewalks, some greenery (trees), and modern storefronts.
+*   **Contributing Factors:** The overall tidiness and upkeep of the buildings suggest investment and wealth. 
+*   **Detracting Factors:** Some graffiti is visible on a shutter, but it's relatively minor.
+
+**Moscow (Right):**
+*   **Features:** Wider road, more trees, some modern cars.
+*   **Contributing Factors:** The presence of trees adds greenery.
+*   **Detracting Factors:** The road appears worn and the sidewalks are not as clean or well-maintained. There's a visible wall/barrier that feels less aesthetically pleasing than the Barcelona streetscape. The buildings appear older and less renovated.
+
+Considering these observations, the left image (Barcelona) better reflects the qualities associated with wealth – cleanliness, modern upkeep, and overall tidiness.",1
+68,513e2298fdc9f0358700a58d,513cbd5afdc9f03587001095,livelier,16,1,left,right,"The Chicago (right) side appears more lively. While both sides are relatively quiet, the presence of a bus suggests public transportation and potential activity. The Moscow (left) side is almost entirely empty with no visible people or signs of immediate activity. Based on the provided rules—looking for crowds, movement, open businesses—the right image has slightly more indicators of liveliness than the left.",0
+69,514146dffdc9f04926006902,50f3981ffdc9f065f0000dfa,safer,15,2,left,left,"The Minneapolis (left) side appears safer based on the provided criteria. Here's a breakdown:
+
+**Minneapolis (Left):**
+*   **Features:** Wide, well-lit street; clear pathways for pedestrians and cyclists; some greenery (trees/grass); maintained road infrastructure.
+*   **Safety Contributions:** The openness of the space, good lighting, and dedicated pedestrian/cycle paths contribute to a sense of safety. It feels more open and less confined.
+
+**Tel Aviv (Right):**
+*   **Features:** Narrow street; buildings close together creating a canyon-like effect; some visible pedestrians but also parked cars obstructing views; signs of wear on buildings.
+*   **Safety Detractions:** The narrowness, the closeness of buildings, and potential for obstructed visibility detract from safety. It feels more confined and potentially isolating.
+
+**Applying the Rules:**
+*   The left image has better lighting and clearer pathways than the right.
+*   While both have pedestrians, the left side's pedestrian/cycle path is a positive feature.
+*   The infrastructure on the left appears better maintained. 
+*   There are no obvious signs of surveillance in either image, but the openness of the left side feels more naturally 'observable'.
+
+Therefore, based on these observations and the provided rules, the Minneapolis (left) side reflects a higher quality of safety.",1
+70,513d3442fdc9f03587002a00,513d317cfdc9f035870027f6,safer,0,17,right,right,"The image on the right (Houston) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Chicago):**
+*   **Features:** Elevated highway, limited pedestrian activity, concrete structures.
+*   **Safety Contributions/Detractions:** The elevated highway creates a sense of isolation and distance. Lack of pedestrians suggests low street life. Concrete infrastructure can feel less inviting.
+
+**Right Image (Houston):**
+*   **Features:** Residential neighborhood with houses, lawns, trees, visible street lighting, and cars parked on driveways.
+*   **Safety Contributions/Detractions:** The presence of homes indicates residential activity and potential 'eyes on the street.' Greenery adds a welcoming feel. Streetlights contribute to visibility. Cars suggest regular use and upkeep of the area.
+
+**Applying the Rules:**
+*   The right image has better lighting, suggests more pedestrian activity (implied by the residential nature), clear pathways (driveways/streets), greenery, and maintained infrastructure. The left image lacks these positive indicators.",1
+71,513d7beffdc9f03587006d1b,5140ccbffdc9f04926002e88,safer,16,1,left,left,"The Atlanta (left) side appears safer based on the provided criteria. Here's a breakdown:
+
+**Atlanta (Left):**
+*   **Features:** Residential street, houses with yards, trees/greenery, clear pathway (road), visible sunlight.
+*   **Safety Contributions:** Greenery and well-maintained residential areas generally suggest a safer environment. The presence of homes implies residents are present, increasing natural surveillance. Sunlight contributes to visibility.
+*   **Safety Detractions:** None immediately apparent.
+
+**Bangkok (Right):**
+*   **Features:** Multi-story building with parking underneath, vans parked in the covered area, less visible pedestrian activity.
+*   **Safety Contributions:** Covered parking could be seen as a positive for vehicle security.
+*   **Safety Detractions:** The image feels more enclosed and potentially isolated. There's limited visibility into what's happening under the building. It lacks greenery or signs of residential life, which can contribute to feelings of unsafety. 
+
+Based on these observations, the Atlanta side better reflects qualities associated with safety as defined in the rules (well-lit areas, visible pedestrians, clear pathways, greenery, maintained infrastructure).",1
+72,513d5eb2fdc9f03587003ad0,513f28ebfdc9f0358700d294,safer,0,17,right,right,"The image on the right (Berlin) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Belo Horizonte):**
+*   **Features:** Dilapidated wall, unkempt area, visible damage/disrepair, limited pedestrian activity.
+*   **Safety Detractors:** The crumbling wall and general state of disrepair suggest neglect. Lack of pedestrians contributes to a feeling of isolation.
+
+**Right Image (Berlin):**
+*   **Features:** Well-maintained road, sidewalks, buildings in good condition, trees/greenery, visible pedestrian activity.
+*   **Safety Contributors:** The maintained infrastructure and presence of people suggest a safer environment. Greenery adds to the positive impression.
+
+Applying the rules:
+
+*   The right image has clear pathways and maintained infrastructure (positive).
+*   The left image shows damaged property and an isolated feel (negative).
+
+The Berlin street view presents features that align more closely with safety indicators, while the Belo Horizonte scene exhibits signs of neglect and potential unsafety.",1
+73,5185cf8afdc9f03fd5000f44,50f44567fdc9f065f00034df,wealthier,17,0,left,left,"Based on the provided image and the given criteria, the left side (Montreal) appears wealthier. Here's a breakdown:
+
+**Left Image (Montreal):**
+*   **Features:** Wider streets, more spacious buildings, some greenery (trees), relatively clean sidewalks, newer-looking cars.
+*   **Contributing Factors to Wealth:** The wider street suggests better urban planning and infrastructure. Newer cars and well-maintained buildings indicate economic stability. Greenery adds a sense of pleasantness and care.
+*   **Detracting Factors:** Some older building facades are visible, but overall the impression is positive.
+
+**Right Image (Taipei):**
+*   **Features:** Narrow street, older/more worn-down buildings, covered car (potentially indicating protection from weather or damage), less greenery, and a generally more cluttered appearance.
+*   **Contributing Factors to Wealth:** None are immediately apparent in this view.
+*   **Detracting Factors:** The narrowness of the street, aged building facades, and lack of visible maintenance contribute to an impression of lower wealth. The covered car could suggest economic hardship or concern for vehicle condition.
+
+**Applying the Rules:**
+The left image aligns more closely with the criteria: modern buildings (relatively), well-maintained facades, greenery, and overall tidiness. The right image shows signs that detract from a feeling of wealth – older buildings, less cleanliness, and a generally worn appearance.",1
+74,513f2b5afdc9f0358700d6b1,50f5eb44fdc9f065f0008157,safer,17,0,left,left,"The image on the left (Berlin) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Berlin):**
+*   **Features:** Wide, straight road; some trees/greenery; well-maintained pavement; relatively clean appearance.
+*   **Safety Contributions:** The open space and clear pathway suggest visibility and ease of movement. The presence of greenery adds a positive aesthetic.
+*   **Safety Detractions:** It appears somewhat desolate with few pedestrians visible, which could be seen as slightly isolating.
+
+**Right Image (Rio de Janeiro):**
+*   **Features:** Narrower street; buildings close to the road; some signs of wear and tear on buildings; more people but also a cluttered appearance.
+*   **Safety Contributions:** Visible pedestrians suggest activity, which can deter crime. 
+*   **Safety Detractions:** The narrowness of the street and proximity of buildings could create opportunities for concealment. The general state of the buildings appears less maintained than in the left image.
+
+**Applying the Rules:**
+
+The left image better reflects safety due to its well-maintained infrastructure, clear pathways, and relatively clean appearance. While it lacks many pedestrians, the overall impression is one of order and upkeep, which aligns with the 'safety' indicators.",1
+75,513cc07efdc9f035870013a4,50f5eaecfdc9f065f0007e2c,safer,16,1,left,left,"The image on the left (Cape Town) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Cape Town):**
+*   **Features:** Wide, well-maintained road; visible lane markings; some greenery; relatively open space; clear pathways for vehicles and potentially pedestrians.
+*   **Safety Contributions:** The wide road suggests good traffic flow. Maintenance of the road indicates a level of civic care. Openness can deter crime.
+*   **Safety Detractions:** Limited pedestrian activity is visible, but this doesn't necessarily indicate unsafety.
+
+**Right Image (Rio de Janeiro):**
+*   **Features:** Narrower street; more cluttered environment with parked cars and buildings close to the road; some greenery, but also signs of potential disrepair or aging infrastructure. 
+*   **Safety Contributions:** Some trees provide a natural element.
+*   **Safety Detractions:** The narrowness of the street could create blind spots. Clutter can make it harder to see potential threats. The overall appearance is less maintained than the left image.
+
+**Applying the Rules:**
+The left image better reflects safety due to its well-lit appearance, clear pathways (road), and maintained infrastructure. While both images have some greenery, the right image has a more cluttered and potentially isolating environment.",1
+76,513f123efdc9f0358700c93f,513e1bcbfdc9f03587009579,more beautiful,17,0,left,right,"Based on the provided aesthetic rules, the Moscow (right) side is more visually appealing. Here's a breakdown:
+
+**Tokyo (Left):**
+*   **Features:** Narrow street, closely packed buildings, visible utility poles and wires, somewhat drab colors, limited greenery.
+*   **Contributing/Detracting Factors:** The narrowness creates a sense of confinement. The clutter of wires detracts significantly from the aesthetic. The color palette is muted and lacks vibrancy.
+
+**Moscow (Right):**
+*   **Features:** Wider street, more open space with grass areas, trees lining the road, taller buildings that appear more modern in design, a brighter overall feel.
+*   **Contributing/Detracting Factors:** The wider street and green spaces create a sense of openness. Trees add natural beauty. While not perfectly symmetrical, the scene feels more balanced and visually pleasing.
+
+**Applying the Rules:**
+*   **Symmetry & Architectural Design:** Moscow has slightly better architectural design with taller buildings that are less cluttered.
+*   **Vibrant Colors:** Moscow appears brighter overall.
+*   **Trees/Flowers:** Moscow clearly features trees, while Tokyo does not.
+*   **Sunlight:** Both images have adequate sunlight, but the open space in Moscow allows it to feel more expansive and bright.
+*   **Open Space:** Moscow has significantly more open space.
+*   **Cluttered/Gray/Damaged:** Tokyo suffers from clutter (wires) and a generally gray appearance. Moscow is cleaner and less cluttered.",0
+77,513d9fadfdc9f035870087c3,513e6b8ffdc9f0358700c04c,more boring,1,15,right,left,"The Atlanta side (left) appears more boring based on the provided criteria. It features a lot of empty space, overgrown vegetation, and relatively uniform, low-rise structures. The Tokyo side (right), while not bustling, has more visible buildings with varied designs, some signage, and a sense of density that suggests life and activity. The Atlanta image exhibits blankness and lack of variation, aligning with the 'boring' indicators, whereas the Tokyo image shows diversity in design.",0
+78,513d2caefdc9f03587002450,50f5eb70fdc9f065f0008353,more depressing,0,16,right,right,"The image on the right (Rio de Janeiro) appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image (Houston):**
+*   **Features:** Well-maintained asphalt road, green trees and lawns, residential houses in good condition, bright lighting.
+*   **Contributing/Detracting Factors:** The presence of greenery, well-kept homes, and the overall neatness detract from a depressing feeling. It appears to be a quiet but cared-for neighborhood.
+
+**Right Image (Rio de Janeiro):**
+*   **Features:** Narrow brick road, concrete wall, some visible wear on buildings, less greenery, more utilitarian appearance.
+*   **Contributing/Detracting Factors:** The concrete wall and the somewhat cramped space contribute to a feeling of confinement. While not overtly dilapidated, it lacks the vibrancy and upkeep seen in the Houston image. There is also a lack of activity or people visible.
+
+**Applying the Rules:**
+The Rio de Janeiro image aligns more closely with indicators of depression: less greenery, a gray concrete wall, and an overall sense of neglect compared to the Houston side. The Houston side has brighter tones and appears better maintained.",1
+79,5140cfa7fdc9f0492600316e,51413b3afdc9f049260058e8,more boring,16,0,left,left,"The Bucharest side (left) appears more boring based on the provided criteria. It features a long, straight road with repetitive architecture – primarily rows of similar buildings and a tram line. There's limited visual diversity, and while there is one person visible, it doesn't significantly counteract the overall monotony. The Los Angeles side (right), in contrast, has more variation in building styles, trees lining the street, parked cars suggesting activity, and a generally more 'lived-in' feel. This diversity contributes to a less boring aesthetic.",1
+80,5140ce16fdc9f04926002ff9,513da078fdc9f0358700899f,livelier,0,16,right,left,"Based on the provided rule set (looking for crowds, people walking/biking, vendors, bright signage, open businesses, and dynamic movement), the Bucharest side (left) appears more lively. While neither image is bustling, the left image shows a car parked in front of buildings that appear to be residences or small businesses. The red fence and building color add some visual interest. The Atlanta side (right) is a quiet residential street with no visible people, vendors, or open businesses. It feels static and empty compared to the Bucharest view.",0
+81,5185d409fdc9f03fd5001369,50f563b6fdc9f065f0005df8,more boring,0,16,right,right,"The Montreal side (left) has more architectural variation – different house styles, colors, and some visible life (a car). The Seattle side (right), however, is dominated by a large, uniform wall of ivy. This creates a monotone appearance with little visual interest. There's also a lack of people or activity visible in the Seattle image. Based on the provided rules—uniform design, lack of variation, and monotone architecture signal boredom—the Seattle side appears more boring.",1
+82,51408f51fdc9f04926000088,50f42c7efdc9f065f0001d60,more beautiful,3,13,right,right,"Based on the provided criteria (aesthetics like symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space, while avoiding clutter, grayness, damage, or visual unappealing features), the right image (Warsaw) is more appealing. Here's a breakdown:
+
+**Left Image (Madrid):**
+*   **Features:** A large roundabout with dry, yellowish grass in the center and along the edges. The road surface is dark gray/black. There are some trees in the background but they appear sparse.
+*   **Contributing Factors to Quality:** The open space of the roundabout could be seen as a positive.
+*   **Detracting Factors:** The dominant color scheme is drab – mostly grays and yellows. The dry grass looks unkempt, and there's a general lack of vibrancy or architectural interest.
+
+**Right Image (Warsaw):**
+*   **Features:** A roundabout with a well-maintained green space in the center, including trees. There are buildings visible in the background, and streetlights add some structure. Cars are present but don't overwhelm the scene.
+*   **Contributing Factors to Quality:** The greenery is lush and inviting. The presence of trees adds visual appeal. The overall composition feels more balanced.
+*   **Detracting Factors:** None particularly stand out; it's a fairly standard street view, but generally pleasant.
+
+The Warsaw image has more features that align with the aesthetic criteria – specifically, the greenery and better-maintained appearance. Madrid's scene is comparatively barren and lacks visual interest.",1
+83,51413aeefdc9f04926005829,5140d00bfdc9f049260031d5,more boring,15,1,left,left,"The Los Angeles side (left) appears more boring based on the provided criteria. It features long, blank walls, uniform building heights and a lack of visible activity. The Bucharest side (right), while not bustling, has some variation in house styles, glimpses of greenery, and a slightly less monotonous feel. The left image exhibits more characteristics associated with boredom as defined by the rules: uniformity, lack of life, and monotone architecture.",1
+84,51409d64fdc9f049260012e8,51413678fdc9f04926004c61,livelier,1,15,right,right,"The image on the right (Guadalajara) appears more lively based on the provided criteria. It shows moving traffic, suggesting activity and dynamic movement. While not crowded with pedestrians, there's a sense of ongoing use. The left image (Rome), in contrast, is relatively empty; it has parked cars but lacks visible people or active street life. This contributes to a quieter, more static feel.",1
+85,51409850fdc9f04926000c7b,513d5337fdc9f03587002f01,more boring,16,0,left,left,"The image on the left (Rome) appears more boring based on the provided criteria. It features blank walls, a lack of visible life (no people), and relatively monotone architecture with limited variation in design. The right side (Barcelona) shows cars parked along the street, suggesting some activity, and has slightly more architectural diversity even though it's still fairly uniform.",1
+86,51414893fdc9f04926006d05,51422a17fdc9f049260088e0,safer,9,7,left,left,"The Melbourne (left) image appears safer due to several factors. It features well-maintained infrastructure, clear pathways (the parking lot), and a general sense of openness. While there are no visible pedestrians in this particular snapshot, the area doesn't feel isolated. The Philadelphia (right) image shows signs of disrepair – cracked pavement, overgrown greenery, and a generally more run-down appearance. These features detract from a feeling of safety.",1
+87,513cee1dfdc9f035870023ec,513d9e41fdc9f03587008359,safer,14,2,left,right,"The image on the right (Santiago) appears safer based on the provided criteria. It features visible pedestrians, cars, and well-defined pathways. There's also some greenery with palm trees and buildings that appear maintained. The left image (Cape Town) shows a largely empty, dirt lot with minimal activity or signs of upkeep. This lack of pedestrian presence and the unmaintained appearance contribute to a sense of unsafety.",0
+88,513e1d58fdc9f03587009995,513d6a82fdc9f03587004aa8,more beautiful,0,16,right,right,"The Denver (right) image is more aesthetically pleasing based on the provided criteria. Here's a breakdown:
+
+**London (Left):**
+*   **Features:** Brick buildings, narrow street, fences/walls, some greenery in the distance.
+*   **Contributing Factors:** The brick architecture has some character.
+*   **Detracting Factors:** The scene feels cramped and enclosed. There's a lot of gray/brown (brick, pavement), the fencing is utilitarian and not visually appealing, and the lighting is somewhat dim creating a gloomy atmosphere.
+
+**Denver (Right):**
+*   **Features:** Houses with varied architecture, trees lining the street, wider road, blue sky, sunlight.
+*   **Contributing Factors:** The presence of trees adds vibrant color and life. The wider street and open space create a more inviting feel. Sunlight enhances colors and creates a brighter mood. There's a sense of order and pleasant residential design.
+*   **Detracting Factors:** None are immediately apparent; it's a fairly standard, well-maintained suburban street.
+
+**Applying the Rules:** The Denver image better reflects the rules emphasizing vibrant colors (trees, sky), open space (wider road), sunlight, and generally more appealing architectural features. The London image suffers from being cluttered, gray, and lacking in these positive aesthetic qualities.",1
+89,513cbe26fdc9f03587001156,5140da01fdc9f04926003d14,wealthier,10,6,left,left,"Based on the provided criteria, the Chicago (left) side appears wealthier. Here's a breakdown:
+
+**Chicago (Left):**
+*   **Features:** Wider roads, more commercial presence (suggesting economic activity), newer-looking buildings and infrastructure.
+*   **Contributing Factors:** The wider road suggests better city planning and investment. Newer buildings indicate recent development or renovation.
+*   **Detracting Factors:** Some patches on the road surface are visible, but overall it appears well maintained.
+
+**Dublin (Right):**
+*   **Features:** Narrower residential street, older-style houses, more greenery.
+*   **Contributing Factors:** Greenery is positive, suggesting a cared-for environment. 
+*   **Detracting Factors:** The road surface is visibly damaged and uneven. Buildings appear older and less modernized. The narrower streets suggest a less developed infrastructure.
+
+Considering the rules – modern buildings, well-maintained facades, and overall tidiness – the Chicago side demonstrates these qualities more strongly than the Dublin side.",1
+90,50f46442fdc9f065f000446b,513ce751fdc9f0358700229d,safer,16,0,left,left,"The left image (Sydney) appears safer based on the provided criteria. Here's a breakdown:
+
+**Left Image (Sydney):**
+*   **Features:** Visible cars, well-maintained road markings, some greenery (trees and bushes), buildings with signage, and generally brighter lighting.
+*   **Safety Contributions:** The presence of vehicles suggests activity and potential witnesses. Maintained infrastructure indicates a level of care and investment in the area. Brightness contributes to visibility.
+*   **Safety Detractions:** Some minor graffiti is visible on the road, but it's not extensive or overwhelming.
+
+**Right Image (Cape Town):**
+*   **Features:** Large open grassy areas, a single vehicle, and what appears to be an entrance gate. The area feels more isolated.
+*   **Safety Contributions:** The gate could suggest controlled access.
+*   **Safety Detractions:** The vast open space with minimal activity creates a sense of isolation. There's less visible infrastructure or signs of regular use. The lighting seems dimmer, and the overall environment appears less maintained.
+
+**Applying the Rules:**
+
+The left image aligns better with the safety indicators: well-lit areas (relatively), visible vehicles, clear pathways, some greenery, and generally maintained infrastructure. The right image lacks many of these features, leaning towards a more isolated and potentially unsafe impression.",1
+91,513cdfa1fdc9f03587002133,50f5ec9bfdc9f065f0008a64,livelier,16,0,left,left,"The left image (Cape Town) appears more lively than the right image (Prague). The Cape Town scene shows an open road with some greenery, suggesting potential movement and activity. While there are no people visible in this particular snapshot, the presence of a road implies traffic or pedestrian use. In contrast, the Prague side depicts a mostly empty, gravelly area next to a wall. It lacks any signs of immediate activity, businesses, or pedestrians. Based on the provided rules—looking for crowds, movement, and open businesses—the Cape Town image is more indicative of a lively environment.",1
+92,50f55eaefdc9f065f0004de4,50f55e56fdc9f065f0004c19,safer,15,1,left,right,"The image on the right appears safer based on the provided criteria. It features well-maintained infrastructure (roads, houses), visible pathways, and parked cars suggesting activity. The presence of residential buildings indicates a populated area. 
+
+The left image, while having greenery, is overgrown and lacks clear pathways or signs of recent maintenance. The dense foliage could create isolated spots, potentially detracting from safety. There are no visible pedestrians or indications of human activity.",0
+93,513da0a7fdc9f035870089fd,50f6167abeb2fed910000905,safer,13,3,left,left,"Based on the provided rules, the Santiago side (left) appears safer. Here's a breakdown:
+
+**Santiago (Left):**
+*   **Features:** Wider street, more visible traffic, some greenery (trees), and generally well-maintained infrastructure.
+*   **Safety Contributions:** The wider road suggests better visibility and potentially slower traffic. Greenery adds to a more welcoming environment. 
+*   **Safety Detractions:** There's construction equipment visible which could indicate temporary disruption but doesn't necessarily imply unsafety.
+
+**Philadelphia (Right):**
+*   **Features:** Narrower street, parked cars obstructing views, less greenery, and buildings appear older/less maintained. The alleyway between the buildings is a potential concern.
 *   **Safety Contributions:** None particularly stand out.
-*   **Safety Detractions:** The narrowness of the street creates a sense of confinement. Extensive graffiti suggests potential neglect or vandalism. Darker lighting reduces visibility.
+*   **Safety Detractions:** The narrowness of the street limits visibility. The alleyway could be isolated and potentially unsafe. The overall appearance suggests less maintenance.
+
+Considering these points, Santiago (left) better reflects features associated with safety according to the given rules – well-lit areas (implied by daylight), clear pathways, some greenery, and maintained infrastructure.",1
+94,5140cca7fdc9f04926002e5a,513e6bfdfdc9f0358700c0d8,safer,1,15,right,right,"Based on the provided rules, the Tokyo (right) side appears safer. Here's a breakdown:
+
+**Bangkok (Left):**
+*   **Features:** Narrow street, visible pedestrians and vehicles, some greenery, older buildings, somewhat cluttered appearance.
+*   **Safety Contributions:** Pedestrians suggest activity, which can deter crime.
+*   **Safety Detractions:** The narrowness of the street could feel confining. The general state of the buildings appears less maintained compared to Tokyo.
+
+**Tokyo (Right):**
+*   **Features:** Wider pathway, well-maintained buildings, clear pathways, some greenery, visible pedestrians.
+*   **Safety Contributions:** Well-maintained infrastructure, clear pathways, and a generally cleaner appearance contribute to a sense of safety. The wider street feels more open.
+*   **Safety Detractions:** None immediately apparent.
+
+The Tokyo side demonstrates better maintained infrastructure and clearer pathways, aligning with the 'safety' indicators in the rules. While both sides have pedestrians (a positive), the overall presentation of the Tokyo scene suggests a safer environment.",1
+95,50f42c4cfdc9f065f0001a65,513cca18fdc9f03587001cb8,safer,15,1,left,left,"Based on the provided rules, the Warsaw (left) image appears safer. Here's a breakdown:
+
+**Warsaw (Left):**
+*   **Features:** Wide, well-maintained road; visible streetlights; trees and greenery along the sidewalk; clear pathways for pedestrians; some pedestrian presence.
+*   **Safety Contributions:** The combination of lighting, maintained infrastructure, and pedestrian activity suggests a safer environment. Greenery adds to a more welcoming feel.
+
+**Cape Town (Right):**
+*   **Features:** Wide road with traffic; buildings visible in the background; less greenery; fewer pedestrians immediately visible.
+*   **Safety Detractions:** While not overtly unsafe, it lacks some of the positive indicators present in the Warsaw image. The lack of pedestrian activity and limited greenery contribute to a slightly less inviting atmosphere.
+
+The Warsaw side demonstrates more features aligning with safety as defined by the rules (well-lit areas, visible pedestrians, maintained infrastructure, greenery).",1
+96,50f5ecf1fdc9f065f0008b44,50f5eab0fdc9f065f0007c43,wealthier,15,1,left,left,"Based on the provided rules, the left image (Prague) appears wealthier. Here's a breakdown:
+
+**Left Image (Prague):**
+*   **Features:** Well-maintained buildings with tidy facades, clean sidewalks and streets, greenery (trees and bushes), and an overall sense of order.
+*   **Contribution to Wealth Impression:** These features strongly suggest a well-cared-for neighborhood with resources for upkeep. The presence of trees adds to the aesthetic appeal often associated with affluent areas.
+
+**Right Image (Rio de Janeiro):**
+*   **Features:** Graffiti on walls, dirt and debris along the roadside, less maintained buildings, and an overall sense of disrepair.
+*   **Detraction from Wealth Impression:** The graffiti, untidiness, and lack of maintenance detract significantly from a perception of wealth. It suggests neglect or limited resources for upkeep.
+
+Therefore, applying the rules—looking for cleanliness, modern/maintained structures, greenery, and tidiness—the left image clearly demonstrates these qualities to a greater extent than the right image.",1
+97,513e1a7efdc9f03587009212,513e5fbbfdc9f0358700b2af,more depressing,3,13,right,left,"The London side (left) appears more depressing based on the provided criteria. Here's a breakdown:
+
+**Left Image (London):**
+*   **Features:** Brick buildings, a long brick wall, limited greenery, and a generally gray color palette.
+*   **Contributing Factors to Depressing Quality:** The long, unbroken brick wall feels isolating and oppressive. The lack of vibrant colors or interesting architectural details contributes to a sense of monotony. There are no visible people or signs of activity.
+
+**Right Image (Paris):**
+*   **Features:** A tree-lined street, greenery, a glimpse of water/park area, and more open space.
+*   **Contributing Factors to Less Depressing Quality:** The presence of trees and the suggestion of a park create a more natural and inviting atmosphere. While also empty, the openness feels less claustrophobic than the walled-in London scene.
 
 **Applying the Rules:**
-The Amsterdam image has more features that align with safety (visible pedestrians, clear pathways, relatively maintained infrastructure) compared to the London image which exhibits several indicators of unsafety (graffiti, narrow space, darker lighting). Therefore, based on these observations and the given rules, the left image better reflects a sense of safety.",1
-77,513d56dbfdc9f03587003065,50f563f9fdc9f065f0005f51,more boring,left,left,"The image from Amsterdam (left) appears more boring based on the provided criteria. It features long stretches of uniform brick pavement and relatively blank, industrial-looking buildings with limited architectural variation. There are very few people visible, contributing to a sense of emptiness. The Seattle image (right), while not bustling, has more diverse building styles, some greenery, and at least one vehicle and a person present, suggesting slightly more activity and visual interest.",1
-78,513d5654fdc9f03587002f7f,50f42c69fdc9f065f0001bcb,wealthier,right,left,"Based on the provided criteria, the Amsterdam image (left) appears wealthier. Here's why:
+The left image aligns more closely with indicators of depression: gray tones, lack of activity, and a sense of confinement. The right image has elements that detract from this feeling (greenery, open space).",0
+98,51422ccbfdc9f04926008b81,50f607dcbeb2fed6f800033d,safer,5,11,right,left,"The Philadelphia (left) side appears safer based on the provided criteria. Here's a breakdown:
 
-**Amsterdam (Left):**
-*   **Greenery:** Abundant trees and well-maintained green spaces contribute to a sense of affluence.
-*   **Tidiness:** The area looks clean and orderly with paved surfaces.
-*   **Building Style:** While the buildings aren't overtly modern, they appear well-kept.
-*   **Cars:** There are cars visible, but their make/model isn’t clear. However, the overall environment suggests a higher standard of living.
+**Philadelphia (Left):**
+*   **Features:** Well-maintained row houses, visible cars and pedestrians, clear sidewalks, some greenery (trees), generally well-lit.
+*   **Safety Contributions:** The presence of people suggests activity and potential for help if needed. Maintained buildings indicate a sense of community care. Clear pathways encourage pedestrian traffic.
+*   **Safety Detractions:** None immediately apparent.
 
-**Warsaw (Right):**
-*   **Building Style:** The buildings look older and more utilitarian, lacking the aesthetic appeal often associated with wealth.
-*   **Sidewalks/Roads:** There are visible signs of wear and tear on the road surface and sidewalks.
-*   **Overall Impression:** The area feels less polished and maintained compared to Amsterdam. 
+**Portland (Right):**
+*   **Features:** Large, blank wall with graffiti, overgrown weeds/grass, cracked pavement, fewer visible people, industrial-looking building.
+*   **Safety Contributions:** Minimal. The open space could be seen as a benefit in some contexts.
+*   **Safety Detractions:** Graffiti and unmaintained vegetation suggest neglect or potential for criminal activity. The large wall creates an isolated feel. Cracked pavement indicates infrastructure issues.
 
-The combination of these factors leads me to conclude that the left image (Amsterdam) better reflects wealth.",0
-79,513d56c0fdc9f03587003036,513d79fefdc9f035870066a0,more boring,left,equal,"Both images depict relatively similar scenes – wide roads bordered by greenery with limited architectural diversity or visible human activity. The Amsterdam image shows a road with some trees and grass, but lacks significant features to make it visually interesting. Similarly, the Atlanta image presents a highway scene with trees and minimal variation in design. Neither image exhibits strong indicators of vibrancy or life, nor do they have elements that clearly signal 'boredom' as defined by the rules (uniformity, lack of people, blank walls). Therefore, both images are equally boring based on the provided criteria.",0
-80,513d577bfdc9f0358700318b,513e1bd2fdc9f03587009587,livelier,right,equal,"Both images depict quiet residential areas with minimal signs of activity. Neither image shows crowds, people walking/biking, street vendors, bright signage, open businesses, or dynamic movement. The scenes are relatively static and empty. While the Amsterdam image has a slightly more varied architectural style, this doesn't translate to 'liveliness' in the context of the given rules. Therefore, they appear equally lacking in liveliness.",0
-81,513d5714fdc9f035870030d4,513d59d3fdc9f035870033c0,more beautiful,right,right,"Based on the provided criteria ('Aesthetics matter: symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space. Avoid cluttered, gray, damaged, or visually unappealing features.'), the Barcelona image (right) is more beautiful. 
+Applying the rules, the left image (Philadelphia) has more features that indicate safety – well-lit areas, visible pedestrians, clear pathways, maintained infrastructure – while the right image (Portland) exhibits several indicators of unsafety like graffiti and damaged property.",0
+99,50f448b5fdc9f065f0004234,5140cbbcfdc9f04926002c37,livelier,0,16,right,right,"The image on the right (Bangkok) appears more lively based on the provided criteria. Here's a breakdown:
 
-The Amsterdam image (left) shows a somewhat desolate area with a large expanse of dark, wet pavement. The building visible has a utilitarian design and lacks vibrant color. There's minimal greenery and the overall impression is gray and slightly damaged.
+**Left Image (Sydney):**
+*   **Features:** Wide road, a single van, trees, sidewalks, streetlights.
+*   **Contribution/Detraction:** The wide road and sparse traffic contribute to an impression of emptiness. There are no visible people walking or biking, no vendors, and minimal signs of activity. This detracts from liveliness.
 
-The Barcelona image (right), while featuring a road, benefits from brighter sunlight, more trees/greenery in the background, and a cleaner, less cluttered appearance. The road itself provides some symmetry, and the sky adds to the open space. While not stunningly beautiful, it adheres more closely to the positive aesthetic qualities outlined in the rules.",1
-82,513d5836fdc9f035870032d7,5140b909fdc9f04926001d7d,more beautiful,left,right,"The image from Zagreb (right) is more visually appealing based on the given criteria. While both images have somewhat overcast skies, the Zagreb scene includes greenery – trees and bushes along a fence line – which adds color and life. The buildings, though simple, are reasonably maintained. In contrast, the Amsterdam image (left) depicts a large, gray paved area with minimal aesthetic features. It appears to be a parking lot or open space lacking architectural design, vibrant colors, or natural elements like trees and flowers. The overall impression of the Zagreb scene is more inviting and visually pleasant than the starkness of the Amsterdam view.",0
-83,513d56edfdc9f03587003087,513cc4cafdc9f035870017ce,livelier,left,left,"The Amsterdam image (left) shows more signs of activity despite being less busy overall. There are several parked bicycles and a few pedestrians visible, suggesting people are actively using the space for transportation and leisure. The presence of trees and greenery also adds to a sense of life. 
+**Right Image (Bangkok):**
+*   **Features:** Buildings with shops on the ground floor, a parked car and motorcycle, some vegetation, and what appears to be open storefronts.
+*   **Contribution/Detraction:** The presence of buildings close to the street, potential businesses, and vehicles suggest more activity. While not bustling, it shows signs of life that are absent in the left image. 
 
-The Cape Town image (right), while showing cars on the road, feels more like a thoroughfare than a lively street scene. It's dominated by the road itself with fewer pedestrians or elements suggesting active engagement with the surroundings. There are very few signs of businesses or people interacting with the space.",1
-84,513d566dfdc9f03587002fad,513f2faefdc9f0358700de06,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a well-lit area, clear pathways, and visible greenery. The presence of trees and open space contributes to a more welcoming and less confined feeling. While there are no pedestrians immediately visible, the wider street suggests potential for foot traffic. 
-
-The image from Berlin (right) feels more enclosed and potentially isolating. The buildings are close together, creating narrower pathways. There's some greenery but it’s limited. It lacks the openness of the Amsterdam scene. Although not overtly damaged, the overall impression is less inviting and therefore suggests a lower sense of safety.",1
-85,513d5708fdc9f035870030c1,513d67fdfdc9f035870041fd,livelier,right,left,"The Amsterdam image (left) appears livelier due to several factors. While not bustling with crowds, it shows signs of recent activity – a bicycle parked at the steps and what looks like materials for work or construction nearby. The presence of these elements suggests human interaction and use of the space. In contrast, the Boston image (right) is dominated by a wide street with cars, but lacks pedestrian activity or any visible signs of immediate life beyond vehicular traffic. The buildings are impressive, but the scene feels more static and less focused on people.",0
-86,513d5719fdc9f035870030dd,513e1f2efdc9f03587009e63,more beautiful,right,left,"Based on the provided criteria of aesthetics—symmetry, architectural design, vibrant colors, trees, flowers, sunlight, and open space—the Amsterdam image (left) is more visually appealing than the London image (right). The left image has a brighter sky with some visible sunlight. It also features a distant tower that adds an interesting architectural element. While both images have concrete barriers, the Amsterdam scene feels slightly less cluttered and more open due to the wider view of the waterway. The London image is dominated by gray tones from the cloudy sky and brick buildings, lacking vibrant colors or striking architectural details. The overall impression of the left image is more inviting and aesthetically pleasing.",0
-87,513d56f6fdc9f03587003098,5140b919fdc9f04926001d9c,safer,right,left,"Based on the provided rules, the Amsterdam street view (left) appears safer. It has well-lit areas, clear pathways, and maintained infrastructure. While there are no visible pedestrians in this particular shot, the overall openness of the space suggests a more public and therefore potentially safer environment. The Washington DC street view (right), while having greenery, feels more enclosed by trees and buildings, creating shadows and potentially isolated spots. This could detract from a feeling of safety.",0
-88,513d5677fdc9f03587002fc1,5140d309fdc9f0492600336b,livelier,left,equal,"Both images depict relatively quiet residential areas with limited signs of activity. The Amsterdam image (left) shows an empty street alongside a park, while the Bucharest image (right) features parked cars and some greenery. Neither scene has crowds, people actively moving around, or open businesses that would indicate a 'lively' atmosphere. Therefore, based on the provided criteria, they are equally lacking in liveliness.",0
-89,513d57bcfdc9f035870031f9,51413846fdc9f049260051a9,livelier,left,left,"The Amsterdam image (left) shows a narrow street lined with buildings, suggesting a residential or commercial area. There are cars parked and some activity visible around doorways, hinting at people coming and going. While not bustling, it suggests more immediate human presence than the Johannesburg image. The Johannesburg image (right) depicts a wide road flanked by green spaces. It appears much more open and less populated; there's no indication of shops, pedestrians, or any significant activity. Based on the provided rules—looking for crowds, people, vendors, signage, and dynamic movement—the Amsterdam scene better reflects 'liveliness' due to its suggestion of a lived-in urban environment.",1
-90,513d578ffdc9f035870031ac,514138bdfdc9f049260052c2,livelier,left,left,"The Amsterdam image (left) shows a building under construction with scaffolding, suggesting activity and change. While not bustling with people *in this specific frame*, the presence of construction implies ongoing work and potential for more dynamic scenes nearby. The Johannesburg image (right) is dominated by greenery and walls, appearing much quieter and static. There's no visible evidence of immediate activity or human interaction. Based on the provided rules – looking for crowds, movement, open businesses – the Amsterdam scene, despite being a construction site, hints at more 'liveliness' than the very still Johannesburg street.",1
-91,513d569cfdc9f03587003006,50f463b8fdc9f065f000429c,safer,right,left,"The Amsterdam street view (left) appears safer based on the provided criteria. It has visible pedestrians, well-maintained infrastructure (paved road and sidewalks), clear pathways, and is relatively well-lit despite it being daytime. The Toronto image (right) feels more isolated with fewer people visible, a less defined pathway, and an overall quieter/more residential feel which can sometimes correlate to lower visibility and potentially reduced safety. While the greenery in both images is positive, the Amsterdam street has more activity suggesting a safer environment.",0
-92,513d574ffdc9f03587003145,50e748e4d7c3df413b0013d1,wealthier,left,right,"Based on the provided criteria, the Copenhagen image (right) appears wealthier. Here's a breakdown:
-
-**Amsterdam (Left):**
-*   **Features:** Older brick buildings, some with visible wear and tear. Cars are present but don’t appear particularly luxurious. Sidewalks show some signs of age/disrepair. There is some clutter on the street.
-*   **Contribution to Wealth Quality:** The older building facades and slight disrepair detract from a feeling of wealth.
-
-**Copenhagen (Right):**
-*   **Features:** Modern, clean-looking buildings with well-maintained facades. Clean sidewalks. More greenery is visible. While bicycles are prominent (common in Copenhagen), they don't detract from the overall impression of tidiness and modernity.
-*   **Contribution to Wealth Quality:** The modern architecture, cleanliness, and maintained appearance contribute positively to a feeling of wealth.
-
-**Applying the Rules:**
-The Copenhagen image better aligns with the indicators of wealth: modern buildings, well-maintained facades, clean sidewalks, and overall tidiness. While both cities are known for being prosperous, the visual cues in these images suggest a higher level of affluence is reflected in the Copenhagen street view.",0
-93,513d572efdc9f03587003101,50f5e5e0fdc9f065f0006b2b,livelier,right,left,"The image from Amsterdam (left) appears livelier due to several factors. There are visible trees and greenery suggesting a more natural environment for activity. While there aren't many people *in* the frame, the presence of sidewalks and residential buildings suggests potential pedestrian traffic. The Sao Paulo image (right), in contrast, is dominated by building facades and a closed garage door. It feels static and lacks any immediate indication of activity or life. Based on the provided rules—looking for crowds, movement, open businesses—the Amsterdam scene better reflects 'liveliness' even if it’s subtle.",0
-94,513d579cfdc9f035870031bf,50f5eaacfdc9f065f0007bf4,safer,left,left,"The Amsterdam image (left) appears safer based on the provided criteria. It features well-maintained infrastructure, visible pedestrians, clear pathways with crosswalks, and greenery. The Rio de Janeiro image (right), while having some pedestrian activity, shows signs of disrepair – a damaged sidewalk, less maintained buildings, and overhead wires creating visual clutter. These factors contribute to an impression of lower safety compared to the Amsterdam scene.",1
-95,513d571bfdc9f035870030e0,50f607e3beb2fed6f80003b6,safer,left,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a clear pathway along a road, some greenery, and generally maintained infrastructure. While not brightly lit, it doesn't show signs of disrepair or isolation. The Portland image (right), while also having greenery, shows a dirt path that looks less maintained and potentially isolating. There is no evidence of pedestrian traffic in either image, but the Amsterdam scene feels more connected to a larger area.",1
-96,513d5809fdc9f03587003287,50f5eafafdc9f065f0007f41,livelier,left,left,"The image from Amsterdam (left) shows signs of activity despite being relatively empty at the moment the photo was taken. There are large advertisements/posters on a building which suggest commercial activity and potential vibrancy. The presence of a paved area suggests it's a place where people might gather or events could occur. In contrast, the image from Rio de Janeiro (right) is dominated by parked cars and trees, with a more static and residential feel. There are no visible signs of immediate activity like pedestrians, vendors, or open businesses. The overall impression is quieter and less dynamic.",1
-97,513d56cffdc9f03587003052,513cc670fdc9f0358700194e,safer,right,left,"The image from Amsterdam (left) appears safer based on the provided criteria. It features a wide, well-maintained road with visible traffic, suggesting activity and oversight. The presence of cars indicates regular use and potentially less isolation. While there's some shadow, overall lighting seems adequate. 
-
-The Cape Town image (right), while having greenery, shows a narrower, more isolated road. There are no pedestrians or vehicles immediately visible, creating a sense of potential seclusion. The surrounding vegetation could obscure visibility, and the lack of clear activity contributes to an impression of less safety.",0
-98,513d57b7fdc9f035870031ef,50f447d0fdc9f065f0003a47,more depressing,right,left,"The image from Amsterdam (left) appears more depressing based on the provided criteria. It features overcast lighting creating gray tones, and a generally empty street with minimal activity. The landscaping is sparse and somewhat unkempt, contributing to a sense of neglect. While not overtly dilapidated, there's a lack of vibrancy. 
-
-The Sydney image (right) has brighter lighting, more visible buildings, and the presence of a car suggests some level of activity. Although it isn’t bustling, it doesn’t evoke the same feeling of emptiness or disrepair as the Amsterdam scene.",0
-99,513d56f5fdc9f03587003095,513d9adafdc9f03587007813,wealthier,right,left,"The image on the left (Amsterdam) shows a well-maintained canal path with lush greenery. While not directly showing wealth indicators like expensive cars, the overall tidiness and presence of green spaces suggest a higher level of investment in public areas, which is often associated with wealthier cities. The right image (Atlanta) appears more residential but lacks the same level of upkeep; the road surface isn't as smooth, and there are visible utility poles/wires that detract from an upscale aesthetic. There’s also less greenery immediately adjacent to the street.",0
+Based on the rules – looking for crowds, vendors, bright signage, open businesses, and movement – the right image (Bangkok) better reflects a livelier scene than the relatively empty street in Sydney.",1

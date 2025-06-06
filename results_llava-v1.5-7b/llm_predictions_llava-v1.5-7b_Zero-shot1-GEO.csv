@@ -1,101 +1,101 @@
-merged_index,left,right,study_question,ground_truth,model_judgement,model_reason,validation
-0,513d573bfdc9f03587003120,50f5eb3ffdc9f065f00080f7,wealthier,left,equal,"Both cities have similar buildings, streets and landscapes. The differences are minimal.",0
-1,513d57f9fdc9f0358700326b,50f5e700fdc9f065f0006ef0,more beautiful,left,equal,"Both cities have similar street views, with buildings and cars on the streets. The differences are in the architecture of the buildings and the types of vehicles parked along the sidewalks.",0
-2,513d57e5fdc9f03587003244,513d7b54fdc9f03587006b19,livelier,right,equal,"Both cities have a similar number of cars and buildings, as well as trees in the background.",0
-3,513d57bdfdc9f035870031fd,50f562e3fdc9f065f0005b45,more depressing,equal,equal,The streets are both empty and have the same number of cars on them.,1
-4,513d573ffdc9f03587003128,513d9e0dfdc9f035870082aa,livelier,left,equal,"Both cities have a similar number of cars and people on the streets, indicating that both are busy urban areas with a similar level of activity.",0
-5,513d56befdc9f03587003035,513d7e3dfdc9f03587007377,safer,left,equal,"Both cities have similar street views, with houses and buildings on both sides of the road. The streets are empty in both pictures, which indicates that they might be taken at different times or during a less busy period.",0
-6,513d572dfdc9f03587003100,513da076fdc9f0358700899a,more beautiful,left,equal,"The two cities have similar street views, with trees and water in the background. The differences between the two are minimal.",0
-7,513d57effdc9f03587003259,513e2087fdc9f0358700a21e,more boring,right,equal,"The two cities have similar street views, with trees and grassy areas surrounding the streets.",0
-8,513d575bfdc9f03587003156,50f5e56bfdc9f065f00068bd,safer,left,equal,"Both cities have similar street views, with cars and people on the streets.",0
-9,513d56fffdc9f035870030b0,513d9e1dfdc9f035870082d5,more beautiful,left,equal,"Both cities have beautiful streets with trees, cars and buildings. The pictures are taken from the same angle, so it's hard to say which one is more beautiful.",0
-10,513d571dfdc9f035870030e5,513f2e19fdc9f0358700db58,wealthier,left,equal,"Both cities have similar street views, with cars and buildings visible in the image.",0
-11,513d5652fdc9f03587002f79,513d5746fdc9f03587003134,livelier,left,equal,"The streets in both cities are lined with trees, buildings and cars. The street signs are also visible in both cities. There is no significant difference between the two cities' streets.",0
-12,513d57b8fdc9f035870031f2,513cc044fdc9f0358700136a,livelier,left,equal,"The streets in both cities are empty, and there is no significant difference between the two.",0
-13,513d57ecfdc9f03587003252,5140d88afdc9f04926003a1d,more boring,left,equal,"The two cities have similar street views, with houses and trees in the background. The streets are also lined with cars and traffic lights. There is no clear winner between the two cities.",0
-14,513d5723fdc9f035870030f0,513e6d7efdc9f0358700c2da,livelier,right,equal,"Both cities have a similar number of people walking on the sidewalks, and there are no significant differences in the architecture or layout of the streets.",0
-15,513d5728fdc9f035870030fc,513cd42efdc9f03587001ebe,safer,left,equal,"Both cities have similar street views, with a bridge and a highway in the background. The only difference is that one city has a plane flying overhead while the other does not.",0
-16,513d5698fdc9f03587002ffd,5140ced3fdc9f049260030a7,wealthier,left,equal,"The streets in both cities are lined with trees, buildings and cars. The street views show a similar environment.",0
-17,513d572efdc9f03587003103,513e1e6ffdc9f03587009c73,livelier,equal,equal,"The two cities have similar street views, with trees and buildings in the background. The streets are empty of cars, making them appear more lively. Both cities seem to be experiencing a calm day.",1
-18,513d5768fdc9f03587003168,514142e7fdc9f0492600633f,wealthier,right,equal,"Both cities have similar street views, with buildings and trees in the background. The streets are empty of cars, which makes it difficult to determine which city is wealthier based on this image alone.",0
-19,513d575dfdc9f03587003157,50f42bbbfdc9f065f00016eb,more depressing,right,equal,"The streets in both cities are empty, and the buildings have a similar architectural style. The trees are also green and visible in both cities.",0
-20,513d5805fdc9f0358700327d,50f43b6efdc9f065f000309e,safer,right,equal,"The streets in both cities are busy and have a similar number of vehicles, including cars and motorcycles. The buildings also appear to be tall and densely packed, which is common in many urban areas. Both cities seem to have a bustling atmosphere with people going about their daily activities. Therefore, it's difficult to determine if one city is safer than the other based on these images alone.",0
-21,513d5724fdc9f035870030f2,51413cb0fdc9f04926005b8d,more boring,left,equal,"Both cities have similar street views with cars, trees and buildings. Both sides of the image are visually appealing.",0
-22,513d569afdc9f03587003000,513d7f40fdc9f03587007598,livelier,right,equal,"The streets in both cities are lined with trees and buildings, making them look similar.",0
-23,513d568afdc9f03587002fe2,50f43487fdc9f065f00028eb,more boring,left,equal,"Both cities have similar street views, with trees and houses lining the streets. The only noticeable difference is that one city has a car on the road while the other does not.",0
-24,513d57fffdc9f03587003273,513f2e02fdc9f0358700db3f,safer,equal,equal,"Both cities have similar street views, with cars driving down the road and buildings in the background. The differences between the two cities are minimal.",1
-25,513d5769fdc9f0358700316b,513d7d73fdc9f035870071cc,more boring,equal,equal,"The streets in both cities are empty, and the buildings are similar.",1
-26,513d5717fdc9f035870030dc,51414e68fdc9f0492600783d,wealthier,right,equal,"The two cities have similar features, such as trees and buildings. The street views are of the same type of environment, which makes it difficult to determine which city is wealthier.",0
-27,513d5764fdc9f03587003163,50f4348afdc9f065f0002918,wealthier,left,equal,"Both cities have tall buildings, parks and streets with cars on them.",0
-28,513d57bcfdc9f035870031f9,514138dbfdc9f04926005307,safer,left,equal,"Both cities have similar street views, with cars parked on the side of the road and trees in the background. The buildings are also similar in appearance.",0
-29,513d579cfdc9f035870031bd,50f5e6c5fdc9f065f0006dde,safer,equal,equal,"Both cities have trees and cars, so it's hard to say which is safer.",1
-30,513d56e5fdc9f03587003078,514145befdc9f04926006658,livelier,left,equal,"The two cities have similar street views, with cars parked on the side of the road and trees in front of buildings. The differences are minimal.",0
-31,513d567bfdc9f03587002fc8,514150d7fdc9f04926007e4a,safer,right,equal,"The streets in both cities are empty, with no visible traffic or pedestrians. The overall atmosphere is calm and peaceful.",0
-32,513d56b1fdc9f03587003020,50f5e51afdc9f065f0006628,safer,left,equal,"Both cities have similar street views with cars, buildings and trees.",0
-33,513d5712fdc9f035870030d1,50f60866beb2fed6f80003e9,more depressing,right,equal,"The streets in both cities are empty, and the buildings are tall. The only difference is that one city has a more prominent Google logo.",0
-34,513d57ecfdc9f03587003251,51413bbefdc9f04926005a2b,wealthier,left,equal,"Both cities have similar infrastructure, including buildings and roads. The streets are lined with cars and motorcycles, indicating a busy urban environment. There is also a parking garage in both cities. Both cities seem to be well-developed and offer the same amenities for residents.",0
-35,513d56fffdc9f035870030af,5140c88dfdc9f04926002286,livelier,right,equal,"The streets in both cities are busy and have a similar number of cars, people, and buildings. The image captures the liveliness of both cities.",0
-36,513d5728fdc9f035870030fc,513e1eaffdc9f03587009d1c,safer,right,equal,"Both cities have similar buildings and street views, so it's not possible to determine which one is safer without more context.",0
-37,513d580efdc9f0358700328f,51408b27fdc9f0358700e88f,more beautiful,left,equal,"Both cities have beautiful streets with trees and water, making them visually appealing.",0
-38,513d5728fdc9f035870030fc,513d7e5afdc9f035870073b4,more boring,left,equal,"Both cities have similar street views, with cars and traffic lights visible in both images.",0
-39,513d56ecfdc9f03587003085,5140b74bfdc9f04926001976,more boring,right,equal,"Both cities have similar street views, with trees and buildings lining the streets. Both cities also have a mix of cars and trucks on the road. The only difference is that one city has a parking meter while the other does not.",0
-40,513d5724fdc9f035870030f2,50f60c4fbeb2fed9100002ab,wealthier,right,equal,"The streets in both cities have similar features, such as houses and trees. The cars parked on the side of the road are also similar. There is no clear indication that one city is wealthier than the other based on these images.",0
-41,513d57b6fdc9f035870031ec,514148affdc9f04926006d1d,more beautiful,left,equal,"Both cities have beautiful streets with tall buildings, greenery and parking lots. The image shows a street view of Amsterdam on the left side and Melbourne on the right side. Both cities are visually appealing and offer similar urban experiences.",0
-42,513d571ffdc9f035870030e9,513d6872fdc9f0358700438e,wealthier,left,equal,"The two cities have similar infrastructure and street layouts, with a mix of residential buildings, commercial establishments, and vehicles such as cars and trucks. The presence of trees in the background adds to the overall visual appeal of both cities.",0
-43,513d57eafdc9f0358700324f,5140cb67fdc9f04926002b4c,more beautiful,equal,equal,"Both cities have beautiful streets with trees, cars and houses. The differences are in the architecture of the buildings and the color of the cars.",1
-44,513d5652fdc9f03587002f79,513e1c1efdc9f0358700965c,livelier,left,equal,"Both cities have a similar number of cars parked on the streets, and there are no noticeable differences in the overall appearance of the neighborhoods.",0
-45,513d5688fdc9f03587002fdd,513cb642fdc9f03587000a11,more beautiful,left,equal,"Both cities have beautiful street views with greenery, blue skies and white clouds, and a mix of residential and commercial areas.",0
-46,513d57b6fdc9f035870031ec,513d9c6cfdc9f03587007d2d,safer,left,equal,"Both cities have similar buildings and street views, so it is not possible to determine which city looks safer based on the image alone.",0
-47,513d56b3fdc9f03587003021,513e5f3dfdc9f0358700b1ed,livelier,right,equal,"Both cities have a similar number of cars and trees, as well as the same street view.",0
-48,513d57c4fdc9f0358700320b,513d5c6dfdc9f035870036fb,safer,left,equal,Both sides look safe.,0
-49,513d5798fdc9f035870031b6,5140da36fdc9f04926003d85,safer,left,equal,"The streets in both cities are busy with cars and pedestrians, so it is difficult to determine which city looks safer without more context.",0
-50,513d56d2fdc9f03587003058,513e1ffbfdc9f0358700a0a6,safer,left,equal,"Both cities have similar street views, with cars and trucks on the road, buildings in the background, and a river nearby. The differences are minimal.",0
-51,513d56b8fdc9f0358700302a,50f433c3fdc9f065f000263f,more beautiful,left,equal,"Both cities have beautiful streets with trees, houses and cars. The pictures are taken from different angles, but the overall appearance of both cities is similar.",0
-52,513d564ffdc9f03587002f74,513d60d5fdc9f03587003d87,wealthier,left,equal,"The streets in both cities are lined with buildings, cars and trees. The street signs are also visible in both places. There is no clear indication of one city being wealthier than the other based on the image.",0
-53,513d56b0fdc9f0358700301e,5141404afdc9f04926006099,safer,left,equal,"Both cities have similar street views, with cars parked along the sides of the streets and people walking around. The buildings are also similar in appearance.",0
-54,513d5781fdc9f03587003195,513d6bacfdc9f03587004d9c,more beautiful,left,equal,"Both cities have similar street views, with cars parked along the sides of the streets and buildings in the background.",0
-55,513d5827fdc9f035870032be,513d9f6ffdc9f0358700873c,safer,right,equal,"The streets in both cities look safe and well-maintained, with no visible signs of danger or hazards.",0
-56,513d5671fdc9f03587002fb3,50f5ea5efdc9f065f0007ae3,wealthier,right,equal,"The streets in both cities are blue and the buildings are white, so they look similar.",0
-57,513d56b4fdc9f03587003022,51408ba8fdc9f0358700e991,livelier,right,equal,"The streets in both cities are busy and lively, with a lot of activity going on.",0
-58,513d56dbfdc9f03587003065,51409a94fdc9f04926000f74,livelier,right,equal,"The image shows two different cities, Amsterdam and Rome, with trees in the background. Both cities have a similar atmosphere, making it difficult to determine which city is more lively. The presence of trucks in both cities also suggests that they are bustling urban areas.",0
-59,513d56bbfdc9f03587003031,5140d2f5fdc9f04926003357,more depressing,equal,equal,"The streets in both cities are empty, with no visible people or vehicles.",1
-60,513d5728fdc9f035870030fc,50e5faead7c3df413b00073f,safer,left,equal,"Both cities have similar street views, with buildings and traffic lights. The streets are empty in both places.",0
-61,513d570efdc9f035870030cd,513cc4a4fdc9f035870017aa,livelier,left,equal,"The streets are both busy and lively, with cars driving down the road, people walking around, and trees in the background. The atmosphere is similar between the two cities.",0
-62,513d56effdc9f0358700308c,513f28d8fdc9f0358700d272,wealthier,left,equal,"Both cities have similar street views, with cars parked on the side of the road and trees lining the streets. The image does not provide enough information to determine which city is wealthier.",0
-63,513d56eefdc9f0358700308a,5141475bfdc9f04926006a2e,safer,right,equal,"Both cities have similar street views, with buildings and trees visible in the background.",0
-64,513d57eafdc9f0358700324f,51414faafdc9f04926007b51,livelier,right,equal,"Both cities have a similar vibe, with cars parked on the side of the road and buildings in the background. The street views are not significantly different from each other.",0
-65,513d5774fdc9f0358700317d,5185ccaafdc9f03fd5000c62,safer,right,equal,"Both cities have similar street views, with cars and people on the streets. The differences are in the architecture of the buildings, which gives a unique character to each city. However, both cities seem safe for pedestrians and drivers.",0
-66,513d569cfdc9f03587003006,5185ce9efdc9f03fd5000e52,safer,left,equal,"Both cities have similar street views, with cars and trees visible in the image.",0
-67,513d5702fdc9f035870030b6,514139cefdc9f0492600555c,more beautiful,left,equal,"Both cities have beautiful streets with trees, buildings and cars. The pictures are taken at different times of the day, but both showcase a pleasant atmosphere.",0
-68,513d57f6fdc9f03587003261,50f5e8c9fdc9f065f00074b0,wealthier,right,equal,"The houses in both cities are of similar design and style, with a mix of red brick and white siding. The streets are also lined with trees, adding to the overall appearance of the neighborhoods. Additionally, there is an equal number of cars parked outside each house, indicating that the residents have similar needs for transportation. Therefore, both cities appear to be equally wealthy.",0
-69,513d57bafdc9f035870031f8,513f2d9dfdc9f0358700da83,livelier,right,equal,"Both cities have a similar number of cars, people and trees on the streets. The only difference is that one city has a yellow box while the other has a red box.",0
-70,513d576efdc9f03587003171,50f56203fdc9f065f0005898,safer,right,equal,"Both cities have similar street views, with traffic lights and buildings in the background. There are no significant differences between the two cities.",0
-71,513d56e8fdc9f0358700307e,51408c43fdc9f0358700eac1,more beautiful,left,equal,"Both cities have beautiful streets with trees, cars and people.",0
-72,513d57fcfdc9f0358700326e,51408bb4fdc9f0358700e9a9,more beautiful,left,equal,"Both cities have beautiful street views, with a mix of buildings and greenery.",0
-73,513d573dfdc9f03587003125,5140916cfdc9f049260004e3,safer,right,equal,"Both cities have similar street views, with cars parked on the side of the road and a few pedestrians walking around. The buildings in both cities are also visible, indicating that they might be located in different countries but share some common characteristics.",0
-74,513d57d0fdc9f0358700321e,50f5eaf4fdc9f065f0007ed4,more beautiful,left,equal,"Both cities have beautiful street views, with greenery and buildings in the background.",0
-75,513d570dfdc9f035870030ca,51413712fdc9f04926004db6,livelier,left,equal,"The streets in both cities look similar, with cars parked along the sides of the road and buildings nearby. The only noticeable difference is that one city has a sign on the sidewalk, while the other does not.",0
-76,513d5800fdc9f03587003275,513e1ab5fdc9f035870092a1,safer,left,equal,"Both cities have similar buildings and street layouts, making it difficult to determine which is safer.",0
-77,513d56dbfdc9f03587003065,50f563f9fdc9f065f0005f51,more boring,left,equal,"Both cities have similar street views, with trees and buildings in the background.",0
-78,513d5654fdc9f03587002f7f,50f42c69fdc9f065f0001bcb,wealthier,right,equal,"The streets in both cities have similar features, such as buildings and trees. The street signs are also visible in both cities. Therefore, it is difficult to determine which city appears wealthier based on the image alone.",0
-79,513d56c0fdc9f03587003036,513d79fefdc9f035870066a0,more boring,left,equal,"The streets in both cities are empty, and the views are similar. There is no significant difference between the two cities.",0
-80,513d577bfdc9f0358700318b,513e1bd2fdc9f03587009587,livelier,right,equal,"The streets in both cities are lined with trees and parked cars, making them look similar.",0
-81,513d5714fdc9f035870030d4,513d59d3fdc9f035870033c0,more beautiful,right,equal,"Both cities have beautiful streets with greenery and blue skies, making them visually appealing.",0
-82,513d5836fdc9f035870032d7,5140b909fdc9f04926001d7d,more beautiful,left,equal,"Both cities have beautiful street views with trees, buildings and people walking around.",0
-83,513d56edfdc9f03587003087,513cc4cafdc9f035870017ce,livelier,left,equal,"The streets in both cities are busy and have a similar number of cars, pedestrians, and traffic lights. The buildings and trees also appear to be similar.",0
-84,513d566dfdc9f03587002fad,513f2faefdc9f0358700de06,safer,left,equal,"Both cities have similar buildings and street views, making it difficult to determine which one is safer.",0
-85,513d5708fdc9f035870030c1,513d67fdfdc9f035870041fd,livelier,right,equal,"The two cities have similar street views, with buildings and traffic lights. The only noticeable difference is the presence of a clock in one city and not the other.",0
-86,513d5719fdc9f035870030dd,513e1f2efdc9f03587009e63,more beautiful,right,equal,"Both cities have beautiful views, with a mix of urban and natural elements. The streets are clean and well-maintained, making them visually appealing. The presence of people enjoying the outdoors adds to the overall charm of both locations.",0
-87,513d56f6fdc9f03587003098,5140b919fdc9f04926001d9c,safer,right,equal,"Both cities have trees and cars, but the street is wider in Amsterdam.",0
-88,513d5677fdc9f03587002fc1,5140d309fdc9f0492600336b,livelier,left,equal,"Both cities have a similar number of cars and trees, making the streets look lively.",0
-89,513d57bcfdc9f035870031f9,51413846fdc9f049260051a9,livelier,left,equal,"The two cities have similar street views, with buildings and trees in the background. The only noticeable difference is that one city has a red building while the other has a brick building. Both cities appear to be lively, with people walking around and cars driving on the streets. There are no significant differences between the two cities' liveliness.",0
-90,513d578ffdc9f035870031ac,514138bdfdc9f049260052c2,livelier,left,equal,"Both cities have similar street views, with trees and buildings in the background. The differences are mainly due to the specific locations within each city.",0
-91,513d569cfdc9f03587003006,50f463b8fdc9f065f000429c,safer,right,equal,"The streets in both cities are empty, and there is no visible traffic or pedestrian activity. The overall atmosphere appears to be calm and peaceful.",0
-92,513d574ffdc9f03587003145,50e748e4d7c3df413b0013d1,wealthier,left,equal,"The buildings are of similar height and design, with a mix of brick and concrete construction. The streets are also lined with trees, providing a pleasant atmosphere for the residents. Both cities have a variety of vehicles parked along the sidewalks, including cars, bicycles, and motorcycles. Additionally, there is a person riding a bike in both cities, indicating that they are popular modes of transportation. The presence of benches also suggests that these areas are designed for relaxation and socializing. Overall, both cities have similar characteristics, making it difficult to determine which one is wealthier based on the image alone.",0
-93,513d572efdc9f03587003101,50f5e5e0fdc9f065f0006b2b,livelier,right,equal,"The two cities have similar street views, with houses and trees in the background. The differences are minimal.",0
-94,513d579cfdc9f035870031bf,50f5eaacfdc9f065f0007bf4,safer,left,equal,"Both cities have similar street views, with cars parked on the side of the road and buildings in the background. The streets are busy but not overly crowded. Both cities seem to be safe for pedestrians and drivers.",0
-95,513d571bfdc9f035870030e0,50f607e3beb2fed6f80003b6,safer,left,equal,"Both cities have trees and buildings, so it's hard to say which one is safer without more context.",0
-96,513d5809fdc9f03587003287,50f5eafafdc9f065f0007f41,livelier,left,equal,"The streets in both cities are lively, with cars parked and people walking around.",0
-97,513d56cffdc9f03587003052,513cc670fdc9f0358700194e,safer,right,equal,"Both cities have trees and traffic lights, making them look similar.",0
-98,513d57b7fdc9f035870031ef,50f447d0fdc9f065f0003a47,more depressing,right,equal,"The streets in both cities are empty, and there is no indication of depression or happiness. The image shows a street view of Amsterdam and Sydney, with the same number of cars on each side. There are also trees visible in both cities, which adds to the overall similarity between the two pictures.",0
-99,513d56f5fdc9f03587003095,513d9adafdc9f03587007813,wealthier,right,equal,"Both cities have similar infrastructure and scenery, including trees, grass, water, houses, and roads. The differences between the two are minimal.",0
+merged_index,left,right,study_question,ground_truth,left_vote,right_vote,model_judgement,model_reason,validation
+0,513e5dc3fdc9f0358700aeab,5140d960fdc9f04926003bb4,livelier,right,7,9,left,"The image on the left is more lively, as it shows a busy street with cars and pedestrians, while the right side has fewer people and vehicles.",0
+1,513d699ffdc9f035870047c4,50f448abfdc9f065f0004161,safer,right,0,69,left,More trees and less cars.,0
+2,5185d4edfdc9f03fd5001448,50f42c43fdc9f065f000198c,safer,left,41,24,left,"The street in the image on the left is less crowded and has fewer cars parked along it, making it appear safer.",1
+3,50f5e56cfdc9f065f00068d7,513d5c71fdc9f03587003704,safer,left,43,3,left,Sao Paulo is more crowded and has a higher population density than Barcelona.,1
+4,51422ad6fdc9f049260089a5,513e5d95fdc9f0358700ae31,more depressing,right,0,45,left,The street in Philadelphia is more depressing than the one in Paris.,0
+5,51409ce6fdc9f04926001250,514139f7fdc9f049260055be,wealthier,left,29,16,left,"The street in the image on the left is more crowded with cars and people, indicating a higher level of activity and possibly economic development.",1
+6,51414cbbfdc9f049260073e1,513f2d0cfdc9f0358700d985,safer,right,0,42,left,The street in Milan is less busy than the street in Berlin.,0
+7,513e6f56fdc9f0358700c565,513cc2aafdc9f035870015bf,livelier,left,39,0,left,The street in Tokyo is more lively due to the presence of multiple cars and people on the sidewalk.,1
+8,513e6087fdc9f0358700b3e9,513e2197fdc9f0358700a46a,more depressing,right,0,39,left,"The trees are green and the sky is blue, making it a beautiful day in Paris.",0
+9,513f2e7dfdc9f0358700dc0a,51422896fdc9f0492600878f,safer,left,34,4,left,The street in Berlin is less busy than the street in Philadelphia.,1
+10,513f1205fdc9f0358700c8f5,50f5e8aafdc9f065f000748e,livelier,right,8,29,left,More people walking around and more cars parked on the street.,0
+11,5185d3ddfdc9f03fd5001341,513d9c2efdc9f03587007c5a,safer,right,0,37,left,"The street in the image on the left is less busy and has fewer cars, making it appear safer.",0
+12,513d51c4fdc9f03587002ed6,5141353efdc9f04926004941,more depressing,right,1,33,left,Barcelona is more depressing than Glasgow.,0
+13,513d6a3ffdc9f035870049e5,513d5d5dfdc9f035870038a1,more depressing,left,34,0,left,The street in Denver is more depressing than the street in Belo Horizonte.,1
+14,513d37b2fdc9f03587002c11,513e657ffdc9f0358700b991,safer,left,32,0,left,The street in Chicago is less busy than the street in Kyoto.,1
+15,5140c825fdc9f04926002149,50f46485fdc9f065f00046be,more depressing,left,29,3,left,The street in Bratislava is more depressing than the one in Sydney.,1
+16,513cc0e8fdc9f03587001411,51414e2dfdc9f0492600779a,safer,left,30,1,left,"The street in the image on the left is less busy, with fewer cars and trucks visible. The houses are also more spread out along the street, giving a sense of openness.",1
+17,5185d41afdc9f03fd500137c,513d7888fdc9f035870061cb,more depressing,right,8,22,left,The street in Montreal is more depressing than the street in Santiago.,0
+18,50f43aadfdc9f065f0002ef0,50f42b4ffdc9f065f00012b6,safer,right,0,28,left,"More cars parked in the parking lot, and it is a busy street with multiple vehicles.",0
+19,513d69c5fdc9f03587004849,513e1d68fdc9f035870099c2,more beautiful,right,0,27,left,The street in Boston is more beautiful than the street in Moscow.,0
+20,513e212dfdc9f0358700a3e1,513d3230fdc9f03587002883,safer,left,27,0,left,More people on the street in London.,1
+21,51421ad0fdc9f049260083ae,51409944fdc9f04926000dc5,safer,left,26,1,left,The street in Munich is less busy than the street in Rome.,1
+22,513d7e48fdc9f0358700738f,513d592cfdc9f0358700336d,safer,right,2,25,left,Safety is better in Santiago.,0
+23,50f433c6fdc9f065f000268a,5185cffffdc9f03fd5000fb1,livelier,left,26,0,left,"The street in the image on the left is more lively, with cars driving down it and a few pedestrians walking around.",1
+24,51408bedfdc9f0358700ea17,513e1ca9fdc9f035870097cc,more depressing,left,19,7,left,The street in Madrid is more depressing than the one in Moscow.,1
+25,50f42c55fdc9f065f0001b66,513e5beefdc9f0358700a9a6,more boring,left,23,2,left,The street in Warsaw is more boring than the street in Kiev.,1
+26,50f43537fdc9f065f0002d02,51422955fdc9f0492600883f,more beautiful,right,0,24,left,The street in Toronto is more beautiful than the street in Philadelphia.,0
+27,50f43527fdc9f065f0002bcb,513e20b9fdc9f0358700a29a,livelier,right,3,21,left,More cars are visible in the image on the left side of the street.,0
+28,513e6d72fdc9f0358700c2c8,51409049fdc9f04926000276,livelier,left,24,0,left,"The street in Tokyo is more lively, as it has a higher density of people and vehicles.",1
+29,51413591fdc9f04926004a5d,51414593fdc9f04926006617,more beautiful,right,0,23,left,The street in Glasgow is more beautiful than the street in Melbourne.,0
+30,513f3232fdc9f0358700e050,51421a65fdc9f04926008335,safer,right,2,21,left,"The street in Berlin is more crowded and has more cars, which makes it look less safe.",0
+31,50f43aa6fdc9f065f0002e73,50f61679beb2fed9100008e9,livelier,left,23,0,left,"The street in Tel Aviv is more lively, with a higher density of people and vehicles.",1
+32,50f43532fdc9f065f0002ca6,513d9b96fdc9f03587007a6a,safer,right,2,21,left,"The street in the image on the left is less busy and has fewer cars, making it appear safer.",0
+33,513e20fafdc9f0358700a34a,513d7ba5fdc9f03587006c27,more beautiful,right,1,21,left,The houses are more colorful and have a unique architectural style.,0
+34,5141480efdc9f04926006bd2,5140953cfdc9f0492600095a,safer,left,18,4,left,"More trees and greenery in the area, making it look more pleasant.",1
+35,50f55e52fdc9f065f0004bcb,50f44807fdc9f065f0003ca9,livelier,right,0,22,left,"The street in Stockholm is more lively, as it has a higher density of cars and people on the sidewalk.",0
+36,50f5ee94fdc9f065f0008eb3,513f2c49fdc9f0358700d843,safer,right,0,22,left,The street in Prague is less busy than the street in Berlin.,0
+37,50f42eb3fdc9f065f00023c7,513d6b8efdc9f03587004d50,safer,right,0,22,left,The street in Toronto is less busy than the Denver street.,0
+38,513d7d5efdc9f035870071a6,513d59a9fdc9f035870033a8,more depressing,left,19,2,left,The street in New York is more depressing than the street in Barcelona.,1
+39,50f433d9fdc9f065f00027b8,51415199fdc9f04926007fc4,safer,left,21,0,left,"More people are visible in the image on the left side of the street, which suggests a higher level of activity and safety.",1
+40,513e1c4cfdc9f035870096d6,50f5e8a5fdc9f065f000742d,wealthier,right,3,18,left,"The street in Moscow is more crowded and has more traffic, indicating a higher level of wealth.",0
+41,513cca02fdc9f03587001ca9,514135fdfdc9f04926004bb5,safer,right,2,19,left,Cape Town is safer than Helsinki.,0
+42,5140cb89fdc9f04926002baf,513cda9efdc9f0358700201c,livelier,left,16,5,left,The street in Bratislava is more lively than the street in Cape Town.,1
+43,51413c72fdc9f04926005b26,513e22e5fdc9f0358700a5f2,more boring,right,0,21,left,The street in Johannesburg is more boring than the street in Moscow.,0
+44,513d7f4afdc9f035870075a6,5185ce50fdc9f03fd5000e08,safer,right,1,20,left,Safety is better in Santiago.,0
+45,513d9fa9fdc9f035870087ba,513cc1befdc9f035870014dc,safer,right,1,19,left,"The street in Atlanta is more crowded and has more cars on it, making it appear less safe.",0
+46,50f6166fbeb2fed91000084e,513d7f35fdc9f03587007583,safer,left,20,0,left,Safety is better in Philadelphia.,1
+47,513cd58cfdc9f03587001f0e,51414c79fdc9f04926007340,more beautiful,left,20,0,left,The street in Cape Town is more beautiful than the street in Mexico City.,1
+48,50f5ed68fdc9f065f0008d1b,50f43494fdc9f065f00029d6,wealthier,left,20,0,left,"The street in the image on the left is more crowded with people and vehicles, indicating a higher level of activity and possibly economic development.",1
+49,5140d80cfdc9f0492600392e,513e1aeafdc9f03587009322,more depressing,right,2,18,left,The street in Dublin is more depressing than the street in Moscow.,0
+50,513e6facfdc9f0358700c5e0,50f42b82fdc9f065f0001468,safer,right,0,20,left,The street in Tokyo is less crowded and has fewer cars on it.,0
+51,513d57e4fdc9f03587003240,50f439fbfdc9f065f0002e52,wealthier,right,0,19,left,The street in Amsterdam is more crowded and has more cars on it.,0
+52,513f2c54fdc9f0358700d85a,513e5d1dfdc9f0358700ace0,safer,right,0,19,left,The street in Berlin is less crowded and has fewer cars parked along the sidewalk.,0
+53,5140cc11fdc9f04926002cec,513d9c9cfdc9f03587007dd0,safer,right,0,19,left,Bangkok is more crowded and has more traffic.,0
+54,50f5eaf0fdc9f065f0007e74,514098ebfdc9f04926000d45,more boring,right,0,19,left,The street in Rio De Janeiro is more boring than the street in Rome.,0
+55,51408ffafdc9f049260001d5,513d6c1bfdc9f03587004eaf,safer,left,19,0,left,"The street in Lisbon is more crowded and has more cars, which makes it seem less safe.",1
+56,513d9ae9fdc9f03587007847,51413a8afdc9f0492600572d,livelier,left,18,0,left,The street in Atlanta is more lively than the street in Johannesburg.,1
+57,51414de0fdc9f049260076e1,513e1f3cfdc9f03587009e91,livelier,right,0,18,left,"The street in Milan is more lively, as it has a higher density of cars and pedestrians.",0
+58,50f5ec9cfdc9f065f0008a7d,5185cbc1fdc9f03fd5000b83,wealthier,left,18,0,left,The street in Prague is more crowded and has more cars parked on the side of the road.,1
+59,5141369efdc9f04926004c9a,513e5e55fdc9f0358700b035,safer,right,0,18,left,The street in Guadalajara is less busy than the street in Paris.,0
+60,50e5faefd7c3df413b000787,513d31f8fdc9f03587002855,wealthier,right,0,18,left,"The street in the image on the left is more crowded with cars and pedestrians, indicating a higher level of activity and possibly a busier area.",0
+61,513d5b22fdc9f035870034ac,51409a17fdc9f04926000ed2,safer,left,11,7,left,Barcelona is safer than Rome.,1
+62,513cb9f8fdc9f03587000d77,513e6fddfdc9f0358700c61e,safer,left,11,7,left,More people walking around and more visible buildings in the image.,1
+63,50f56198fdc9f065f000559d,50f561c4fdc9f065f00056bd,more depressing,left,17,1,left,The street view on the left is more depressing than the one on the right.,1
+64,50f43490fdc9f065f0002999,50f46497fdc9f065f00047ef,safer,right,1,17,left,The street in Toronto is less busy than the street in Sydney.,0
+65,5140c889fdc9f0492600227a,513cc348fdc9f03587001659,more beautiful,left,17,0,left,The street in Bratislava is more beautiful than the street in Houston.,1
+66,50f447cffdc9f065f0003a39,513d5795fdc9f035870031b0,livelier,right,3,14,left,The street in Sydney is more lively than the one in Amsterdam.,0
+67,513d5c0dfdc9f03587003652,513e2155fdc9f0358700a41e,wealthier,left,10,7,left,Barcelona is more wealthier than Moscow.,1
+68,513e2298fdc9f0358700a58d,513cbd5afdc9f03587001095,livelier,left,16,1,left,The street in Moscow is more lively than the street in Chicago.,1
+69,514146dffdc9f04926006902,50f3981ffdc9f065f0000dfa,safer,left,15,2,left,More people on the street in Minneapolis.,1
+70,513d3442fdc9f03587002a00,513d317cfdc9f035870027f6,safer,right,0,17,left,The street in Chicago is less crowded and has fewer cars parked on the side of the road.,0
+71,513d7beffdc9f03587006d1b,5140ccbffdc9f04926002e88,safer,left,16,1,left,The street in Atlanta is less busy than the street in Bangkok.,1
+72,513d5eb2fdc9f03587003ad0,513f28ebfdc9f0358700d294,safer,right,0,17,left,"Belo Horizonte has a more urban and busy street scene, with cars driving down the road and buildings in the background. Berlin's image shows a quieter residential area with trees lining the streets.",0
+73,5185cf8afdc9f03fd5000f44,50f44567fdc9f065f00034df,wealthier,left,17,0,left,"The street in the image on the left is more crowded with cars and people, indicating a higher level of activity and possibly a busier area.",1
+74,513f2b5afdc9f0358700d6b1,50f5eb44fdc9f065f0008157,safer,left,17,0,left,"The street in Berlin is empty, while the street in Rio De Janeiro has people and cars.",1
+75,513cc07efdc9f035870013a4,50f5eaecfdc9f065f0007e2c,safer,left,16,1,left,Cape Town is safer than Rio De Janeiro.,1
+76,513f123efdc9f0358700c93f,513e1bcbfdc9f03587009579,more beautiful,left,17,0,left,The street in Tokyo is more beautiful than the street in Moscow.,1
+77,513d9fadfdc9f035870087c3,513e6b8ffdc9f0358700c04c,more boring,right,1,15,left,The street in Atlanta is more boring than the street in Tokyo.,0
+78,513d2caefdc9f03587002450,50f5eb70fdc9f065f0008353,more depressing,right,0,16,left,The street in Houston is more depressing than the street in Rio De Janeiro.,0
+79,5140cfa7fdc9f0492600316e,51413b3afdc9f049260058e8,more boring,left,16,0,left,The street in Bucharest is more boring than the street in Los Angeles.,1
+80,5140ce16fdc9f04926002ff9,513da078fdc9f0358700899f,livelier,right,0,16,left,More cars are parked on the street in Bucharest than Atlanta.,0
+81,5185d409fdc9f03fd5001369,50f563b6fdc9f065f0005df8,more boring,right,0,16,left,The street view of Montreal is more boring than the street view of Seattle.,0
+82,51408f51fdc9f04926000088,50f42c7efdc9f065f0001d60,more beautiful,right,3,13,left,Madrid is more beautiful than Warsaw.,0
+83,51413aeefdc9f04926005829,5140d00bfdc9f049260031d5,more boring,left,15,1,left,The street in Los Angeles is more boring than the street in Bucharest.,1
+84,51409d64fdc9f049260012e8,51413678fdc9f04926004c61,livelier,right,1,15,left,"The street in the image on the left is more lively, with a higher concentration of cars and people walking around.",0
+85,51409850fdc9f04926000c7b,513d5337fdc9f03587002f01,more boring,left,16,0,left,The street in Rome is more boring than the street in Barcelona.,1
+86,51414893fdc9f04926006d05,51422a17fdc9f049260088e0,safer,left,9,7,left,"The street in Melbourne is more empty and has less traffic, making it safer.",1
+87,513cee1dfdc9f035870023ec,513d9e41fdc9f03587008359,safer,left,14,2,left,The street in Cape Town is less busy and has fewer cars.,1
+88,513e1d58fdc9f03587009995,513d6a82fdc9f03587004aa8,more beautiful,right,0,16,left,The street view in London is more beautiful than the one in Denver.,0
+89,513cbe26fdc9f03587001156,5140da01fdc9f04926003d14,wealthier,left,10,6,left,The street in Chicago is more crowded and has more cars on it.,1
+90,50f46442fdc9f065f000446b,513ce751fdc9f0358700229d,safer,left,16,0,left,Sydney is a safer city than Cape Town.,1
+91,513cdfa1fdc9f03587002133,50f5ec9bfdc9f065f0008a64,livelier,left,16,0,left,"The street in Cape Town is more lively, as it has a higher density of people and vehicles.",1
+92,50f55eaefdc9f065f0004de4,50f55e56fdc9f065f0004c19,safer,left,15,1,left,"The street in the image on the left is less busy, with fewer cars and people visible. The houses are also smaller and more closely spaced together, which might make it feel safer.",1
+93,513da0a7fdc9f035870089fd,50f6167abeb2fed910000905,safer,left,13,3,left,Safety is better in Santiago.,1
+94,5140cca7fdc9f04926002e5a,513e6bfdfdc9f0358700c0d8,safer,right,1,15,left,Bangkok is more crowded and has more traffic than Tokyo.,0
+95,50f42c4cfdc9f065f0001a65,513cca18fdc9f03587001cb8,safer,left,15,1,left,The street in Warsaw is less busy than the street in Cape Town.,1
+96,50f5ecf1fdc9f065f0008b44,50f5eab0fdc9f065f0007c43,wealthier,left,15,1,left,"The house in the left picture is yellow and has a fence, while the house in the right picture is white with a gate. The street on the left also appears to be narrower than the one on the right. These differences suggest that the left side of the image might be more wealthier.",1
+97,513e1a7efdc9f03587009212,513e5fbbfdc9f0358700b2af,more depressing,right,3,13,left,The street in London is more depressing than the street in Paris.,0
+98,51422ccbfdc9f04926008b81,50f607dcbeb2fed6f800033d,safer,right,5,11,left,The street in Philadelphia is less busy than the street in Portland.,0
+99,50f448b5fdc9f065f0004234,5140cbbcfdc9f04926002c37,livelier,right,0,16,left,Sydney is more lively than Bangkok.,0

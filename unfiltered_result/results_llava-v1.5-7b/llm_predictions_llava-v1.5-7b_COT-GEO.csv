@@ -1,0 +1,101 @@
+merged_index,left,right,study_question,ground_truth,model_judgement,model_reason,validation
+0,513d573bfdc9f03587003120,50f5eb3ffdc9f065f00080f7,wealthier,left,equal,"Both cities have similar characteristics and features that contribute to their wealthier appearance. Both cities have large buildings, such as the one in Amsterdam on the left and the one in Rio De Janeiro on the right. They also both have parking lots, which are visible in both images. The streets are well-maintained with sidewalks, and there is a bridge in each city. Additionally, both cities have trees and vehicles, such as cars and trucks, contributing to their overall wealthier appearance.",0
+1,513d57f9fdc9f0358700326b,50f5e700fdc9f065f0006ef0,more beautiful,left,equal,Both cities have beautiful streets and buildings.,0
+2,513d57e5fdc9f03587003244,513d7b54fdc9f03587006b19,livelier,right,equal,"Both cities have similar street views and features such as buildings, cars, trees, and parking lots. The differences between the two are minimal, making it difficult to determine which city is livelier based on these images alone.",0
+3,513d57bdfdc9f035870031fd,50f562e3fdc9f065f0005b45,more depressing,equal,equal,"Both cities have similar street views and features such as trees, cars, and buildings. The differences between the two images are minimal.",1
+4,513d573ffdc9f03587003128,513d9e0dfdc9f035870082aa,livelier,left,equal,Both cities have similar vibes and street views.,0
+5,513d56befdc9f03587003035,513d7e3dfdc9f03587007377,safer,left,equal,Both cities have similar street views and neighborhoods.,0
+6,513d572dfdc9f03587003100,513da076fdc9f0358700899a,more beautiful,left,equal,Both cities have beautiful landscapes and picturesque views.,0
+7,513d57effdc9f03587003259,513e2087fdc9f0358700a21e,more boring,right,equal,Both cities have beautiful parks and trees that make them visually appealing.,0
+8,513d575bfdc9f03587003156,50f5e56bfdc9f065f00068bd,safer,left,equal,Both cities have similar street views and safety features.,0
+9,513d56fffdc9f035870030b0,513d9e1dfdc9f035870082d5,more beautiful,left,equal,Both cities have beautiful streets and parks.,0
+10,513d571dfdc9f035870030e5,513f2e19fdc9f0358700db58,wealthier,left,equal,"Both cities have similar features such as buildings and streets. The differences are in the cars and people's attire. Amsterdam has a more modern look with fewer cars, while Berlin has a more traditional look with more cars on the street. Both cities have trees and parking meters along the side of the road.",0
+11,513d5652fdc9f03587002f79,513d5746fdc9f03587003134,livelier,left,equal,"The two images are of the same street in Amsterdam, taken at different times of day. The first image is a sunny day with green trees and blue sky, while the second image shows a cloudy day with more grayish tones. Both images capture the liveliness of the city, but the differences in lighting and weather conditions create distinct moods. The street view in both images showcases the same buildings, parked cars, and traffic lights, indicating that they are indeed the same location. Therefore, it is difficult to determine which image better reflects the quality of 'livelier' without considering the viewer's personal preference for weather conditions or mood.",0
+12,513d57b8fdc9f035870031f2,513cc044fdc9f0358700136a,livelier,left,equal,Both cities have similar street views and landscapes.,0
+13,513d57ecfdc9f03587003252,5140d88afdc9f04926003a1d,more boring,left,equal,"Both cities have similar features such as houses and trees along the streets. The street view images capture the essence of both cities in a similar manner, making it difficult to determine which one is more boring.",0
+14,513d5723fdc9f035870030f0,513e6d7efdc9f0358700c2da,livelier,right,equal,Both cities have similar vibes and street scenes.,0
+15,513d5728fdc9f035870030fc,513cd42efdc9f03587001ebe,safer,left,equal,Both cities have similar street views and landscapes.,0
+16,513d5698fdc9f03587002ffd,5140ced3fdc9f049260030a7,wealthier,left,equal,Both cities have nice streets and buildings.,0
+17,513d572efdc9f03587003103,513e1e6ffdc9f03587009c73,livelier,equal,equal,Both cities have similar street views and architectural styles.,1
+18,513d5768fdc9f03587003168,514142e7fdc9f0492600633f,wealthier,right,equal,Both cities have similar street views and architectural styles.,0
+19,513d575dfdc9f03587003157,50f42bbbfdc9f065f00016eb,more depressing,right,equal,"Both cities have their unique charm and beauty. Amsterdam has its canals and picturesque streets, while Warsaw offers a more urban feel with its buildings and green spaces. Both cities are visually appealing in their own ways.",0
+20,513d5805fdc9f0358700327d,50f43b6efdc9f065f000309e,safer,right,equal,"Both cities have similar street views and features such as buildings, cars, motorcycles, and pedestrians. The streets are busy with traffic in both locations. There is no clear winner between the two cities based on the image.",0
+21,513d5724fdc9f035870030f2,51413cb0fdc9f04926005b8d,more boring,left,equal,"Both cities have similar street views and features such as houses, cars, trees, and sidewalks. The differences in the images are minimal, making it difficult to determine which city is more boring.",0
+22,513d569afdc9f03587003000,513d7f40fdc9f03587007598,livelier,right,equal,"Both cities have similar street views and features such as houses, cars, trees, and sidewalks. The differences between the two are not significant enough to determine which one is livelier.",0
+23,513d568afdc9f03587002fe2,50f43487fdc9f065f00028eb,more boring,left,equal,"Both cities have similar street views and features such as trees, houses, cars, and people walking on the sidewalk. The differences between the two images are minimal.",0
+24,513d57fffdc9f03587003273,513f2e02fdc9f0358700db3f,safer,equal,equal,"Both cities have similar street scenes with cars and buildings. The streets are not crowded, and the overall atmosphere appears to be safe.",1
+25,513d5769fdc9f0358700316b,513d7d73fdc9f035870071cc,more boring,equal,equal,Both cities have similar street views and parking lots.,1
+26,513d5717fdc9f035870030dc,51414e68fdc9f0492600783d,wealthier,right,equal,Both cities have wealthier areas that are well maintained and clean.,0
+27,513d5764fdc9f03587003163,50f4348afdc9f065f0002918,wealthier,left,equal,Both cities have nice buildings and streets.,0
+28,513d57bcfdc9f035870031f9,514138dbfdc9f04926005307,safer,left,equal,"Both cities have similar street views and features such as buildings, cars, trees, and people walking around. The differences between the two images are minimal.",0
+29,513d579cfdc9f035870031bd,50f5e6c5fdc9f065f0006dde,safer,equal,equal,Both cities have trees and cars in their streets.,1
+30,513d56e5fdc9f03587003078,514145befdc9f04926006658,livelier,left,equal,Both cities have similar street views and parking lots.,0
+31,513d567bfdc9f03587002fc8,514150d7fdc9f04926007e4a,safer,right,equal,"Both cities have similar street views and features such as trees, buildings, and roads. The differences between the two are minimal, making it difficult to determine which one is safer based on the image alone.",0
+32,513d56b1fdc9f03587003020,50f5e51afdc9f065f0006628,safer,left,equal,Both cities have similar street views and traffic conditions.,0
+33,513d5712fdc9f035870030d1,50f60866beb2fed6f80003e9,more depressing,right,equal,"Both cities have similar street views and features such as cars, trees, buildings, and sidewalks. The differences in the two images are minimal.",0
+34,513d57ecfdc9f03587003251,51413bbefdc9f04926005a2b,wealthier,left,equal,Both cities have nice neighborhoods and well-maintained streets.,0
+35,513d56fffdc9f035870030af,5140c88dfdc9f04926002286,livelier,right,equal,Both cities have a lively atmosphere in their streets.,0
+36,513d5728fdc9f035870030fc,513e1eaffdc9f03587009d1c,safer,right,equal,Both cities have similar street views and parking lots.,0
+37,513d580efdc9f0358700328f,51408b27fdc9f0358700e88f,more beautiful,left,equal,Both cities have beautiful streets and scenery.,0
+38,513d5728fdc9f035870030fc,513d7e5afdc9f035870073b4,more boring,left,equal,Both cities have similar street views and traffic conditions.,0
+39,513d56ecfdc9f03587003085,5140b74bfdc9f04926001976,more boring,right,equal,"Both cities have similar street views and features such as trees, cars, buildings, and parking meters. The differences between the two are minimal.",0
+40,513d5724fdc9f035870030f2,50f60c4fbeb2fed9100002ab,wealthier,right,equal,"Both cities have similar street views and features such as houses, cars, trees, and buildings. The differences between the two are minimal.",0
+41,513d57b6fdc9f035870031ec,514148affdc9f04926006d1d,more beautiful,left,equal,Both cities have beautiful streets and buildings.,0
+42,513d571ffdc9f035870030e9,513d6872fdc9f0358700438e,wealthier,left,equal,Both cities have wealthy areas and poorer areas. Both cities have nice buildings and run down buildings. Both cities have nice streets and dirty streets. Both cities have nice cars and dirty cars. Both cities have nice people and dirty people.,0
+43,513d57eafdc9f0358700324f,5140cb67fdc9f04926002b4c,more beautiful,equal,equal,Both cities have beautiful street views.,1
+44,513d5652fdc9f03587002f79,513e1c1efdc9f0358700965c,livelier,left,equal,"The two images are of different cities but showcase similar street scenes. Both have houses, cars, and trees. The streets in both cities appear to be lively with people walking around. There is no clear winner between the two images.",0
+45,513d5688fdc9f03587002fdd,513cb642fdc9f03587000a11,more beautiful,left,equal,Both cities have beautiful streets and landscapes.,0
+46,513d57b6fdc9f035870031ec,513d9c6cfdc9f03587007d2d,safer,left,equal,Both cities have similar street views and buildings.,0
+47,513d56b3fdc9f03587003021,513e5f3dfdc9f0358700b1ed,livelier,right,equal,Both cities have similar street views and landscapes.,0
+48,513d57c4fdc9f0358700320b,513d5c6dfdc9f035870036fb,safer,left,equal,Both cities have similar safety conditions.,0
+49,513d5798fdc9f035870031b6,5140da36fdc9f04926003d85,safer,left,equal,"Both cities have similar street views and parking lots. The streets are lined with trees, which contribute to a sense of safety. However, the presence of cars in both cities indicates that they may not be completely safe.",0
+50,513d56d2fdc9f03587003058,513e1ffbfdc9f0358700a0a6,safer,left,equal,"Both cities have similar safety features such as traffic lights and cars on the road. The streets are also clean and well-maintained. However, the left image has a more scenic view of a river with boats passing by, while the right image shows a busy street in London. Both cities offer a sense of safety and orderliness.",0
+51,513d56b8fdc9f0358700302a,50f433c3fdc9f065f000263f,more beautiful,left,equal,Both cities have beautiful streets and picturesque views.,0
+52,513d564ffdc9f03587002f74,513d60d5fdc9f03587003d87,wealthier,left,equal,Both cities have nice streets and buildings.,0
+53,513d56b0fdc9f0358700301e,5141404afdc9f04926006099,safer,left,equal,Both cities have similar street views and parking lots.,0
+54,513d5781fdc9f03587003195,513d6bacfdc9f03587004d9c,more beautiful,left,equal,Both cities have beautiful streets and buildings.,0
+55,513d5827fdc9f035870032be,513d9f6ffdc9f0358700873c,safer,right,equal,Both cities have similar street views and neighborhoods.,0
+56,513d5671fdc9f03587002fb3,50f5ea5efdc9f065f0007ae3,wealthier,right,equal,Both cities have wealthy areas that are well maintained and clean.,0
+57,513d56b4fdc9f03587003022,51408ba8fdc9f0358700e991,livelier,right,equal,"Both cities have similar vibrant street scenes with trees and buildings in the background. The streets are busy with traffic and pedestrians. Both cities have a lively atmosphere, making it difficult to determine which one is better.",0
+58,513d56dbfdc9f03587003065,51409a94fdc9f04926000f74,livelier,right,equal,Both cities have similar vibes and atmosphere.,0
+59,513d56bbfdc9f03587003031,5140d2f5fdc9f04926003357,more depressing,equal,equal,Both cities have depressing elements in their street views.,1
+60,513d5728fdc9f035870030fc,50e5faead7c3df413b00073f,safer,left,equal,"Both cities have their own unique features that make them safe and interesting places to visit. Amsterdam has its canals and picturesque architecture, while Kyoto offers a blend of traditional Japanese culture and modern amenities. Both cities are well-maintained and offer a variety of experiences for tourists.",0
+61,513d570efdc9f035870030cd,513cc4a4fdc9f035870017aa,livelier,left,equal,"Both cities have similar street views and features such as trees, cars, people, and buildings. The differences are minimal between the two images.",0
+62,513d56effdc9f0358700308c,513f28d8fdc9f0358700d272,wealthier,left,equal,Both cities have nice streets and buildings.,0
+63,513d56eefdc9f0358700308a,5141475bfdc9f04926006a2e,safer,right,equal,Both cities have similar street views and safety features.,0
+64,513d57eafdc9f0358700324f,51414faafdc9f04926007b51,livelier,right,equal,Both cities have similar vibes and street views.,0
+65,513d5774fdc9f0358700317d,5185ccaafdc9f03fd5000c62,safer,right,equal,"Both cities have similar street views and features such as cars, people, trees, and buildings. The differences between the two images are minimal.",0
+66,513d569cfdc9f03587003006,5185ce9efdc9f03fd5000e52,safer,left,equal,"Both cities have similar street views and features such as trees, cars, buildings, and sidewalks. The differences in the two images are minimal, making it difficult to determine which city is safer based on these visual cues.",0
+67,513d5702fdc9f035870030b6,514139cefdc9f0492600555c,more beautiful,left,equal,Both cities have beautiful streets and parks.,0
+68,513d57f6fdc9f03587003261,50f5e8c9fdc9f065f00074b0,wealthier,right,equal,Both cities have nice houses and cars.,0
+69,513d57bafdc9f035870031f8,513f2d9dfdc9f0358700da83,livelier,right,equal,Both cities have similar vibes and street scenes.,0
+70,513d576efdc9f03587003171,50f56203fdc9f065f0005898,safer,right,equal,Both cities have similar street views and traffic lights.,0
+71,513d56e8fdc9f0358700307e,51408c43fdc9f0358700eac1,more beautiful,left,equal,Both cities have beautiful streets and parking lots.,0
+72,513d57fcfdc9f0358700326e,51408bb4fdc9f0358700e9a9,more beautiful,left,equal,Both cities have beautiful streets and landscapes.,0
+73,513d573dfdc9f03587003125,5140916cfdc9f049260004e3,safer,right,equal,Both cities have similar street scenes and parking lots.,0
+74,513d57d0fdc9f0358700321e,50f5eaf4fdc9f065f0007ed4,more beautiful,left,equal,Both cities have beautiful landscapes and interesting architecture.,0
+75,513d570dfdc9f035870030ca,51413712fdc9f04926004db6,livelier,left,equal,Both cities have similar street views and parking lots.,0
+76,513d5800fdc9f03587003275,513e1ab5fdc9f035870092a1,safer,left,equal,Both cities have similar street scenes and safety features.,0
+77,513d56dbfdc9f03587003065,50f563f9fdc9f065f0005f51,more boring,left,equal,"Both cities have similar street views and features such as trees, cars, trucks, and buildings. The differences between the two images are minimal.",0
+78,513d5654fdc9f03587002f7f,50f42c69fdc9f065f0001bcb,wealthier,right,equal,Both cities have nice streets and buildings.,0
+79,513d56c0fdc9f03587003036,513d79fefdc9f035870066a0,more boring,left,equal,Both cities have similar street views and landscapes.,0
+80,513d577bfdc9f0358700318b,513e1bd2fdc9f03587009587,livelier,right,equal,Both cities have similar street views and parking lots.,0
+81,513d5714fdc9f035870030d4,513d59d3fdc9f035870033c0,more beautiful,right,equal,Both cities have beautiful streets and landscapes.,0
+82,513d5836fdc9f035870032d7,5140b909fdc9f04926001d7d,more beautiful,left,equal,Both cities have beautiful streets and landscapes.,0
+83,513d56edfdc9f03587003087,513cc4cafdc9f035870017ce,livelier,left,equal,Both cities have similar street views and traffic conditions.,0
+84,513d566dfdc9f03587002fad,513f2faefdc9f0358700de06,safer,left,equal,Both cities have similar buildings and street views.,0
+85,513d5708fdc9f035870030c1,513d67fdfdc9f035870041fd,livelier,right,equal,Both cities have similar street views and traffic conditions.,0
+86,513d5719fdc9f035870030dd,513e1f2efdc9f03587009e63,more beautiful,right,equal,Both cities have beautiful streets and landscapes.,0
+87,513d56f6fdc9f03587003098,5140b919fdc9f04926001d9c,safer,right,equal,Both cities have trees and cars on their streets.,0
+88,513d5677fdc9f03587002fc1,5140d309fdc9f0492600336b,livelier,left,equal,"Both cities have similar street views and parking lots. The images show cars parked on the side of a road in both locations. There are no significant differences between the two cities, so it is difficult to determine which one reflects livelier better.",0
+89,513d57bcfdc9f035870031f9,51413846fdc9f049260051a9,livelier,left,equal,Both cities have similar liveliness and street views.,0
+90,513d578ffdc9f035870031ac,514138bdfdc9f049260052c2,livelier,left,equal,Both cities have similar vibes and liveliness.,0
+91,513d569cfdc9f03587003006,50f463b8fdc9f065f000429c,safer,right,equal,Both cities have similar street views and neighborhoods.,0
+92,513d574ffdc9f03587003145,50e748e4d7c3df413b0013d1,wealthier,left,equal,Both cities have nice buildings and streets.,0
+93,513d572efdc9f03587003101,50f5e5e0fdc9f065f0006b2b,livelier,right,equal,Both cities have similar vibes and liveliness.,0
+94,513d579cfdc9f035870031bf,50f5eaacfdc9f065f0007bf4,safer,left,equal,Both cities have similar street scenes and traffic conditions.,0
+95,513d571bfdc9f035870030e0,50f607e3beb2fed6f80003b6,safer,left,equal,Both cities have trees and buildings in their streets.,0
+96,513d5809fdc9f03587003287,50f5eafafdc9f065f0007f41,livelier,left,equal,Both cities have similar vibes and liveliness.,0
+97,513d56cffdc9f03587003052,513cc670fdc9f0358700194e,safer,right,equal,Both cities have similar street views and traffic conditions.,0
+98,513d57b7fdc9f035870031ef,50f447d0fdc9f065f0003a47,more depressing,right,equal,"Both cities have their own unique charm and beauty. The street view of Amsterdam has a more vibrant atmosphere with the presence of trees and buildings, while Sydney's street view showcases its iconic landmarks such as the Opera House. Both cities are visually appealing in their own way.",0
+99,513d56f5fdc9f03587003095,513d9adafdc9f03587007813,wealthier,right,equal,Both cities have similar infrastructure and scenery.,0
