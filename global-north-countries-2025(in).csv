@@ -1,0 +1,198 @@
+flagCode,country,GlobalNorthCountriesPartOfGlobalNorth,Hdi2021
+US,United States,Yes,0.921
+RU,Russia,Yes,0.818
+MX,Mexico,Yes,0.757
+JP,Japan,Yes,0.92
+TR,Turkey,Yes,0.841
+DE,Germany,Yes,0.948
+GB,United Kingdom,Yes,0.931
+FR,France,Yes,0.906
+IT,Italy,Yes,0.899
+KR,South Korea,Yes,0.926
+ES,Spain,Yes,0.904
+CA,Canada,Yes,0.934
+UA,Ukraine,Yes,0.755
+PL,Poland,Yes,0.876
+UZ,Uzbekistan,Yes,0.721
+AU,Australia,Yes,0.949
+KZ,Kazakhstan,Yes,0.801
+RO,Romania,Yes,0.825
+NL,Netherlands,Yes,0.941
+BE,Belgium,Yes,0.938
+SE,Sweden,Yes,0.949
+CZ,Czech Republic,Yes,0.891
+PT,Portugal,Yes,0.865
+AZ,Azerbaijan,Yes,0.738
+GR,Greece,Yes,0.887
+HU,Hungary,Yes,0.846
+IL,Israel,Yes,0.911
+AT,Austria,Yes,0.92
+BY,Belarus,Yes,0.801
+CH,Switzerland,Yes,0.965
+KG,Kyrgyzstan,Yes,0.696
+BG,Bulgaria,Yes,0.796
+RS,Serbia,Yes,0.804
+DK,Denmark,Yes,0.947
+FI,Finland,Yes,0.941
+NO,Norway,Yes,0.964
+SK,Slovakia,Yes,0.852
+IE,Ireland,Yes,0.946
+NZ,New Zealand,Yes,0.936
+HR,Croatia,Yes,0.867
+GE,Georgia,Yes,0.809
+MD,Moldova,Yes,0.767
+AM,Armenia,Yes,0.774
+LT,Lithuania,Yes,0.875
+AL,Albania,Yes,0.785
+SI,Slovenia,Yes,0.916
+LV,Latvia,Yes,0.865
+MK,North Macedonia,Yes,0.764
+CY,Cyprus,Yes,0.901
+EE,Estonia,Yes,0.89
+LU,Luxembourg,Yes,0.927
+ME,Montenegro,Yes,0.84
+MT,Malta,Yes,0.912
+IS,Iceland,Yes,0.957
+AD,Andorra,Yes,0.855
+LI,Liechtenstein,Yes,0.936
+MC,Monaco,Yes,
+SM,San Marino,Yes,0.853
+PW,Palau,Yes,0.802
+TV,Tuvalu,Yes,0.653
+VA,Vatican City,Yes,
+IN,India,No,0.633
+CN,China,No,0.785
+ID,Indonesia,No,0.707
+PK,Pakistan,No,0.537
+NG,Nigeria,No,0.542
+BR,Brazil,No,0.756
+BD,Bangladesh,No,0.662
+ET,Ethiopia,No,0.489
+EG,Egypt,No,0.726
+PH,Philippines,No,0.692
+CD,DR Congo,No,0.475
+VN,Vietnam,No,0.718
+IR,Iran,No,0.776
+TH,Thailand,No,0.797
+TZ,Tanzania,No,0.529
+ZA,South Africa,No,0.721
+KE,Kenya,No,0.596
+MM,Myanmar,No,0.599
+CO,Colombia,No,0.752
+SD,Sudan,No,0.516
+UG,Uganda,No,0.545
+DZ,Algeria,No,0.74
+IQ,Iraq,No,0.667
+AR,Argentina,No,0.844
+AF,Afghanistan,No,0.473
+YE,Yemen,No,0.425
+AO,Angola,No,0.59
+MA,Morocco,No,0.688
+MY,Malaysia,No,0.798
+MZ,Mozambique,No,0.459
+GH,Ghana,No,0.6
+PE,Peru,No,0.755
+SA,Saudi Arabia,No,0.867
+MG,Madagascar,No,0.484
+CI,Ivory Coast,No,0.53
+CM,Cameroon,No,0.581
+NP,Nepal,No,0.591
+VE,Venezuela,No,0.69
+NE,Niger,No,0.389
+KP,North Korea,No,
+SY,Syria,No,0.558
+ML,Mali,No,0.408
+BF,Burkina Faso,No,0.445
+LK,Sri Lanka,No,0.783
+MW,Malawi,No,0.509
+ZM,Zambia,No,0.565
+TD,Chad,No,0.393
+CL,Chile,No,0.856
+SO,Somalia,No,
+SN,Senegal,No,0.512
+GT,Guatemala,No,0.63
+EC,Ecuador,No,0.746
+KH,Cambodia,No,0.596
+ZW,Zimbabwe,No,0.549
+GN,Guinea,No,0.467
+BJ,Benin,No,0.502
+RW,Rwanda,No,0.539
+BI,Burundi,No,0.419
+BO,Bolivia,No,0.691
+TN,Tunisia,No,0.729
+SS,South Sudan,No,0.381
+HT,Haiti,No,0.551
+JO,Jordan,No,0.736
+DO,Dominican Republic,No,0.756
+AE,United Arab Emirates,No,0.931
+HN,Honduras,No,0.62
+CU,Cuba,No,0.742
+TJ,Tajikistan,No,0.677
+PG,Papua New Guinea,No,0.564
+TG,Togo,No,0.545
+SL,Sierra Leone,No,0.456
+LA,Laos,No,0.615
+TM,Turkmenistan,No,0.74
+LY,Libya,No,0.746
+PY,Paraguay,No,0.73
+NI,Nicaragua,No,0.665
+CG,Republic of the Congo,No,
+SV,El Salvador,No,0.669
+SG,Singapore,No,0.942
+LB,Lebanon,No,0.725
+LR,Liberia,No,0.484
+PS,Palestine,No,0.715
+CF,Central African Republic,No,0.387
+OM,Oman,No,0.81
+MR,Mauritania,No,0.538
+CR,Costa Rica,No,0.804
+KW,Kuwait,No,0.836
+PA,Panama,No,0.813
+ER,Eritrea,No,0.49
+MN,Mongolia,No,0.73
+UY,Uruguay,No,0.814
+BA,Bosnia and Herzegovina,No,0.776
+QA,Qatar,No,0.864
+NA,Namibia,No,0.616
+JM,Jamaica,No,0.704
+GM,Gambia,No,0.49
+GA,Gabon,No,0.687
+BW,Botswana,No,0.68
+LS,Lesotho,No,0.522
+GW,Guinea-Bissau,No,0.482
+GQ,Equatorial Guinea,No,0.647
+BH,Bahrain,No,0.884
+TT,Trinidad and Tobago,No,0.804
+TL,Timor-Leste,No,0.574
+MU,Mauritius,No,0.79
+SZ,Eswatini,No,0.612
+DJ,Djibouti,No,0.512
+FJ,Fiji,No,0.715
+KM,Comoros,No,0.585
+SB,Solomon Islands,No,0.564
+GY,Guyana,No,0.721
+BT,Bhutan,No,0.677
+SR,Suriname,No,0.689
+MV,Maldives,No,0.753
+CV,Cape Verde,No,0.65
+BN,Brunei,No,0.824
+BZ,Belize,No,0.698
+BS,Bahamas,No,0.799
+VU,Vanuatu,No,0.614
+BB,Barbados,No,0.803
+ST,Sao Tome and Principe,No,0.609
+WS,Samoa,No,0.708
+LC,Saint Lucia,No,0.717
+KI,Kiribati,No,0.627
+SC,Seychelles,No,0.795
+GD,Grenada,No,0.788
+FM,Micronesia,No,0.634
+TO,Tonga,No,0.738
+VC,Saint Vincent and the Grenadines,No,0.773
+AG,Antigua and Barbuda,No,0.819
+DM,Dominica,No,0.737
+KN,Saint Kitts and Nevis,No,0.832
+MH,Marshall Islands,No,0.729
+NR,Nauru,No,0.693
+HK,Hong Kong,,0.959
+,Total,,0.721680628
